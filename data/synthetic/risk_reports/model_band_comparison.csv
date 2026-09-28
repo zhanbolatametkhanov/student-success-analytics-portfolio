@@ -1,0 +1,17 @@
+simulated_support_need,risk_band,students
+Low,Low,376
+Low,Moderate,112
+Low,High,0
+Low,Critical,0
+Moderate,Low,454
+Moderate,Moderate,859
+Moderate,High,93
+Moderate,Critical,1
+High,Low,11
+High,Moderate,333
+High,High,227
+High,Critical,22
+Critical,Low,0
+Critical,Moderate,0
+Critical,High,8
+Critical,Critical,4

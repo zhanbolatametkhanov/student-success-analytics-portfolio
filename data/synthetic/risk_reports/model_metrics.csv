@@ -1,0 +1,7 @@
+metric,value,definition
+Accuracy,0.8248,Proportion of all classifications that were correct
+Precision,0.7352112676056338,Proportion of predicted High/Critical cases that were High/Critical in the simulation reference
+Recall,0.43140495867768597,Proportion of simulated High/Critical cases identified by the model
+Specificity,0.950395778364116,Proportion of simulated Low/Moderate cases correctly left below the High/Critical threshold
+F1,0.5437500000000001,Harmonic mean of precision and recall
+Exact four-band agreement,0.5864,Proportion where model band exactly matched the simulated reference band

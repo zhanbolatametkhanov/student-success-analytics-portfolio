@@ -1,0 +1,5 @@
+actual,predicted,count
+High/Critical,High/Critical,261
+High/Critical,Low/Moderate,344
+Low/Moderate,High/Critical,94
+Low/Moderate,Low/Moderate,1801
