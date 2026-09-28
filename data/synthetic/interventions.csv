@@ -1,0 +1,181 @@
+intervention_id,student_id,risk_type,trigger_date,intervention_type,advisor,status,outcome
+INT00001,STU001308,Multiple indicators,2026-10-11,Study skills support,Advisor 06,In progress,Student engaged
+INT00002,STU002462,Academic performance,2026-10-24,Study skills support,Advisor 12,Pending,Not yet assessed
+INT00003,STU000678,Multiple indicators,2026-10-18,Tutoring referral,Advisor 08,In progress,Student engaged
+INT00004,STU002258,LMS engagement,2026-10-07,Tutoring referral,Advisor 08,In progress,Support provided
+INT00005,STU002324,Multiple indicators,2026-10-14,Tutoring referral,Advisor 05,Completed,Support provided
+INT00006,STU002019,Multiple indicators,2026-11-07,Study skills support,Advisor 02,Completed,Monitoring continued
+INT00007,STU001124,Attendance,2026-11-04,Tutoring referral,Advisor 11,Completed,Student engaged
+INT00008,STU001733,Academic performance,2026-10-17,Study skills support,Advisor 04,Pending,Not yet assessed
+INT00009,STU002014,Attendance,2026-10-03,Faculty outreach,Advisor 10,In progress,Monitoring continued
+INT00010,STU001906,Attendance,2026-11-09,Faculty outreach,Advisor 01,Completed,Student engaged
+INT00011,STU001303,LMS engagement,2026-10-31,Tutoring referral,Advisor 06,Completed,Student engaged
+INT00012,STU000485,LMS engagement,2026-09-21,Academic advising,Advisor 12,Completed,Support provided
+INT00013,STU001350,Multiple indicators,2026-10-28,Tutoring referral,Advisor 01,Pending,Not yet assessed
+INT00014,STU000362,LMS engagement,2026-10-29,Faculty outreach,Advisor 10,Completed,No response
+INT00015,STU001090,LMS engagement,2026-09-26,Study skills support,Advisor 13,Completed,Student engaged
+INT00016,STU001122,Multiple indicators,2026-09-08,Study skills support,Advisor 01,Pending,Not yet assessed
+INT00017,STU001855,Attendance,2026-10-13,Tutoring referral,Advisor 10,Completed,Monitoring continued
+INT00018,STU001739,Academic performance,2026-10-31,Faculty outreach,Advisor 08,Completed,Student engaged
+INT00019,STU001207,LMS engagement,2026-10-06,Academic advising,Advisor 15,In progress,Student engaged
+INT00020,STU002053,Attendance,2026-09-30,Tutoring referral,Advisor 14,In progress,Monitoring continued
+INT00021,STU001930,Attendance,2026-10-10,Study skills support,Advisor 15,Pending,Not yet assessed
+INT00022,STU000305,Attendance,2026-10-07,Academic advising,Advisor 09,Pending,Not yet assessed
+INT00023,STU000619,LMS engagement,2026-10-16,Faculty outreach,Advisor 11,In progress,No response
+INT00024,STU000920,Attendance,2026-10-27,Tutoring referral,Advisor 05,In progress,Support provided
+INT00025,STU001708,Attendance,2026-10-25,Tutoring referral,Advisor 06,Completed,Support provided
+INT00026,STU002127,Academic performance,2026-10-18,Study skills support,Advisor 04,In progress,Monitoring continued
+INT00027,STU001569,Multiple indicators,2026-09-17,Faculty outreach,Advisor 12,In progress,Student engaged
+INT00028,STU000449,Academic performance,2026-09-23,Tutoring referral,Advisor 13,Pending,Not yet assessed
+INT00029,STU000377,Attendance,2026-10-13,Academic advising,Advisor 11,In progress,Support provided
+INT00030,STU000584,LMS engagement,2026-10-03,Academic advising,Advisor 09,Completed,Student engaged
+INT00031,STU000512,Attendance,2026-10-26,Academic advising,Advisor 11,Completed,No response
+INT00032,STU000478,Academic performance,2026-11-03,Tutoring referral,Advisor 13,In progress,No response
+INT00033,STU002114,LMS engagement,2026-10-10,Tutoring referral,Advisor 08,Completed,Student engaged
+INT00034,STU001779,LMS engagement,2026-10-16,Academic advising,Advisor 13,Completed,Student engaged
+INT00035,STU001891,Attendance,2026-09-11,Faculty outreach,Advisor 05,Completed,Student engaged
+INT00036,STU001426,LMS engagement,2026-10-22,Academic advising,Advisor 09,In progress,Support provided
+INT00037,STU000450,Academic performance,2026-09-14,Faculty outreach,Advisor 12,Completed,Student engaged
+INT00038,STU000408,Multiple indicators,2026-09-30,Study skills support,Advisor 15,Pending,Not yet assessed
+INT00039,STU001595,LMS engagement,2026-09-22,Academic advising,Advisor 12,In progress,Student engaged
+INT00040,STU001549,Academic performance,2026-09-27,Tutoring referral,Advisor 07,In progress,Monitoring continued
+INT00041,STU001589,Multiple indicators,2026-10-03,Faculty outreach,Advisor 10,Pending,Not yet assessed
+INT00042,STU001927,Attendance,2026-10-15,Study skills support,Advisor 02,Completed,Student engaged
+INT00043,STU000423,Attendance,2026-10-02,Academic advising,Advisor 07,In progress,Support provided
+INT00044,STU001311,Multiple indicators,2026-10-30,Study skills support,Advisor 04,Completed,Support provided
+INT00045,STU002206,Attendance,2026-09-22,Academic advising,Advisor 03,In progress,No response
+INT00046,STU000556,Academic performance,2026-09-10,Study skills support,Advisor 03,Completed,No response
+INT00047,STU000780,Multiple indicators,2026-09-10,Tutoring referral,Advisor 15,Completed,Support provided
+INT00048,STU000819,LMS engagement,2026-09-30,Academic advising,Advisor 12,Completed,Support provided
+INT00049,STU000259,Attendance,2026-10-16,Faculty outreach,Advisor 14,In progress,Support provided
+INT00050,STU000585,Academic performance,2026-10-29,Academic advising,Advisor 07,Completed,Student engaged
+INT00051,STU002486,Attendance,2026-09-12,Tutoring referral,Advisor 03,In progress,Student engaged
+INT00052,STU000389,LMS engagement,2026-11-01,Faculty outreach,Advisor 12,In progress,Student engaged
+INT00053,STU000305,Academic performance,2026-09-16,Tutoring referral,Advisor 14,In progress,Monitoring continued
+INT00054,STU001497,Multiple indicators,2026-09-15,Faculty outreach,Advisor 05,Completed,Support provided
+INT00055,STU000824,LMS engagement,2026-09-13,Tutoring referral,Advisor 12,Completed,Student engaged
+INT00056,STU001775,LMS engagement,2026-09-20,Study skills support,Advisor 01,Completed,Monitoring continued
+INT00057,STU000999,Academic performance,2026-11-06,Faculty outreach,Advisor 15,Completed,No response
+INT00058,STU000350,Multiple indicators,2026-09-12,Study skills support,Advisor 03,In progress,No response
+INT00059,STU001828,Academic performance,2026-09-24,Academic advising,Advisor 07,Completed,No response
+INT00060,STU000419,Multiple indicators,2026-11-05,Study skills support,Advisor 12,Completed,Monitoring continued
+INT00061,STU001084,Attendance,2026-09-16,Tutoring referral,Advisor 14,Completed,No response
+INT00062,STU002224,Attendance,2026-10-18,Tutoring referral,Advisor 05,Completed,Student engaged
+INT00063,STU002198,Multiple indicators,2026-09-30,Faculty outreach,Advisor 02,In progress,Support provided
+INT00064,STU000974,LMS engagement,2026-10-27,Study skills support,Advisor 03,Completed,Support provided
+INT00065,STU001398,Academic performance,2026-10-04,Study skills support,Advisor 02,Completed,Support provided
+INT00066,STU000367,Attendance,2026-11-03,Faculty outreach,Advisor 14,Completed,Student engaged
+INT00067,STU000026,LMS engagement,2026-10-08,Academic advising,Advisor 14,Pending,Not yet assessed
+INT00068,STU002471,Attendance,2026-10-30,Faculty outreach,Advisor 07,In progress,No response
+INT00069,STU000061,LMS engagement,2026-10-21,Faculty outreach,Advisor 03,In progress,Support provided
+INT00070,STU002118,Attendance,2026-10-27,Faculty outreach,Advisor 03,Completed,Support provided
+INT00071,STU002085,Multiple indicators,2026-10-05,Faculty outreach,Advisor 04,Pending,Not yet assessed
+INT00072,STU000512,Attendance,2026-10-31,Study skills support,Advisor 14,Pending,Not yet assessed
+INT00073,STU002407,Multiple indicators,2026-10-26,Faculty outreach,Advisor 05,In progress,Student engaged
+INT00074,STU000936,Academic performance,2026-10-12,Academic advising,Advisor 05,Completed,Student engaged
+INT00075,STU000266,Academic performance,2026-09-15,Faculty outreach,Advisor 04,In progress,Support provided
+INT00076,STU001874,Attendance,2026-09-21,Study skills support,Advisor 06,In progress,Student engaged
+INT00077,STU000504,Multiple indicators,2026-09-27,Tutoring referral,Advisor 04,Completed,Student engaged
+INT00078,STU000276,Multiple indicators,2026-10-18,Faculty outreach,Advisor 12,Completed,Student engaged
+INT00079,STU000231,Attendance,2026-10-07,Tutoring referral,Advisor 08,In progress,Support provided
+INT00080,STU001496,Multiple indicators,2026-09-10,Faculty outreach,Advisor 10,In progress,Support provided
+INT00081,STU000656,Attendance,2026-10-25,Academic advising,Advisor 13,Completed,Student engaged
+INT00082,STU001898,Attendance,2026-09-11,Study skills support,Advisor 04,In progress,No response
+INT00083,STU001673,Attendance,2026-09-19,Study skills support,Advisor 07,Completed,Student engaged
+INT00084,STU000745,LMS engagement,2026-10-23,Tutoring referral,Advisor 12,Completed,Support provided
+INT00085,STU000792,LMS engagement,2026-10-19,Study skills support,Advisor 13,In progress,Student engaged
+INT00086,STU001451,Attendance,2026-11-04,Academic advising,Advisor 03,Completed,Monitoring continued
+INT00087,STU000359,Multiple indicators,2026-11-02,Tutoring referral,Advisor 06,Completed,Student engaged
+INT00088,STU001030,Attendance,2026-10-25,Study skills support,Advisor 08,In progress,Support provided
+INT00089,STU002189,LMS engagement,2026-10-25,Faculty outreach,Advisor 08,Completed,Support provided
+INT00090,STU002119,Multiple indicators,2026-09-15,Faculty outreach,Advisor 14,Pending,Not yet assessed
+INT00091,STU001741,Multiple indicators,2026-10-27,Study skills support,Advisor 04,Pending,Not yet assessed
+INT00092,STU001198,Multiple indicators,2026-10-15,Tutoring referral,Advisor 07,Completed,Support provided
+INT00093,STU000821,LMS engagement,2026-10-28,Study skills support,Advisor 15,Pending,Not yet assessed
+INT00094,STU000326,LMS engagement,2026-11-05,Tutoring referral,Advisor 15,Completed,Student engaged
+INT00095,STU001050,Attendance,2026-09-30,Study skills support,Advisor 14,Completed,Student engaged
+INT00096,STU002318,Multiple indicators,2026-09-16,Faculty outreach,Advisor 13,Pending,Not yet assessed
+INT00097,STU002090,Multiple indicators,2026-09-12,Tutoring referral,Advisor 11,Completed,Monitoring continued
+INT00098,STU002166,Multiple indicators,2026-09-24,Study skills support,Advisor 04,Pending,Not yet assessed
+INT00099,STU000125,Attendance,2026-09-18,Faculty outreach,Advisor 10,Completed,Student engaged
+INT00100,STU001954,Attendance,2026-10-30,Study skills support,Advisor 12,Completed,No response
+INT00101,STU001012,Academic performance,2026-09-24,Faculty outreach,Advisor 07,Completed,Student engaged
+INT00102,STU001821,Attendance,2026-09-16,Faculty outreach,Advisor 11,Completed,Support provided
+INT00103,STU002445,Academic performance,2026-10-24,Study skills support,Advisor 04,Completed,Support provided
+INT00104,STU000872,Academic performance,2026-09-10,Tutoring referral,Advisor 06,Completed,Student engaged
+INT00105,STU000512,Attendance,2026-10-21,Academic advising,Advisor 09,Completed,Monitoring continued
+INT00106,STU001880,Multiple indicators,2026-10-09,Academic advising,Advisor 02,Completed,No response
+INT00107,STU002449,Attendance,2026-10-06,Study skills support,Advisor 15,In progress,No response
+INT00108,STU000784,Academic performance,2026-10-18,Faculty outreach,Advisor 10,Completed,No response
+INT00109,STU002103,Academic performance,2026-09-24,Academic advising,Advisor 04,Completed,Student engaged
+INT00110,STU000674,Attendance,2026-10-08,Academic advising,Advisor 09,Completed,Student engaged
+INT00111,STU001191,LMS engagement,2026-10-31,Academic advising,Advisor 11,In progress,Support provided
+INT00112,STU001787,Multiple indicators,2026-11-04,Study skills support,Advisor 15,In progress,Student engaged
+INT00113,STU000348,Attendance,2026-09-17,Study skills support,Advisor 03,Completed,Student engaged
+INT00114,STU001982,Academic performance,2026-09-19,Study skills support,Advisor 10,In progress,Student engaged
+INT00115,STU002130,Multiple indicators,2026-10-05,Study skills support,Advisor 15,In progress,Support provided
+INT00116,STU000110,Academic performance,2026-09-24,Study skills support,Advisor 11,Completed,No response
+INT00117,STU001838,Academic performance,2026-10-04,Tutoring referral,Advisor 04,In progress,Student engaged
+INT00118,STU000101,LMS engagement,2026-11-01,Tutoring referral,Advisor 09,In progress,Student engaged
+INT00119,STU001845,LMS engagement,2026-09-27,Faculty outreach,Advisor 02,Pending,Not yet assessed
+INT00120,STU000300,Academic performance,2026-09-16,Study skills support,Advisor 03,In progress,Student engaged
+INT00121,STU001786,Multiple indicators,2026-10-06,Academic advising,Advisor 05,Pending,Not yet assessed
+INT00122,STU001082,Attendance,2026-11-01,Academic advising,Advisor 08,Completed,Monitoring continued
+INT00123,STU001800,LMS engagement,2026-09-17,Tutoring referral,Advisor 06,Pending,Not yet assessed
+INT00124,STU002495,Attendance,2026-09-13,Tutoring referral,Advisor 14,Completed,Support provided
+INT00125,STU000837,Attendance,2026-11-07,Faculty outreach,Advisor 02,Completed,Student engaged
+INT00126,STU000006,LMS engagement,2026-09-21,Academic advising,Advisor 06,Completed,Student engaged
+INT00127,STU001751,LMS engagement,2026-10-30,Faculty outreach,Advisor 08,Completed,No response
+INT00128,STU000471,Attendance,2026-11-06,Tutoring referral,Advisor 06,Completed,Student engaged
+INT00129,STU000904,Academic performance,2026-09-10,Tutoring referral,Advisor 04,Completed,Student engaged
+INT00130,STU000624,LMS engagement,2026-10-31,Study skills support,Advisor 04,In progress,Support provided
+INT00131,STU001974,Academic performance,2026-09-22,Tutoring referral,Advisor 13,In progress,No response
+INT00132,STU002223,Multiple indicators,2026-09-11,Study skills support,Advisor 04,In progress,Student engaged
+INT00133,STU002484,LMS engagement,2026-10-15,Study skills support,Advisor 14,Pending,Not yet assessed
+INT00134,STU002148,Academic performance,2026-11-05,Academic advising,Advisor 15,Pending,Not yet assessed
+INT00135,STU000196,LMS engagement,2026-11-09,Faculty outreach,Advisor 10,Pending,Not yet assessed
+INT00136,STU000690,Attendance,2026-09-13,Study skills support,Advisor 08,Pending,Not yet assessed
+INT00137,STU001565,Attendance,2026-10-07,Faculty outreach,Advisor 04,Completed,Student engaged
+INT00138,STU001468,LMS engagement,2026-10-31,Faculty outreach,Advisor 08,Completed,Support provided
+INT00139,STU002415,Multiple indicators,2026-09-25,Faculty outreach,Advisor 03,Completed,Support provided
+INT00140,STU000383,LMS engagement,2026-11-07,Study skills support,Advisor 01,In progress,Monitoring continued
+INT00141,STU000130,Multiple indicators,2026-09-19,Study skills support,Advisor 12,In progress,Student engaged
+INT00142,STU002038,Attendance,2026-10-03,Tutoring referral,Advisor 12,In progress,Student engaged
+INT00143,STU002277,Academic performance,2026-10-21,Academic advising,Advisor 05,Pending,Not yet assessed
+INT00144,STU002185,Multiple indicators,2026-10-03,Tutoring referral,Advisor 01,In progress,Support provided
+INT00145,STU002128,LMS engagement,2026-11-03,Faculty outreach,Advisor 09,Pending,Not yet assessed
+INT00146,STU000513,Academic performance,2026-10-19,Faculty outreach,Advisor 10,Completed,Student engaged
+INT00147,STU000969,Attendance,2026-11-01,Academic advising,Advisor 03,In progress,Support provided
+INT00148,STU002098,LMS engagement,2026-09-23,Faculty outreach,Advisor 01,In progress,Support provided
+INT00149,STU000073,Attendance,2026-10-21,Academic advising,Advisor 11,Completed,Support provided
+INT00150,STU002483,Attendance,2026-09-29,Tutoring referral,Advisor 09,Completed,Monitoring continued
+INT00151,STU001207,Academic performance,2026-09-16,Study skills support,Advisor 03,Completed,Support provided
+INT00152,STU001198,LMS engagement,2026-10-04,Academic advising,Advisor 02,Completed,Monitoring continued
+INT00153,STU000517,LMS engagement,2026-09-16,Tutoring referral,Advisor 10,Completed,Support provided
+INT00154,STU001675,Multiple indicators,2026-09-08,Academic advising,Advisor 13,In progress,Support provided
+INT00155,STU001360,Academic performance,2026-09-29,Faculty outreach,Advisor 09,Pending,Not yet assessed
+INT00156,STU001077,Multiple indicators,2026-09-18,Academic advising,Advisor 10,In progress,Student engaged
+INT00157,STU001904,Attendance,2026-10-30,Faculty outreach,Advisor 14,Completed,Monitoring continued
+INT00158,STU002472,Academic performance,2026-10-03,Academic advising,Advisor 02,Completed,Support provided
+INT00159,STU000517,LMS engagement,2026-09-25,Academic advising,Advisor 01,In progress,Support provided
+INT00160,STU001893,Academic performance,2026-10-08,Study skills support,Advisor 15,Completed,No response
+INT00161,STU000467,Multiple indicators,2026-09-24,Academic advising,Advisor 02,In progress,Student engaged
+INT00162,STU001810,Attendance,2026-09-20,Academic advising,Advisor 15,Pending,Not yet assessed
+INT00163,STU000223,Academic performance,2026-10-08,Study skills support,Advisor 07,Completed,Student engaged
+INT00164,STU001328,Attendance,2026-09-26,Study skills support,Advisor 06,In progress,Support provided
+INT00165,STU001531,Academic performance,2026-11-06,Tutoring referral,Advisor 06,Completed,Support provided
+INT00166,STU002045,Attendance,2026-09-27,Academic advising,Advisor 14,Completed,Support provided
+INT00167,STU001627,Academic performance,2026-09-27,Academic advising,Advisor 15,Completed,Student engaged
+INT00168,STU000209,Academic performance,2026-10-30,Faculty outreach,Advisor 01,Pending,Not yet assessed
+INT00169,STU000781,Attendance,2026-09-15,Academic advising,Advisor 05,In progress,Student engaged
+INT00170,STU002024,Attendance,2026-11-05,Study skills support,Advisor 06,In progress,Student engaged
+INT00171,STU000892,LMS engagement,2026-10-12,Tutoring referral,Advisor 06,Completed,Student engaged
+INT00172,STU002239,Multiple indicators,2026-10-31,Tutoring referral,Advisor 04,Completed,Student engaged
+INT00173,STU002308,Attendance,2026-09-09,Tutoring referral,Advisor 06,Pending,Not yet assessed
+INT00174,STU001257,Attendance,2026-10-25,Academic advising,Advisor 10,Completed,Monitoring continued
+INT00175,STU000435,Multiple indicators,2026-09-12,Study skills support,Advisor 15,In progress,Student engaged
+INT00176,STU000821,Academic performance,2026-09-18,Study skills support,Advisor 11,Pending,Not yet assessed
+INT00177,STU000106,Attendance,2026-11-08,Academic advising,Advisor 15,Completed,Support provided
+INT00178,STU000681,Academic performance,2026-11-09,Academic advising,Advisor 15,Completed,No response
+INT00179,STU000367,Multiple indicators,2026-10-18,Tutoring referral,Advisor 09,In progress,Student engaged
+INT00180,STU002268,Academic performance,2026-09-15,Faculty outreach,Advisor 05,Pending,Not yet assessed

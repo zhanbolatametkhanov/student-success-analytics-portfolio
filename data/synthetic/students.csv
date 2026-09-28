@@ -1,0 +1,2501 @@
+student_id,programme_code,programme,school,year_of_study,enrolment_status
+STU000001,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU000002,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU000003,FIN,Finance,Graduate School of Business,1,Active
+STU000004,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000005,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000006,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000007,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU000008,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU000009,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU000010,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU000011,ECON,Economics,Graduate School of Business,3,Active
+STU000012,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU000013,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000014,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU000015,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU000016,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000017,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU000018,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU000019,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU000020,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU000021,FIN,Finance,Graduate School of Business,1,Active
+STU000022,ECON,Economics,Graduate School of Business,2,Active
+STU000023,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU000024,ECON,Economics,Graduate School of Business,3,Active
+STU000025,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU000026,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU000027,ECON,Economics,Graduate School of Business,1,Active
+STU000028,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU000029,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU000030,ECON,Economics,Graduate School of Business,4,Active
+STU000031,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU000032,ECON,Economics,Graduate School of Business,4,Active
+STU000033,ECON,Economics,Graduate School of Business,1,Active
+STU000034,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU000035,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU000036,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU000037,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU000038,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU000039,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU000040,FIN,Finance,Graduate School of Business,1,Active
+STU000041,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU000042,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU000043,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000044,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU000045,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU000046,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU000047,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000048,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU000049,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU000050,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU000051,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU000052,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU000053,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU000054,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU000055,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU000056,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU000057,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU000058,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU000059,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU000060,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU000061,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU000062,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU000063,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU000064,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU000065,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU000066,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU000067,ECON,Economics,Graduate School of Business,2,Active
+STU000068,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU000069,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU000070,FIN,Finance,Graduate School of Business,3,Active
+STU000071,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000072,FIN,Finance,Graduate School of Business,4,Active
+STU000073,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU000074,FIN,Finance,Graduate School of Business,4,Active
+STU000075,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU000076,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU000077,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU000078,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU000079,FIN,Finance,Graduate School of Business,3,Active
+STU000080,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU000081,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU000082,ECON,Economics,Graduate School of Business,1,Active
+STU000083,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU000084,ECON,Economics,Graduate School of Business,4,Active
+STU000085,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU000086,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU000087,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU000088,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000089,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU000090,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU000091,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU000092,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000093,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU000094,FIN,Finance,Graduate School of Business,4,Active
+STU000095,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU000096,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU000097,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU000098,FIN,Finance,Graduate School of Business,2,Active
+STU000099,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU000100,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU000101,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU000102,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU000103,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU000104,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU000105,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU000106,FIN,Finance,Graduate School of Business,2,Active
+STU000107,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU000108,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU000109,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU000110,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU000111,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU000112,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU000113,ECON,Economics,Graduate School of Business,2,Active
+STU000114,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU000115,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU000116,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU000117,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU000118,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU000119,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU000120,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU000121,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU000122,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU000123,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU000124,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU000125,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU000126,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU000127,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU000128,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU000129,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU000130,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU000131,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU000132,FIN,Finance,Graduate School of Business,4,Active
+STU000133,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU000134,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU000135,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU000136,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU000137,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU000138,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU000139,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU000140,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU000141,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU000142,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU000143,FIN,Finance,Graduate School of Business,2,Active
+STU000144,FIN,Finance,Graduate School of Business,2,Active
+STU000145,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU000146,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU000147,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU000148,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU000149,ECON,Economics,Graduate School of Business,4,Active
+STU000150,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU000151,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU000152,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU000153,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU000154,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU000155,ECON,Economics,Graduate School of Business,3,Active
+STU000156,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU000157,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU000158,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU000159,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU000160,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU000161,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000162,ECON,Economics,Graduate School of Business,3,Active
+STU000163,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU000164,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000165,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000166,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU000167,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000168,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU000169,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU000170,FIN,Finance,Graduate School of Business,1,Active
+STU000171,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU000172,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU000173,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU000174,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU000175,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU000176,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU000177,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU000178,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000179,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU000180,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000181,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000182,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU000183,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000184,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU000185,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU000186,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU000187,ECON,Economics,Graduate School of Business,1,Active
+STU000188,ECON,Economics,Graduate School of Business,2,Active
+STU000189,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU000190,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU000191,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU000192,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU000193,ECON,Economics,Graduate School of Business,4,Active
+STU000194,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU000195,FIN,Finance,Graduate School of Business,3,Active
+STU000196,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU000197,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU000198,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU000199,FIN,Finance,Graduate School of Business,3,Active
+STU000200,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU000201,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU000202,ECON,Economics,Graduate School of Business,4,Active
+STU000203,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU000204,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU000205,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU000206,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000207,ECON,Economics,Graduate School of Business,1,Active
+STU000208,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU000209,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU000210,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU000211,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU000212,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU000213,ECON,Economics,Graduate School of Business,4,Active
+STU000214,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU000215,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU000216,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU000217,FIN,Finance,Graduate School of Business,3,Active
+STU000218,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU000219,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU000220,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU000221,ECON,Economics,Graduate School of Business,3,Active
+STU000222,FIN,Finance,Graduate School of Business,2,Active
+STU000223,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU000224,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU000225,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000226,FIN,Finance,Graduate School of Business,1,Active
+STU000227,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU000228,ECON,Economics,Graduate School of Business,2,Active
+STU000229,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU000230,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000231,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU000232,ECON,Economics,Graduate School of Business,3,Active
+STU000233,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU000234,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU000235,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU000236,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU000237,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU000238,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU000239,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU000240,ECON,Economics,Graduate School of Business,2,Active
+STU000241,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU000242,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU000243,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU000244,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000245,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU000246,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU000247,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU000248,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU000249,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU000250,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU000251,ECON,Economics,Graduate School of Business,3,Active
+STU000252,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU000253,FIN,Finance,Graduate School of Business,1,Active
+STU000254,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU000255,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU000256,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU000257,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU000258,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU000259,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU000260,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU000261,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000262,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU000263,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000264,FIN,Finance,Graduate School of Business,1,Active
+STU000265,ECON,Economics,Graduate School of Business,4,Active
+STU000266,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU000267,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000268,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU000269,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU000270,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU000271,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU000272,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU000273,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU000274,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU000275,FIN,Finance,Graduate School of Business,4,Active
+STU000276,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU000277,ECON,Economics,Graduate School of Business,4,Active
+STU000278,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU000279,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU000280,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU000281,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU000282,ECON,Economics,Graduate School of Business,1,Active
+STU000283,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU000284,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU000285,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU000286,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU000287,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU000288,FIN,Finance,Graduate School of Business,2,Active
+STU000289,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU000290,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU000291,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU000292,ECON,Economics,Graduate School of Business,2,Active
+STU000293,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU000294,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU000295,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU000296,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU000297,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU000298,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU000299,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU000300,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU000301,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000302,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU000303,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU000304,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU000305,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU000306,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU000307,FIN,Finance,Graduate School of Business,1,Active
+STU000308,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU000309,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000310,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU000311,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000312,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU000313,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU000314,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU000315,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU000316,ECON,Economics,Graduate School of Business,4,Active
+STU000317,ECON,Economics,Graduate School of Business,2,Active
+STU000318,ECON,Economics,Graduate School of Business,1,Active
+STU000319,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000320,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU000321,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU000322,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU000323,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU000324,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU000325,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU000326,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU000327,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU000328,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU000329,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU000330,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU000331,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU000332,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU000333,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000334,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU000335,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU000336,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU000337,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU000338,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU000339,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU000340,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU000341,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU000342,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU000343,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000344,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000345,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU000346,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU000347,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU000348,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU000349,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU000350,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU000351,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU000352,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU000353,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000354,FIN,Finance,Graduate School of Business,4,Active
+STU000355,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU000356,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000357,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU000358,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU000359,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000360,ECON,Economics,Graduate School of Business,3,Active
+STU000361,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU000362,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU000363,ECON,Economics,Graduate School of Business,2,Active
+STU000364,ECON,Economics,Graduate School of Business,2,Active
+STU000365,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU000366,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU000367,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU000368,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU000369,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU000370,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU000371,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU000372,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000373,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU000374,ECON,Economics,Graduate School of Business,4,Active
+STU000375,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU000376,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU000377,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU000378,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU000379,FIN,Finance,Graduate School of Business,2,Active
+STU000380,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000381,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU000382,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU000383,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU000384,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU000385,ECON,Economics,Graduate School of Business,2,Active
+STU000386,ECON,Economics,Graduate School of Business,3,Active
+STU000387,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU000388,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU000389,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU000390,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU000391,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU000392,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU000393,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU000394,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU000395,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU000396,FIN,Finance,Graduate School of Business,2,Active
+STU000397,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU000398,FIN,Finance,Graduate School of Business,1,Active
+STU000399,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU000400,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000401,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU000402,ECON,Economics,Graduate School of Business,4,Active
+STU000403,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU000404,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU000405,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU000406,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU000407,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU000408,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU000409,ECON,Economics,Graduate School of Business,1,Active
+STU000410,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU000411,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU000412,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000413,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU000414,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU000415,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU000416,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU000417,FIN,Finance,Graduate School of Business,2,Active
+STU000418,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU000419,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU000420,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU000421,ECON,Economics,Graduate School of Business,4,Active
+STU000422,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU000423,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU000424,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU000425,ECON,Economics,Graduate School of Business,4,Active
+STU000426,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU000427,FIN,Finance,Graduate School of Business,1,Active
+STU000428,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU000429,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU000430,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU000431,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU000432,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU000433,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU000434,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU000435,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000436,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU000437,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU000438,FIN,Finance,Graduate School of Business,3,Active
+STU000439,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000440,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU000441,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000442,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU000443,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU000444,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU000445,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU000446,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU000447,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU000448,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU000449,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU000450,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000451,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU000452,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU000453,ECON,Economics,Graduate School of Business,2,Active
+STU000454,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU000455,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU000456,FIN,Finance,Graduate School of Business,1,Active
+STU000457,FIN,Finance,Graduate School of Business,3,Active
+STU000458,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU000459,ECON,Economics,Graduate School of Business,3,Active
+STU000460,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000461,FIN,Finance,Graduate School of Business,2,Active
+STU000462,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU000463,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU000464,FIN,Finance,Graduate School of Business,1,Active
+STU000465,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU000466,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU000467,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU000468,ECON,Economics,Graduate School of Business,1,Active
+STU000469,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU000470,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU000471,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU000472,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU000473,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU000474,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU000475,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU000476,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU000477,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000478,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU000479,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU000480,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU000481,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU000482,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU000483,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU000484,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU000485,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000486,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU000487,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU000488,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU000489,FIN,Finance,Graduate School of Business,3,Active
+STU000490,ECON,Economics,Graduate School of Business,2,Active
+STU000491,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU000492,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU000493,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU000494,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU000495,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU000496,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU000497,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000498,FIN,Finance,Graduate School of Business,4,Active
+STU000499,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000500,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU000501,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000502,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000503,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000504,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU000505,FIN,Finance,Graduate School of Business,3,Active
+STU000506,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU000507,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU000508,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU000509,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU000510,FIN,Finance,Graduate School of Business,1,Active
+STU000511,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU000512,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU000513,FIN,Finance,Graduate School of Business,3,Active
+STU000514,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU000515,ECON,Economics,Graduate School of Business,1,Active
+STU000516,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU000517,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU000518,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU000519,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU000520,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU000521,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU000522,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU000523,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000524,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU000525,ECON,Economics,Graduate School of Business,1,Active
+STU000526,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU000527,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU000528,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU000529,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU000530,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU000531,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU000532,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000533,FIN,Finance,Graduate School of Business,2,Active
+STU000534,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU000535,ECON,Economics,Graduate School of Business,2,Active
+STU000536,FIN,Finance,Graduate School of Business,4,Active
+STU000537,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU000538,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU000539,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU000540,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU000541,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000542,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU000543,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU000544,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU000545,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU000546,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000547,FIN,Finance,Graduate School of Business,4,Active
+STU000548,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU000549,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU000550,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU000551,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU000552,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU000553,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU000554,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU000555,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU000556,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU000557,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU000558,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU000559,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000560,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU000561,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU000562,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU000563,ECON,Economics,Graduate School of Business,3,Active
+STU000564,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU000565,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU000566,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU000567,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000568,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU000569,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU000570,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU000571,FIN,Finance,Graduate School of Business,1,Active
+STU000572,ECON,Economics,Graduate School of Business,2,Active
+STU000573,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU000574,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU000575,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU000576,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU000577,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000578,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000579,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU000580,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000581,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU000582,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU000583,ECON,Economics,Graduate School of Business,4,Active
+STU000584,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU000585,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU000586,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU000587,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU000588,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU000589,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU000590,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000591,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU000592,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU000593,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU000594,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000595,FIN,Finance,Graduate School of Business,2,Active
+STU000596,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU000597,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU000598,ECON,Economics,Graduate School of Business,1,Active
+STU000599,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU000600,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU000601,ECON,Economics,Graduate School of Business,4,Active
+STU000602,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU000603,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU000604,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU000605,FIN,Finance,Graduate School of Business,1,Active
+STU000606,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU000607,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU000608,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU000609,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000610,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000611,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU000612,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU000613,FIN,Finance,Graduate School of Business,1,Active
+STU000614,ECON,Economics,Graduate School of Business,1,Active
+STU000615,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000616,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU000617,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU000618,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU000619,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU000620,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU000621,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU000622,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU000623,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU000624,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU000625,FIN,Finance,Graduate School of Business,2,Active
+STU000626,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000627,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU000628,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU000629,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU000630,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU000631,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU000632,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU000633,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU000634,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU000635,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU000636,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU000637,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU000638,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000639,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU000640,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU000641,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU000642,FIN,Finance,Graduate School of Business,3,Active
+STU000643,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000644,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU000645,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU000646,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU000647,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU000648,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU000649,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU000650,ECON,Economics,Graduate School of Business,2,Active
+STU000651,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU000652,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000653,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU000654,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU000655,FIN,Finance,Graduate School of Business,3,Active
+STU000656,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000657,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU000658,FIN,Finance,Graduate School of Business,1,Active
+STU000659,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU000660,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU000661,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU000662,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU000663,ECON,Economics,Graduate School of Business,2,Active
+STU000664,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU000665,FIN,Finance,Graduate School of Business,3,Active
+STU000666,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU000667,ECON,Economics,Graduate School of Business,3,Active
+STU000668,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU000669,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU000670,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU000671,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU000672,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU000673,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU000674,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU000675,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000676,ECON,Economics,Graduate School of Business,2,Active
+STU000677,FIN,Finance,Graduate School of Business,1,Active
+STU000678,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU000679,ECON,Economics,Graduate School of Business,4,Active
+STU000680,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU000681,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000682,ECON,Economics,Graduate School of Business,3,Active
+STU000683,FIN,Finance,Graduate School of Business,1,Active
+STU000684,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU000685,ECON,Economics,Graduate School of Business,4,Active
+STU000686,ECON,Economics,Graduate School of Business,2,Active
+STU000687,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU000688,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU000689,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU000690,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU000691,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU000692,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU000693,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000694,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000695,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU000696,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU000697,ECON,Economics,Graduate School of Business,2,Active
+STU000698,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU000699,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU000700,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU000701,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU000702,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU000703,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000704,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU000705,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU000706,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000707,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU000708,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU000709,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU000710,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU000711,FIN,Finance,Graduate School of Business,1,Active
+STU000712,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU000713,FIN,Finance,Graduate School of Business,2,Active
+STU000714,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU000715,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU000716,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU000717,ECON,Economics,Graduate School of Business,1,Active
+STU000718,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU000719,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU000720,ECON,Economics,Graduate School of Business,1,Active
+STU000721,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU000722,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU000723,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU000724,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU000725,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU000726,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU000727,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU000728,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU000729,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU000730,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU000731,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU000732,FIN,Finance,Graduate School of Business,4,Active
+STU000733,FIN,Finance,Graduate School of Business,1,Active
+STU000734,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU000735,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU000736,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU000737,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000738,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU000739,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU000740,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU000741,ECON,Economics,Graduate School of Business,4,Active
+STU000742,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU000743,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU000744,ECON,Economics,Graduate School of Business,3,Active
+STU000745,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU000746,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU000747,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU000748,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU000749,ECON,Economics,Graduate School of Business,2,Active
+STU000750,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU000751,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU000752,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU000753,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU000754,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU000755,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU000756,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU000757,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU000758,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU000759,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU000760,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU000761,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU000762,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU000763,ECON,Economics,Graduate School of Business,4,Active
+STU000764,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU000765,FIN,Finance,Graduate School of Business,2,Active
+STU000766,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU000767,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU000768,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU000769,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU000770,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU000771,ECON,Economics,Graduate School of Business,3,Active
+STU000772,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000773,FIN,Finance,Graduate School of Business,3,Active
+STU000774,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU000775,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU000776,FIN,Finance,Graduate School of Business,1,Active
+STU000777,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU000778,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU000779,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU000780,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU000781,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU000782,FIN,Finance,Graduate School of Business,1,Active
+STU000783,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU000784,ECON,Economics,Graduate School of Business,2,Active
+STU000785,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU000786,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU000787,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000788,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU000789,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000790,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU000791,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU000792,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU000793,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU000794,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU000795,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU000796,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU000797,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU000798,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU000799,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU000800,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000801,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU000802,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU000803,ECON,Economics,Graduate School of Business,1,Active
+STU000804,ECON,Economics,Graduate School of Business,4,Active
+STU000805,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU000806,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU000807,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU000808,ECON,Economics,Graduate School of Business,1,Active
+STU000809,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU000810,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU000811,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU000812,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU000813,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU000814,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU000815,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU000816,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU000817,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU000818,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU000819,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU000820,ECON,Economics,Graduate School of Business,4,Active
+STU000821,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU000822,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU000823,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU000824,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU000825,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU000826,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU000827,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU000828,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU000829,ECON,Economics,Graduate School of Business,4,Active
+STU000830,FIN,Finance,Graduate School of Business,4,Active
+STU000831,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU000832,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU000833,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU000834,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU000835,FIN,Finance,Graduate School of Business,1,Active
+STU000836,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU000837,FIN,Finance,Graduate School of Business,4,Active
+STU000838,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU000839,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU000840,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU000841,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU000842,ECON,Economics,Graduate School of Business,2,Active
+STU000843,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU000844,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000845,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU000846,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU000847,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU000848,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU000849,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU000850,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000851,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU000852,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU000853,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000854,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU000855,ECON,Economics,Graduate School of Business,1,Active
+STU000856,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU000857,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU000858,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU000859,ECON,Economics,Graduate School of Business,4,Active
+STU000860,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU000861,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU000862,ECON,Economics,Graduate School of Business,1,Active
+STU000863,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU000864,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU000865,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU000866,ECON,Economics,Graduate School of Business,4,Active
+STU000867,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU000868,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU000869,FIN,Finance,Graduate School of Business,1,Active
+STU000870,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000871,FIN,Finance,Graduate School of Business,3,Active
+STU000872,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU000873,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU000874,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU000875,ECON,Economics,Graduate School of Business,1,Active
+STU000876,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU000877,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU000878,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU000879,FIN,Finance,Graduate School of Business,1,Active
+STU000880,FIN,Finance,Graduate School of Business,3,Active
+STU000881,FIN,Finance,Graduate School of Business,4,Active
+STU000882,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000883,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU000884,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU000885,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU000886,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU000887,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU000888,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU000889,ECON,Economics,Graduate School of Business,2,Active
+STU000890,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000891,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU000892,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU000893,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU000894,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU000895,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000896,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU000897,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU000898,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU000899,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU000900,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU000901,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU000902,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU000903,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU000904,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU000905,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000906,ECON,Economics,Graduate School of Business,2,Active
+STU000907,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU000908,ECON,Economics,Graduate School of Business,4,Active
+STU000909,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU000910,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU000911,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU000912,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU000913,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU000914,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU000915,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU000916,FIN,Finance,Graduate School of Business,3,Active
+STU000917,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU000918,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU000919,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000920,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU000921,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU000922,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000923,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU000924,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU000925,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU000926,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU000927,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU000928,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU000929,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000930,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU000931,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU000932,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU000933,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000934,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU000935,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU000936,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU000937,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU000938,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU000939,ECON,Economics,Graduate School of Business,1,Active
+STU000940,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU000941,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU000942,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU000943,FIN,Finance,Graduate School of Business,4,Active
+STU000944,FIN,Finance,Graduate School of Business,2,Active
+STU000945,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU000946,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU000947,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU000948,FIN,Finance,Graduate School of Business,1,Active
+STU000949,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU000950,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU000951,FIN,Finance,Graduate School of Business,1,Active
+STU000952,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU000953,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU000954,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU000955,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU000956,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU000957,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000958,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU000959,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU000960,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU000961,ECON,Economics,Graduate School of Business,2,Active
+STU000962,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU000963,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU000964,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU000965,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU000966,FIN,Finance,Graduate School of Business,4,Active
+STU000967,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU000968,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000969,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU000970,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU000971,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU000972,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU000973,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU000974,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU000975,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU000976,ECON,Economics,Graduate School of Business,3,Active
+STU000977,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU000978,FIN,Finance,Graduate School of Business,2,Active
+STU000979,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU000980,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU000981,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU000982,FIN,Finance,Graduate School of Business,3,Active
+STU000983,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU000984,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000985,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU000986,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU000987,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU000988,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU000989,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU000990,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU000991,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU000992,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU000993,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000994,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU000995,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU000996,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU000997,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU000998,ECON,Economics,Graduate School of Business,2,Active
+STU000999,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU001000,ECON,Economics,Graduate School of Business,1,Active
+STU001001,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU001002,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU001003,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU001004,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001005,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU001006,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU001007,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU001008,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU001009,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU001010,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU001011,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU001012,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU001013,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU001014,ECON,Economics,Graduate School of Business,1,Active
+STU001015,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU001016,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU001017,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU001018,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU001019,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU001020,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU001021,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU001022,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU001023,FIN,Finance,Graduate School of Business,3,Active
+STU001024,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU001025,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU001026,FIN,Finance,Graduate School of Business,3,Active
+STU001027,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU001028,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU001029,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU001030,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU001031,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU001032,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU001033,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU001034,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU001035,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU001036,ECON,Economics,Graduate School of Business,3,Active
+STU001037,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU001038,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU001039,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU001040,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU001041,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU001042,ECON,Economics,Graduate School of Business,1,Active
+STU001043,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU001044,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU001045,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU001046,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU001047,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU001048,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU001049,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU001050,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU001051,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU001052,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU001053,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU001054,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001055,FIN,Finance,Graduate School of Business,4,Active
+STU001056,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU001057,ECON,Economics,Graduate School of Business,2,Active
+STU001058,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU001059,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU001060,FIN,Finance,Graduate School of Business,3,Active
+STU001061,FIN,Finance,Graduate School of Business,2,Active
+STU001062,FIN,Finance,Graduate School of Business,4,Active
+STU001063,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU001064,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU001065,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU001066,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU001067,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU001068,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU001069,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU001070,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU001071,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU001072,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU001073,FIN,Finance,Graduate School of Business,2,Active
+STU001074,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001075,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU001076,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU001077,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU001078,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001079,FIN,Finance,Graduate School of Business,3,Active
+STU001080,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU001081,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU001082,FIN,Finance,Graduate School of Business,1,Active
+STU001083,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU001084,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001085,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU001086,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001087,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU001088,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001089,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU001090,ECON,Economics,Graduate School of Business,1,Active
+STU001091,ECON,Economics,Graduate School of Business,3,Active
+STU001092,FIN,Finance,Graduate School of Business,2,Active
+STU001093,ECON,Economics,Graduate School of Business,2,Active
+STU001094,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU001095,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU001096,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU001097,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU001098,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU001099,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU001100,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU001101,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU001102,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001103,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001104,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU001105,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU001106,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU001107,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU001108,FIN,Finance,Graduate School of Business,4,Active
+STU001109,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU001110,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU001111,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU001112,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU001113,FIN,Finance,Graduate School of Business,1,Active
+STU001114,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001115,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU001116,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001117,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU001118,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU001119,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU001120,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU001121,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001122,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU001123,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU001124,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU001125,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU001126,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU001127,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU001128,ECON,Economics,Graduate School of Business,2,Active
+STU001129,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU001130,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001131,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU001132,FIN,Finance,Graduate School of Business,2,Active
+STU001133,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU001134,FIN,Finance,Graduate School of Business,4,Active
+STU001135,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU001136,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU001137,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU001138,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU001139,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU001140,FIN,Finance,Graduate School of Business,1,Active
+STU001141,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU001142,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU001143,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU001144,ECON,Economics,Graduate School of Business,2,Active
+STU001145,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU001146,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001147,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU001148,FIN,Finance,Graduate School of Business,1,Active
+STU001149,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU001150,FIN,Finance,Graduate School of Business,4,Active
+STU001151,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU001152,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU001153,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU001154,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU001155,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU001156,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001157,ECON,Economics,Graduate School of Business,4,Active
+STU001158,FIN,Finance,Graduate School of Business,1,Active
+STU001159,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU001160,ECON,Economics,Graduate School of Business,3,Active
+STU001161,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001162,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU001163,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU001164,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU001165,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU001166,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU001167,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001168,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU001169,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU001170,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001171,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU001172,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU001173,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU001174,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU001175,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU001176,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU001177,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001178,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU001179,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU001180,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001181,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU001182,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU001183,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001184,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU001185,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU001186,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU001187,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU001188,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU001189,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU001190,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU001191,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU001192,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU001193,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001194,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU001195,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU001196,FIN,Finance,Graduate School of Business,2,Active
+STU001197,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU001198,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001199,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU001200,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU001201,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU001202,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU001203,FIN,Finance,Graduate School of Business,1,Active
+STU001204,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU001205,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU001206,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU001207,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU001208,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001209,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU001210,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU001211,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU001212,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU001213,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU001214,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001215,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU001216,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU001217,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU001218,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU001219,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001220,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU001221,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU001222,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU001223,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU001224,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU001225,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001226,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU001227,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU001228,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU001229,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU001230,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU001231,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU001232,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU001233,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU001234,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU001235,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU001236,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU001237,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU001238,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU001239,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU001240,FIN,Finance,Graduate School of Business,3,Active
+STU001241,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU001242,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001243,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001244,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU001245,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU001246,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU001247,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU001248,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU001249,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU001250,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU001251,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU001252,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU001253,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU001254,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU001255,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU001256,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU001257,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU001258,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001259,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU001260,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU001261,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001262,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU001263,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001264,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001265,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU001266,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU001267,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU001268,FIN,Finance,Graduate School of Business,2,Active
+STU001269,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU001270,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001271,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU001272,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU001273,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU001274,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU001275,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001276,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001277,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001278,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU001279,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU001280,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU001281,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU001282,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU001283,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001284,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU001285,ECON,Economics,Graduate School of Business,2,Active
+STU001286,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU001287,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU001288,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU001289,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU001290,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU001291,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU001292,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU001293,ECON,Economics,Graduate School of Business,3,Active
+STU001294,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU001295,ECON,Economics,Graduate School of Business,4,Active
+STU001296,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU001297,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU001298,ECON,Economics,Graduate School of Business,2,Active
+STU001299,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU001300,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001301,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU001302,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU001303,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU001304,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001305,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU001306,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU001307,ECON,Economics,Graduate School of Business,1,Active
+STU001308,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU001309,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001310,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU001311,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU001312,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU001313,FIN,Finance,Graduate School of Business,4,Active
+STU001314,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU001315,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU001316,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU001317,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU001318,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU001319,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU001320,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001321,FIN,Finance,Graduate School of Business,3,Active
+STU001322,ECON,Economics,Graduate School of Business,2,Active
+STU001323,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU001324,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU001325,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU001326,FIN,Finance,Graduate School of Business,2,Active
+STU001327,FIN,Finance,Graduate School of Business,4,Active
+STU001328,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU001329,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU001330,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU001331,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU001332,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001333,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001334,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU001335,ECON,Economics,Graduate School of Business,2,Active
+STU001336,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU001337,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU001338,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU001339,ECON,Economics,Graduate School of Business,2,Active
+STU001340,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU001341,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU001342,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU001343,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU001344,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU001345,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU001346,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU001347,ECON,Economics,Graduate School of Business,4,Active
+STU001348,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU001349,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU001350,ECON,Economics,Graduate School of Business,3,Active
+STU001351,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU001352,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU001353,ECON,Economics,Graduate School of Business,2,Active
+STU001354,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU001355,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU001356,ECON,Economics,Graduate School of Business,4,Active
+STU001357,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU001358,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU001359,ECON,Economics,Graduate School of Business,1,Active
+STU001360,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU001361,FIN,Finance,Graduate School of Business,2,Active
+STU001362,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU001363,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU001364,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU001365,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU001366,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU001367,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU001368,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU001369,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU001370,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU001371,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU001372,FIN,Finance,Graduate School of Business,2,Active
+STU001373,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU001374,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU001375,FIN,Finance,Graduate School of Business,3,Active
+STU001376,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU001377,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU001378,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU001379,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU001380,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU001381,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU001382,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU001383,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU001384,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU001385,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001386,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU001387,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU001388,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU001389,ECON,Economics,Graduate School of Business,4,Active
+STU001390,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU001391,ECON,Economics,Graduate School of Business,3,Active
+STU001392,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001393,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU001394,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU001395,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU001396,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU001397,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU001398,ECON,Economics,Graduate School of Business,1,Active
+STU001399,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU001400,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU001401,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU001402,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001403,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU001404,FIN,Finance,Graduate School of Business,3,Active
+STU001405,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001406,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU001407,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU001408,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU001409,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU001410,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU001411,FIN,Finance,Graduate School of Business,4,Active
+STU001412,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU001413,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU001414,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001415,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU001416,FIN,Finance,Graduate School of Business,3,Active
+STU001417,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU001418,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU001419,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU001420,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU001421,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU001422,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU001423,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001424,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001425,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU001426,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU001427,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU001428,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU001429,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU001430,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU001431,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU001432,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU001433,FIN,Finance,Graduate School of Business,1,Active
+STU001434,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU001435,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU001436,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU001437,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU001438,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU001439,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU001440,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU001441,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU001442,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU001443,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU001444,ECON,Economics,Graduate School of Business,4,Active
+STU001445,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001446,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU001447,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU001448,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU001449,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU001450,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001451,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001452,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU001453,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU001454,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001455,FIN,Finance,Graduate School of Business,4,Active
+STU001456,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU001457,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU001458,ECON,Economics,Graduate School of Business,4,Active
+STU001459,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU001460,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU001461,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001462,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001463,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU001464,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU001465,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU001466,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU001467,FIN,Finance,Graduate School of Business,4,Active
+STU001468,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001469,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU001470,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001471,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU001472,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU001473,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU001474,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU001475,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001476,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU001477,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU001478,ECON,Economics,Graduate School of Business,2,Active
+STU001479,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU001480,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU001481,FIN,Finance,Graduate School of Business,2,Active
+STU001482,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU001483,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU001484,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU001485,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU001486,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU001487,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU001488,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU001489,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU001490,ECON,Economics,Graduate School of Business,4,Active
+STU001491,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU001492,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU001493,ECON,Economics,Graduate School of Business,3,Active
+STU001494,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU001495,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU001496,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU001497,FIN,Finance,Graduate School of Business,3,Active
+STU001498,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU001499,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU001500,FIN,Finance,Graduate School of Business,3,Active
+STU001501,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU001502,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU001503,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU001504,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU001505,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU001506,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU001507,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU001508,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU001509,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU001510,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU001511,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU001512,FIN,Finance,Graduate School of Business,1,Active
+STU001513,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU001514,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU001515,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU001516,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU001517,FIN,Finance,Graduate School of Business,2,Active
+STU001518,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU001519,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001520,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU001521,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU001522,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001523,FIN,Finance,Graduate School of Business,1,Active
+STU001524,FIN,Finance,Graduate School of Business,4,Active
+STU001525,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU001526,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU001527,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU001528,FIN,Finance,Graduate School of Business,1,Active
+STU001529,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU001530,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU001531,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU001532,ECON,Economics,Graduate School of Business,1,Active
+STU001533,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU001534,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU001535,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU001536,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001537,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU001538,FIN,Finance,Graduate School of Business,3,Active
+STU001539,FIN,Finance,Graduate School of Business,3,Active
+STU001540,FIN,Finance,Graduate School of Business,2,Active
+STU001541,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU001542,ECON,Economics,Graduate School of Business,3,Active
+STU001543,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU001544,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU001545,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU001546,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU001547,FIN,Finance,Graduate School of Business,4,Active
+STU001548,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU001549,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU001550,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU001551,FIN,Finance,Graduate School of Business,2,Active
+STU001552,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU001553,ECON,Economics,Graduate School of Business,2,Active
+STU001554,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU001555,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU001556,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU001557,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU001558,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU001559,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU001560,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU001561,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU001562,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU001563,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001564,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU001565,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU001566,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU001567,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU001568,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU001569,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU001570,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU001571,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU001572,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU001573,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU001574,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU001575,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001576,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU001577,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU001578,FIN,Finance,Graduate School of Business,2,Active
+STU001579,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU001580,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU001581,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001582,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU001583,ECON,Economics,Graduate School of Business,3,Active
+STU001584,FIN,Finance,Graduate School of Business,2,Active
+STU001585,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001586,FIN,Finance,Graduate School of Business,4,Active
+STU001587,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU001588,ECON,Economics,Graduate School of Business,1,Active
+STU001589,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU001590,FIN,Finance,Graduate School of Business,3,Active
+STU001591,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU001592,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU001593,FIN,Finance,Graduate School of Business,4,Active
+STU001594,ECON,Economics,Graduate School of Business,4,Active
+STU001595,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU001596,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU001597,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU001598,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU001599,ECON,Economics,Graduate School of Business,2,Active
+STU001600,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU001601,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU001602,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU001603,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU001604,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU001605,FIN,Finance,Graduate School of Business,3,Active
+STU001606,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU001607,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU001608,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU001609,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU001610,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU001611,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU001612,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU001613,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001614,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU001615,ECON,Economics,Graduate School of Business,3,Active
+STU001616,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU001617,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU001618,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU001619,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU001620,ECON,Economics,Graduate School of Business,1,Active
+STU001621,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU001622,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU001623,ECON,Economics,Graduate School of Business,1,Active
+STU001624,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU001625,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU001626,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU001627,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU001628,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU001629,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU001630,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU001631,ECON,Economics,Graduate School of Business,1,Active
+STU001632,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU001633,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU001634,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU001635,ECON,Economics,Graduate School of Business,2,Active
+STU001636,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU001637,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU001638,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU001639,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU001640,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU001641,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU001642,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU001643,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU001644,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU001645,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU001646,ECON,Economics,Graduate School of Business,2,Active
+STU001647,FIN,Finance,Graduate School of Business,2,Active
+STU001648,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU001649,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU001650,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU001651,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU001652,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU001653,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU001654,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU001655,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001656,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001657,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU001658,FIN,Finance,Graduate School of Business,3,Active
+STU001659,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU001660,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU001661,FIN,Finance,Graduate School of Business,1,Active
+STU001662,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU001663,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU001664,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU001665,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU001666,ECON,Economics,Graduate School of Business,1,Active
+STU001667,FIN,Finance,Graduate School of Business,2,Active
+STU001668,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU001669,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU001670,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU001671,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU001672,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU001673,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU001674,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU001675,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU001676,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU001677,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU001678,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU001679,FIN,Finance,Graduate School of Business,1,Active
+STU001680,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU001681,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU001682,FIN,Finance,Graduate School of Business,2,Active
+STU001683,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU001684,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001685,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU001686,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU001687,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001688,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001689,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU001690,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU001691,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU001692,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU001693,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU001694,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU001695,ECON,Economics,Graduate School of Business,2,Active
+STU001696,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU001697,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU001698,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU001699,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU001700,ECON,Economics,Graduate School of Business,4,Active
+STU001701,ECON,Economics,Graduate School of Business,2,Active
+STU001702,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU001703,FIN,Finance,Graduate School of Business,2,Active
+STU001704,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU001705,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU001706,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU001707,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU001708,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU001709,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU001710,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU001711,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU001712,ECON,Economics,Graduate School of Business,3,Active
+STU001713,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU001714,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU001715,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU001716,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU001717,ECON,Economics,Graduate School of Business,3,Active
+STU001718,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU001719,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU001720,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU001721,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU001722,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001723,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU001724,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU001725,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU001726,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001727,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU001728,ECON,Economics,Graduate School of Business,2,Active
+STU001729,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU001730,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU001731,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU001732,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU001733,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU001734,ECON,Economics,Graduate School of Business,1,Active
+STU001735,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU001736,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU001737,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001738,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU001739,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU001740,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU001741,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU001742,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU001743,ECON,Economics,Graduate School of Business,1,Active
+STU001744,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU001745,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU001746,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU001747,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU001748,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU001749,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU001750,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU001751,ECON,Economics,Graduate School of Business,3,Active
+STU001752,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU001753,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU001754,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU001755,FIN,Finance,Graduate School of Business,1,Active
+STU001756,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU001757,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU001758,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU001759,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001760,ECON,Economics,Graduate School of Business,1,Active
+STU001761,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU001762,FIN,Finance,Graduate School of Business,4,Active
+STU001763,FIN,Finance,Graduate School of Business,1,Active
+STU001764,FIN,Finance,Graduate School of Business,2,Active
+STU001765,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001766,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU001767,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU001768,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU001769,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001770,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU001771,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU001772,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU001773,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001774,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU001775,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU001776,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU001777,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU001778,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU001779,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU001780,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001781,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001782,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU001783,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU001784,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU001785,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU001786,ECON,Economics,Graduate School of Business,1,Active
+STU001787,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU001788,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001789,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU001790,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU001791,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU001792,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001793,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU001794,ECON,Economics,Graduate School of Business,2,Active
+STU001795,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU001796,ECON,Economics,Graduate School of Business,4,Active
+STU001797,FIN,Finance,Graduate School of Business,4,Active
+STU001798,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU001799,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU001800,ECON,Economics,Graduate School of Business,4,Active
+STU001801,ECON,Economics,Graduate School of Business,3,Active
+STU001802,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU001803,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU001804,ECON,Economics,Graduate School of Business,1,Active
+STU001805,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU001806,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU001807,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU001808,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU001809,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU001810,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU001811,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU001812,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU001813,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU001814,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU001815,FIN,Finance,Graduate School of Business,2,Active
+STU001816,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU001817,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001818,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU001819,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU001820,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU001821,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU001822,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU001823,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU001824,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU001825,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU001826,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU001827,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU001828,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU001829,ECON,Economics,Graduate School of Business,3,Active
+STU001830,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU001831,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU001832,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU001833,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU001834,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU001835,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU001836,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU001837,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU001838,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU001839,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU001840,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU001841,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU001842,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU001843,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU001844,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU001845,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU001846,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU001847,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU001848,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU001849,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU001850,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU001851,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU001852,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU001853,FIN,Finance,Graduate School of Business,2,Active
+STU001854,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU001855,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU001856,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU001857,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU001858,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU001859,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU001860,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU001861,ECON,Economics,Graduate School of Business,2,Active
+STU001862,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU001863,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU001864,FIN,Finance,Graduate School of Business,1,Active
+STU001865,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU001866,FIN,Finance,Graduate School of Business,2,Active
+STU001867,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU001868,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU001869,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001870,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU001871,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU001872,ECON,Economics,Graduate School of Business,4,Active
+STU001873,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU001874,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU001875,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU001876,ECON,Economics,Graduate School of Business,1,Active
+STU001877,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001878,FIN,Finance,Graduate School of Business,1,Active
+STU001879,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU001880,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU001881,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU001882,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001883,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001884,FIN,Finance,Graduate School of Business,1,Active
+STU001885,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU001886,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU001887,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU001888,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU001889,FIN,Finance,Graduate School of Business,4,Active
+STU001890,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU001891,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU001892,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU001893,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU001894,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU001895,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU001896,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU001897,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU001898,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU001899,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU001900,ECON,Economics,Graduate School of Business,1,Active
+STU001901,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU001902,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001903,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU001904,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU001905,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU001906,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001907,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU001908,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU001909,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU001910,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU001911,ECON,Economics,Graduate School of Business,3,Active
+STU001912,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU001913,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU001914,FIN,Finance,Graduate School of Business,4,Active
+STU001915,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU001916,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU001917,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU001918,ECON,Economics,Graduate School of Business,3,Active
+STU001919,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU001920,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU001921,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU001922,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU001923,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU001924,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU001925,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU001926,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU001927,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU001928,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU001929,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU001930,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU001931,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU001932,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001933,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU001934,FIN,Finance,Graduate School of Business,3,Active
+STU001935,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU001936,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU001937,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU001938,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU001939,FIN,Finance,Graduate School of Business,1,Active
+STU001940,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU001941,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU001942,FIN,Finance,Graduate School of Business,2,Active
+STU001943,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU001944,ECON,Economics,Graduate School of Business,4,Active
+STU001945,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU001946,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001947,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU001948,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU001949,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU001950,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU001951,ECON,Economics,Graduate School of Business,2,Active
+STU001952,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU001953,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001954,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU001955,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU001956,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU001957,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU001958,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001959,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU001960,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU001961,FIN,Finance,Graduate School of Business,2,Active
+STU001962,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU001963,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU001964,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU001965,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU001966,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU001967,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU001968,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU001969,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU001970,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU001971,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU001972,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU001973,ECON,Economics,Graduate School of Business,1,Active
+STU001974,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU001975,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU001976,ECON,Economics,Graduate School of Business,3,Active
+STU001977,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001978,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU001979,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU001980,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU001981,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU001982,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU001983,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU001984,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU001985,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU001986,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU001987,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU001988,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU001989,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU001990,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU001991,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU001992,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU001993,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU001994,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU001995,FIN,Finance,Graduate School of Business,2,Active
+STU001996,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU001997,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU001998,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU001999,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU002000,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU002001,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU002002,ECON,Economics,Graduate School of Business,3,Active
+STU002003,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU002004,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU002005,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU002006,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU002007,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU002008,FIN,Finance,Graduate School of Business,3,Active
+STU002009,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU002010,ECON,Economics,Graduate School of Business,2,Active
+STU002011,FIN,Finance,Graduate School of Business,1,Active
+STU002012,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU002013,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU002014,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU002015,ECON,Economics,Graduate School of Business,4,Active
+STU002016,FIN,Finance,Graduate School of Business,4,Active
+STU002017,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU002018,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU002019,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU002020,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU002021,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU002022,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU002023,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU002024,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU002025,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU002026,ECON,Economics,Graduate School of Business,3,Active
+STU002027,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU002028,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU002029,FIN,Finance,Graduate School of Business,1,Active
+STU002030,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU002031,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU002032,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU002033,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU002034,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU002035,FIN,Finance,Graduate School of Business,1,Active
+STU002036,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU002037,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU002038,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU002039,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU002040,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU002041,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU002042,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU002043,FIN,Finance,Graduate School of Business,4,Active
+STU002044,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU002045,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU002046,ECON,Economics,Graduate School of Business,4,Active
+STU002047,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU002048,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU002049,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU002050,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU002051,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU002052,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU002053,FIN,Finance,Graduate School of Business,3,Active
+STU002054,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU002055,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU002056,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU002057,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU002058,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU002059,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU002060,FIN,Finance,Graduate School of Business,1,Active
+STU002061,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU002062,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU002063,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU002064,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU002065,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU002066,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU002067,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU002068,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU002069,FIN,Finance,Graduate School of Business,4,Active
+STU002070,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU002071,ECON,Economics,Graduate School of Business,1,Active
+STU002072,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU002073,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU002074,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU002075,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU002076,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU002077,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU002078,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU002079,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU002080,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU002081,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU002082,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU002083,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU002084,ECON,Economics,Graduate School of Business,2,Active
+STU002085,ECON,Economics,Graduate School of Business,4,Active
+STU002086,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU002087,ECON,Economics,Graduate School of Business,2,Active
+STU002088,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU002089,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU002090,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU002091,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU002092,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU002093,FIN,Finance,Graduate School of Business,1,Active
+STU002094,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU002095,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU002096,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU002097,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU002098,ECON,Economics,Graduate School of Business,4,Active
+STU002099,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU002100,ECON,Economics,Graduate School of Business,4,Active
+STU002101,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU002102,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU002103,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU002104,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU002105,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU002106,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU002107,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU002108,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU002109,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU002110,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU002111,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU002112,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU002113,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU002114,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU002115,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU002116,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU002117,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU002118,ECON,Economics,Graduate School of Business,3,Active
+STU002119,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU002120,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU002121,ECON,Economics,Graduate School of Business,2,Active
+STU002122,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU002123,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU002124,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU002125,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU002126,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU002127,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU002128,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU002129,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU002130,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU002131,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU002132,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU002133,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU002134,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU002135,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU002136,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU002137,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU002138,FIN,Finance,Graduate School of Business,1,Active
+STU002139,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU002140,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU002141,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU002142,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU002143,ECON,Economics,Graduate School of Business,2,Active
+STU002144,FIN,Finance,Graduate School of Business,3,Active
+STU002145,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU002146,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU002147,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU002148,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU002149,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU002150,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU002151,ECON,Economics,Graduate School of Business,4,Active
+STU002152,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU002153,ECON,Economics,Graduate School of Business,2,Active
+STU002154,FIN,Finance,Graduate School of Business,3,Active
+STU002155,FIN,Finance,Graduate School of Business,3,Active
+STU002156,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU002157,ECON,Economics,Graduate School of Business,3,Active
+STU002158,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU002159,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU002160,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU002161,FIN,Finance,Graduate School of Business,2,Active
+STU002162,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU002163,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU002164,FIN,Finance,Graduate School of Business,1,Active
+STU002165,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU002166,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU002167,FIN,Finance,Graduate School of Business,3,Active
+STU002168,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU002169,FIN,Finance,Graduate School of Business,3,Active
+STU002170,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU002171,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU002172,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU002173,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU002174,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU002175,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU002176,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU002177,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU002178,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU002179,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU002180,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU002181,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU002182,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU002183,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU002184,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU002185,ECON,Economics,Graduate School of Business,3,Active
+STU002186,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU002187,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU002188,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU002189,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU002190,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU002191,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU002192,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU002193,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU002194,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU002195,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU002196,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU002197,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU002198,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU002199,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU002200,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU002201,FIN,Finance,Graduate School of Business,2,Active
+STU002202,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU002203,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU002204,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU002205,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU002206,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU002207,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU002208,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU002209,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU002210,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU002211,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU002212,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU002213,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU002214,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU002215,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU002216,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU002217,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU002218,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU002219,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU002220,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU002221,FIN,Finance,Graduate School of Business,1,Active
+STU002222,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU002223,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU002224,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU002225,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU002226,ECON,Economics,Graduate School of Business,3,Active
+STU002227,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU002228,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU002229,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU002230,ECON,Economics,Graduate School of Business,4,Active
+STU002231,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU002232,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU002233,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU002234,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU002235,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU002236,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU002237,ECON,Economics,Graduate School of Business,3,Active
+STU002238,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU002239,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU002240,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU002241,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU002242,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU002243,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU002244,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU002245,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU002246,ECON,Economics,Graduate School of Business,4,Active
+STU002247,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU002248,FIN,Finance,Graduate School of Business,1,Active
+STU002249,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU002250,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU002251,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU002252,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU002253,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU002254,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU002255,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU002256,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU002257,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU002258,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU002259,ECON,Economics,Graduate School of Business,2,Active
+STU002260,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU002261,FIN,Finance,Graduate School of Business,3,Active
+STU002262,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU002263,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU002264,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU002265,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU002266,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU002267,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU002268,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU002269,FIN,Finance,Graduate School of Business,2,Active
+STU002270,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU002271,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU002272,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU002273,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU002274,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU002275,FIN,Finance,Graduate School of Business,1,Active
+STU002276,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU002277,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU002278,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU002279,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU002280,ECON,Economics,Graduate School of Business,1,Active
+STU002281,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU002282,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU002283,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU002284,FIN,Finance,Graduate School of Business,4,Active
+STU002285,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU002286,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU002287,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU002288,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU002289,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU002290,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU002291,FIN,Finance,Graduate School of Business,1,Active
+STU002292,FIN,Finance,Graduate School of Business,1,Active
+STU002293,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU002294,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU002295,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU002296,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU002297,ECON,Economics,Graduate School of Business,2,Active
+STU002298,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU002299,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU002300,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU002301,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU002302,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU002303,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU002304,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU002305,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU002306,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU002307,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU002308,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU002309,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU002310,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU002311,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU002312,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU002313,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU002314,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU002315,CE,Civil Engineering,School of Mining and Geosciences,4,Active
+STU002316,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU002317,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU002318,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU002319,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU002320,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU002321,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU002322,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU002323,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU002324,ECON,Economics,Graduate School of Business,1,Active
+STU002325,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU002326,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU002327,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU002328,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU002329,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU002330,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU002331,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU002332,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU002333,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU002334,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU002335,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU002336,FIN,Finance,Graduate School of Business,1,Active
+STU002337,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU002338,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU002339,FIN,Finance,Graduate School of Business,4,Active
+STU002340,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU002341,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU002342,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU002343,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU002344,FIN,Finance,Graduate School of Business,2,Active
+STU002345,FIN,Finance,Graduate School of Business,2,Active
+STU002346,SOCI,Sociology,School of Sciences and Humanities,4,Active
+STU002347,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU002348,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU002349,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU002350,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU002351,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU002352,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU002353,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU002354,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU002355,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU002356,AI,Artificial Intelligence,School of Engineering and Digital Sciences,2,Active
+STU002357,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU002358,ECON,Economics,Graduate School of Business,4,Active
+STU002359,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU002360,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU002361,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU002362,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU002363,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU002364,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU002365,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU002366,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU002367,ECON,Economics,Graduate School of Business,4,Active
+STU002368,ECON,Economics,Graduate School of Business,1,Active
+STU002369,ECON,Economics,Graduate School of Business,3,Active
+STU002370,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU002371,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU002372,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU002373,ECON,Economics,Graduate School of Business,2,Active
+STU002374,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU002375,CS,Computer Science,School of Engineering and Digital Sciences,4,Active
+STU002376,FIN,Finance,Graduate School of Business,3,Active
+STU002377,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU002378,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU002379,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU002380,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU002381,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU002382,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU002383,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU002384,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU002385,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU002386,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU002387,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU002388,ECON,Economics,Graduate School of Business,1,Active
+STU002389,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU002390,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU002391,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU002392,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU002393,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU002394,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU002395,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU002396,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU002397,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU002398,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU002399,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU002400,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU002401,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU002402,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU002403,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU002404,ECON,Economics,Graduate School of Business,2,Active
+STU002405,CHEM,Chemistry,School of Sciences and Humanities,1,Active
+STU002406,FIN,Finance,Graduate School of Business,1,Active
+STU002407,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU002408,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU002409,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU002410,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU002411,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU002412,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU002413,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU002414,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU002415,AI,Artificial Intelligence,School of Engineering and Digital Sciences,1,Active
+STU002416,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU002417,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU002418,FIN,Finance,Graduate School of Business,2,Active
+STU002419,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU002420,ECON,Economics,Graduate School of Business,2,Active
+STU002421,ECON,Economics,Graduate School of Business,3,Active
+STU002422,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU002423,AI,Artificial Intelligence,School of Engineering and Digital Sciences,4,Active
+STU002424,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU002425,ECON,Economics,Graduate School of Business,3,Active
+STU002426,ECON,Economics,Graduate School of Business,1,Active
+STU002427,ECON,Economics,Graduate School of Business,2,Active
+STU002428,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU002429,ECON,Economics,Graduate School of Business,1,Active
+STU002430,ECON,Economics,Graduate School of Business,2,Active
+STU002431,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU002432,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU002433,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU002434,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU002435,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU002436,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU002437,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU002438,FIN,Finance,Graduate School of Business,1,Active
+STU002439,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU002440,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU002441,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU002442,PSIR,Political Science and International Relations,School of Sciences and Humanities,4,Active
+STU002443,CS,Computer Science,School of Engineering and Digital Sciences,1,Active
+STU002444,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU002445,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU002446,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU002447,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU002448,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU002449,CE,Civil Engineering,School of Mining and Geosciences,1,Active
+STU002450,ME,Mechanical Engineering,School of Engineering and Digital Sciences,4,Active
+STU002451,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU002452,EE,Electrical Engineering,School of Engineering and Digital Sciences,4,Active
+STU002453,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU002454,PSIR,Political Science and International Relations,School of Sciences and Humanities,2,Active
+STU002455,CS,Computer Science,School of Engineering and Digital Sciences,3,Active
+STU002456,FIN,Finance,Graduate School of Business,1,Active
+STU002457,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU002458,PHYS,Physics,School of Sciences and Humanities,2,Active
+STU002459,PSIR,Political Science and International Relations,School of Sciences and Humanities,3,Active
+STU002460,CHEM,Chemistry,School of Sciences and Humanities,3,Active
+STU002461,FIN,Finance,Graduate School of Business,2,Active
+STU002462,FIN,Finance,Graduate School of Business,4,Active
+STU002463,BIO,Biological Sciences,School of Sciences and Humanities,4,Active
+STU002464,ME,Mechanical Engineering,School of Engineering and Digital Sciences,2,Active
+STU002465,PHYS,Physics,School of Sciences and Humanities,4,Active
+STU002466,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU002467,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU002468,ME,Mechanical Engineering,School of Engineering and Digital Sciences,3,Active
+STU002469,CS,Computer Science,School of Engineering and Digital Sciences,2,Active
+STU002470,ECON,Economics,Graduate School of Business,4,Active
+STU002471,ECON,Economics,Graduate School of Business,1,Active
+STU002472,CE,Civil Engineering,School of Mining and Geosciences,3,Active
+STU002473,FIN,Finance,Graduate School of Business,2,Active
+STU002474,FIN,Finance,Graduate School of Business,2,Active
+STU002475,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU002476,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU002477,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU002478,PHYS,Physics,School of Sciences and Humanities,3,Active
+STU002479,SOCI,Sociology,School of Sciences and Humanities,1,Active
+STU002480,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU002481,BIO,Biological Sciences,School of Sciences and Humanities,2,Active
+STU002482,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU002483,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU002484,BIO,Biological Sciences,School of Sciences and Humanities,1,Active
+STU002485,CE,Civil Engineering,School of Mining and Geosciences,2,Active
+STU002486,CHEM,Chemistry,School of Sciences and Humanities,2,Active
+STU002487,EE,Electrical Engineering,School of Engineering and Digital Sciences,2,Active
+STU002488,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU002489,PHYS,Physics,School of Sciences and Humanities,1,Active
+STU002490,AI,Artificial Intelligence,School of Engineering and Digital Sciences,3,Active
+STU002491,SOCI,Sociology,School of Sciences and Humanities,3,Active
+STU002492,EE,Electrical Engineering,School of Engineering and Digital Sciences,3,Active
+STU002493,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU002494,ME,Mechanical Engineering,School of Engineering and Digital Sciences,1,Active
+STU002495,EE,Electrical Engineering,School of Engineering and Digital Sciences,1,Active
+STU002496,BIO,Biological Sciences,School of Sciences and Humanities,3,Active
+STU002497,CHEM,Chemistry,School of Sciences and Humanities,4,Active
+STU002498,SOCI,Sociology,School of Sciences and Humanities,2,Active
+STU002499,PSIR,Political Science and International Relations,School of Sciences and Humanities,1,Active
+STU002500,ECON,Economics,Graduate School of Business,1,Active

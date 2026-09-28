@@ -1,0 +1,101 @@
+check_id,category,table,check,status,severity,details
+FILE-students.csv,Availability,students.csv,Required file exists and is readable,PASS,INFO,"2,500 rows loaded"
+FILE-courses.csv,Availability,courses.csv,Required file exists and is readable,PASS,INFO,18 rows loaded
+FILE-enrolments.csv,Availability,enrolments.csv,Required file exists and is readable,PASS,INFO,"12,511 rows loaded"
+FILE-attendance.csv,Availability,attendance.csv,Required file exists and is readable,PASS,INFO,"125,125 rows loaded"
+FILE-lms_activity.csv,Availability,lms_activity.csv,Required file exists and is readable,PASS,INFO,"125,110 rows loaded"
+FILE-assignment_submissions.csv,Availability,assignment_submissions.csv,Required file exists and is readable,PASS,INFO,"125,110 rows loaded"
+FILE-assessments.csv,Availability,assessments.csv,Required file exists and is readable,PASS,INFO,"37,533 rows loaded"
+FILE-interventions.csv,Availability,interventions.csv,Required file exists and is readable,PASS,INFO,180 rows loaded
+FILE-simulation_truth.csv,Availability,simulation_truth.csv,Required file exists and is readable,PASS,INFO,"2,500 rows loaded"
+COLUMNS-students,Schema,students,Required columns present,PASS,INFO,All required columns present
+COLUMNS-courses,Schema,courses,Required columns present,PASS,INFO,All required columns present
+COLUMNS-enrolments,Schema,enrolments,Required columns present,PASS,INFO,All required columns present
+COLUMNS-attendance,Schema,attendance,Required columns present,PASS,INFO,All required columns present
+COLUMNS-lms_activity,Schema,lms_activity,Required columns present,PASS,INFO,All required columns present
+COLUMNS-assignment_submissions,Schema,assignment_submissions,Required columns present,PASS,INFO,All required columns present
+COLUMNS-assessments,Schema,assessments,Required columns present,PASS,INFO,All required columns present
+COLUMNS-interventions,Schema,interventions,Required columns present,PASS,INFO,All required columns present
+COMP-students-student_id,Completeness,students,student_id contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-students-programme_code,Completeness,students,programme_code contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-students-programme,Completeness,students,programme contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-students-school,Completeness,students,school contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-students-year_of_study,Completeness,students,year_of_study contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-students-enrolment_status,Completeness,students,enrolment_status contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-courses-course_id,Completeness,courses,course_id contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-courses-course_name,Completeness,courses,course_name contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-courses-credits,Completeness,courses,credits contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-courses-department_code,Completeness,courses,department_code contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-courses-semester,Completeness,courses,semester contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-enrolments-student_id,Completeness,enrolments,student_id contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-enrolments-course_id,Completeness,enrolments,course_id contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-enrolments-semester,Completeness,enrolments,semester contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-enrolments-status,Completeness,enrolments,status contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-attendance-student_id,Completeness,attendance,student_id contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-attendance-course_id,Completeness,attendance,course_id contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-attendance-attendance_date,Completeness,attendance,attendance_date contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-attendance-status,Completeness,attendance,status contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-lms_activity-student_id,Completeness,lms_activity,student_id contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-lms_activity-course_id,Completeness,lms_activity,course_id contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-lms_activity-activity_date,Completeness,lms_activity,activity_date contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-lms_activity-login_count,Completeness,lms_activity,login_count contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-lms_activity-minutes_active,Completeness,lms_activity,minutes_active contains no missing values,FAIL,WARNING,99.98% complete; 30 missing
+COMP-lms_activity-assignment_views,Completeness,lms_activity,assignment_views contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-assignment_submissions-student_id,Completeness,assignment_submissions,student_id contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-assignment_submissions-course_id,Completeness,assignment_submissions,course_id contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-assignment_submissions-assignment_date,Completeness,assignment_submissions,assignment_date contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-assignment_submissions-submitted,Completeness,assignment_submissions,submitted contains no missing values,FAIL,WARNING,99.99% complete; 10 missing
+COMP-assignment_submissions-days_late,Completeness,assignment_submissions,days_late contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-assessments-student_id,Completeness,assessments,student_id contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-assessments-course_id,Completeness,assessments,course_id contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-assessments-assessment_type,Completeness,assessments,assessment_type contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-assessments-assessment_date,Completeness,assessments,assessment_date contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-assessments-score,Completeness,assessments,score contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-interventions-intervention_id,Completeness,interventions,intervention_id contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-interventions-student_id,Completeness,interventions,student_id contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-interventions-risk_type,Completeness,interventions,risk_type contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-interventions-trigger_date,Completeness,interventions,trigger_date contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-interventions-intervention_type,Completeness,interventions,intervention_type contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-interventions-advisor,Completeness,interventions,advisor contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-interventions-status,Completeness,interventions,status contains no missing values,PASS,INFO,100.00% complete; 0 missing
+COMP-interventions-outcome,Completeness,interventions,outcome contains no missing values,PASS,INFO,100.00% complete; 0 missing
+UNIQUE-students,Uniqueness,students,Unique key: student_id,PASS,INFO,No duplicate keys
+UNIQUE-courses,Uniqueness,courses,Unique key: course_id,PASS,INFO,No duplicate keys
+UNIQUE-enrolments,Uniqueness,enrolments,"Unique key: student_id, course_id, semester",PASS,INFO,No duplicate keys
+UNIQUE-attendance,Uniqueness,attendance,"Unique key: student_id, course_id, attendance_date",FAIL,WARNING,30 rows belong to 15 duplicate key groups
+UNIQUE-lms_activity,Uniqueness,lms_activity,"Unique key: student_id, course_id, activity_date",PASS,INFO,No duplicate keys
+UNIQUE-assignment_submissions,Uniqueness,assignment_submissions,"Unique key: student_id, course_id, assignment_date",PASS,INFO,No duplicate keys
+UNIQUE-assessments,Uniqueness,assessments,"Unique key: student_id, course_id, assessment_type",PASS,INFO,No duplicate keys
+UNIQUE-interventions,Uniqueness,interventions,Unique key: intervention_id,PASS,INFO,No duplicate keys
+FK-enrolments-student_id-students,Referential integrity,enrolments,student_id values exist in students.student_id,PASS,INFO,No orphan records
+FK-enrolments-course_id-courses,Referential integrity,enrolments,course_id values exist in courses.course_id,PASS,INFO,No orphan records
+FK-attendance-student_id-students,Referential integrity,attendance,student_id values exist in students.student_id,PASS,INFO,No orphan records
+FK-attendance-course_id-courses,Referential integrity,attendance,course_id values exist in courses.course_id,PASS,INFO,No orphan records
+FK-lms_activity-student_id-students,Referential integrity,lms_activity,student_id values exist in students.student_id,PASS,INFO,No orphan records
+FK-lms_activity-course_id-courses,Referential integrity,lms_activity,course_id values exist in courses.course_id,PASS,INFO,No orphan records
+FK-assignment_submissions-student_id-students,Referential integrity,assignment_submissions,student_id values exist in students.student_id,PASS,INFO,No orphan records
+FK-assignment_submissions-course_id-courses,Referential integrity,assignment_submissions,course_id values exist in courses.course_id,PASS,INFO,No orphan records
+FK-assessments-student_id-students,Referential integrity,assessments,student_id values exist in students.student_id,PASS,INFO,No orphan records
+FK-assessments-course_id-courses,Referential integrity,assessments,course_id values exist in courses.course_id,PASS,INFO,No orphan records
+FK-interventions-student_id-students,Referential integrity,interventions,student_id values exist in students.student_id,PASS,INFO,No orphan records
+RANGE-students-year_of_study,Validity,students,year_of_study between 1 and 4,PASS,INFO,All non-null values are within range
+DOMAIN-students-enrolment_status,Validity,students,enrolment_status uses permitted values,PASS,INFO,All values valid
+RANGE-courses-credits,Validity,courses,credits between 1 and 30,PASS,INFO,All non-null values are within range
+DOMAIN-attendance-status,Validity,attendance,status uses permitted values,PASS,INFO,All values valid
+RANGE-attendance-week_number,Validity,attendance,week_number between 1 and 10,PASS,INFO,All non-null values are within range
+RANGE-lms_activity-login_count,Validity,lms_activity,login_count between 0 and 100,PASS,INFO,All non-null values are within range
+RANGE-lms_activity-minutes_active,Validity,lms_activity,minutes_active between 0 and 2000,PASS,INFO,All non-null values are within range
+RANGE-lms_activity-assignment_views,Validity,lms_activity,assignment_views between 0 and 100,PASS,INFO,All non-null values are within range
+RANGE-assignment_submissions-submitted,Validity,assignment_submissions,submitted between 0 and 1,PASS,INFO,All non-null values are within range
+RANGE-assignment_submissions-days_late,Validity,assignment_submissions,days_late between 0 and 365,PASS,INFO,All non-null values are within range
+DOMAIN-assessments-assessment_type,Validity,assessments,assessment_type uses permitted values,PASS,INFO,All values valid
+RANGE-assessments-score,Validity,assessments,score between 0 and 100,PASS,INFO,All non-null values are within range
+DOMAIN-interventions-risk_type,Validity,interventions,risk_type uses permitted values,PASS,INFO,All values valid
+DOMAIN-interventions-status,Validity,interventions,status uses permitted values,PASS,INFO,All values valid
+DATE-attendance-attendance_date,Validity,attendance,attendance_date contains valid dates,PASS,INFO,All values parse as dates
+DATE-lms_activity-activity_date,Validity,lms_activity,activity_date contains valid dates,PASS,INFO,All values parse as dates
+DATE-assignment_submissions-assignment_date,Validity,assignment_submissions,assignment_date contains valid dates,PASS,INFO,All values parse as dates
+DATE-assessments-assessment_date,Validity,assessments,assessment_date contains valid dates,PASS,INFO,All values parse as dates
+DATE-interventions-trigger_date,Validity,interventions,trigger_date contains valid dates,PASS,INFO,All values parse as dates
+CONSISTENCY-ATTENDANCE-ENROLMENT,Consistency,attendance,Attendance belongs to a valid enrolment,PASS,INFO,All attendance combinations match enrolments
+CONSISTENCY-LMS-ENROLMENT,Consistency,lms_activity,LMS activity belongs to a valid enrolment,PASS,INFO,All LMS combinations match enrolments

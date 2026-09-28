@@ -1,0 +1,19 @@
+course_id,course_name,credits,department_code,semester
+CS101,Introduction to Programming,5,CS,Fall 2026
+CS201,Data Structures,5,CS,Fall 2026
+CS301,Database Systems,5,CS,Fall 2026
+AI201,Machine Learning Foundations,5,AI,Fall 2026
+AI301,Applied Artificial Intelligence,5,AI,Fall 2026
+EE201,Digital Systems,5,EE,Fall 2026
+EE301,Signals and Systems,5,EE,Fall 2026
+ME201,Engineering Mechanics,5,ME,Fall 2026
+CE201,Structural Engineering,5,CE,Fall 2026
+ECON201,Microeconomics,5,ECON,Fall 2026
+ECON301,Econometrics,5,ECON,Fall 2026
+FIN201,Corporate Finance,5,FIN,Fall 2026
+PSIR201,Comparative Politics,5,PSIR,Fall 2026
+SOCI201,Social Research Methods,5,SOCI,Fall 2026
+CHEM201,Organic Chemistry,5,CHEM,Fall 2026
+BIO201,Molecular Biology,5,BIO,Fall 2026
+PHYS201,Classical Mechanics,5,PHYS,Fall 2026
+MATH201,Applied Mathematics,5,MATH,Fall 2026

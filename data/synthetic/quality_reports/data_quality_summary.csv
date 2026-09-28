@@ -1,0 +1,8 @@
+category,checks,passed,failed,pass_rate
+Availability,9,9,0,100.0
+Completeness,43,41,2,95.34883720930233
+Consistency,2,2,0,100.0
+Referential integrity,11,11,0,100.0
+Schema,8,8,0,100.0
+Uniqueness,8,7,1,87.5
+Validity,19,19,0,100.0
