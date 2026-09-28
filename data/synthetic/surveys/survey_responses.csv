@@ -1,0 +1,1751 @@
+response_id,respondent_type,student_id,survey_date,theme,question,score,would_recommend
+STU-FB-00001,Student,STU000504,2026-09-15,Academic resources,How useful was the support experience?,1.0,1.0
+STU-FB-00002,Student,STU002251,2026-09-22,Study skills,How useful was the support experience?,2.0,1.0
+STU-FB-00003,Student,STU001333,2026-09-06,Study skills,How useful was the support experience?,1.0,0.0
+STU-FB-00004,Student,STU000744,2026-09-13,Communication,How useful was the support experience?,5.0,1.0
+STU-FB-00005,Student,STU000522,2026-09-04,Study skills,How useful was the support experience?,4.0,0.0
+STU-FB-00006,Student,STU000814,2026-09-04,Advising access,How useful was the support experience?,2.0,1.0
+STU-FB-00007,Student,STU000431,2026-09-22,Advising access,How useful was the support experience?,1.0,0.0
+STU-FB-00008,Student,STU000119,2026-09-07,Scheduling,How useful was the support experience?,,
+STU-FB-00009,Student,STU001973,2026-09-16,Advising access,How useful was the support experience?,4.0,0.0
+STU-FB-00010,Student,STU000608,2026-09-08,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-00011,Student,STU002298,2026-09-23,Study skills,How useful was the support experience?,,
+STU-FB-00012,Student,STU000224,2026-09-03,Scheduling,How useful was the support experience?,,
+STU-FB-00013,Student,STU001418,2026-09-12,Academic resources,How useful was the support experience?,5.0,1.0
+STU-FB-00014,Student,STU000195,2026-09-03,Advising access,How useful was the support experience?,5.0,0.0
+STU-FB-00015,Student,STU001923,2026-09-09,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-00016,Student,STU001481,2026-09-26,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-00017,Student,STU000612,2026-09-04,Academic resources,How useful was the support experience?,3.0,0.0
+STU-FB-00018,Student,STU002308,2026-09-19,Advising access,How useful was the support experience?,4.0,1.0
+STU-FB-00019,Student,STU000593,2026-09-01,Advising access,How useful was the support experience?,5.0,0.0
+STU-FB-00020,Student,STU000632,2026-09-16,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-00021,Student,STU000168,2026-09-20,Scheduling,How useful was the support experience?,3.0,1.0
+STU-FB-00022,Student,STU001746,2026-09-06,Communication,How useful was the support experience?,,
+STU-FB-00023,Student,STU001248,2026-09-10,Academic resources,How useful was the support experience?,2.0,1.0
+STU-FB-00024,Student,STU002176,2026-09-11,Tutoring usefulness,How useful was the support experience?,3.0,1.0
+STU-FB-00025,Student,STU001238,2026-09-19,Advising access,How useful was the support experience?,2.0,1.0
+STU-FB-00026,Student,STU000992,2026-09-27,Tutoring usefulness,How useful was the support experience?,1.0,1.0
+STU-FB-00027,Student,STU002010,2026-09-17,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-00028,Student,STU001228,2026-09-02,Advising access,How useful was the support experience?,1.0,1.0
+STU-FB-00029,Student,STU001676,2026-09-19,Academic resources,How useful was the support experience?,1.0,1.0
+STU-FB-00030,Student,STU001939,2026-09-08,Communication,How useful was the support experience?,1.0,1.0
+STU-FB-00031,Student,STU000140,2026-09-22,Study skills,How useful was the support experience?,5.0,1.0
+STU-FB-00032,Student,STU000041,2026-09-28,Study skills,How useful was the support experience?,5.0,1.0
+STU-FB-00033,Student,STU002435,2026-09-11,Study skills,How useful was the support experience?,5.0,1.0
+STU-FB-00034,Student,STU001537,2026-09-08,Study skills,How useful was the support experience?,2.0,1.0
+STU-FB-00035,Student,STU000607,2026-09-28,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-00036,Student,STU002262,2026-09-06,Academic resources,How useful was the support experience?,5.0,0.0
+STU-FB-00037,Student,STU000033,2026-09-06,Communication,How useful was the support experience?,1.0,1.0
+STU-FB-00038,Student,STU001155,2026-09-15,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-00039,Student,STU002351,2026-09-12,Communication,How useful was the support experience?,2.0,0.0
+STU-FB-00040,Student,STU000466,2026-09-02,Scheduling,How useful was the support experience?,,
+STU-FB-00041,Student,STU000059,2026-09-01,Advising access,How useful was the support experience?,3.0,1.0
+STU-FB-00042,Student,STU002304,2026-09-14,Tutoring usefulness,How useful was the support experience?,5.0,1.0
+STU-FB-00043,Student,STU001900,2026-09-09,Communication,How useful was the support experience?,2.0,1.0
+STU-FB-00044,Student,STU001979,2026-09-10,Study skills,How useful was the support experience?,4.0,1.0
+STU-FB-00045,Student,STU000683,2026-09-13,Study skills,How useful was the support experience?,3.0,0.0
+STU-FB-00046,Student,STU000977,2026-09-05,Tutoring usefulness,How useful was the support experience?,5.0,1.0
+STU-FB-00047,Student,STU000994,2026-09-24,Tutoring usefulness,How useful was the support experience?,4.0,1.0
+STU-FB-00048,Student,STU001656,2026-09-28,Communication,How useful was the support experience?,4.0,1.0
+STU-FB-00049,Student,STU000418,2026-09-04,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-00050,Student,STU000566,2026-09-26,Scheduling,How useful was the support experience?,3.0,1.0
+STU-FB-00051,Student,STU001874,2026-09-15,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-00052,Student,STU002063,2026-09-20,Scheduling,How useful was the support experience?,,
+STU-FB-00053,Student,STU000533,2026-09-05,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-00054,Student,STU000774,2026-09-10,Communication,How useful was the support experience?,4.0,0.0
+STU-FB-00055,Student,STU001888,2026-09-11,Communication,How useful was the support experience?,1.0,1.0
+STU-FB-00056,Student,STU000031,2026-09-11,Academic resources,How useful was the support experience?,2.0,1.0
+STU-FB-00057,Student,STU002405,2026-09-04,Advising access,How useful was the support experience?,2.0,0.0
+STU-FB-00058,Student,STU000664,2026-09-12,Study skills,How useful was the support experience?,5.0,1.0
+STU-FB-00059,Student,STU000282,2026-09-03,Scheduling,How useful was the support experience?,5.0,1.0
+STU-FB-00060,Student,STU001664,2026-09-10,Scheduling,How useful was the support experience?,5.0,1.0
+STU-FB-00061,Student,STU000200,2026-09-15,Tutoring usefulness,How useful was the support experience?,4.0,0.0
+STU-FB-00062,Student,STU001187,2026-09-28,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-00063,Student,STU000800,2026-09-11,Communication,How useful was the support experience?,5.0,1.0
+STU-FB-00064,Student,STU000960,2026-09-09,Scheduling,How useful was the support experience?,2.0,0.0
+STU-FB-00065,Student,STU001719,2026-09-26,Academic resources,How useful was the support experience?,1.0,1.0
+STU-FB-00066,Student,STU000929,2026-09-05,Communication,How useful was the support experience?,1.0,0.0
+STU-FB-00067,Student,STU002107,2026-09-01,Scheduling,How useful was the support experience?,,
+STU-FB-00068,Student,STU000569,2026-09-04,Advising access,How useful was the support experience?,3.0,1.0
+STU-FB-00069,Student,STU001145,2026-09-24,Advising access,How useful was the support experience?,3.0,1.0
+STU-FB-00070,Student,STU001378,2026-09-15,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-00071,Student,STU001351,2026-09-02,Communication,How useful was the support experience?,5.0,0.0
+STU-FB-00072,Student,STU001960,2026-09-14,Study skills,How useful was the support experience?,4.0,1.0
+STU-FB-00073,Student,STU001931,2026-09-04,Communication,How useful was the support experience?,3.0,0.0
+STU-FB-00074,Student,STU000459,2026-09-08,Advising access,How useful was the support experience?,4.0,1.0
+STU-FB-00075,Student,STU001265,2026-09-26,Advising access,How useful was the support experience?,,
+STU-FB-00076,Student,STU002250,2026-09-04,Tutoring usefulness,How useful was the support experience?,5.0,1.0
+STU-FB-00077,Student,STU001649,2026-09-24,Communication,How useful was the support experience?,5.0,1.0
+STU-FB-00078,Student,STU002093,2026-09-11,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-00079,Student,STU002298,2026-09-15,Tutoring usefulness,How useful was the support experience?,3.0,0.0
+STU-FB-00080,Student,STU001146,2026-09-08,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-00081,Student,STU001536,2026-09-03,Study skills,How useful was the support experience?,4.0,1.0
+STU-FB-00082,Student,STU002410,2026-09-22,Academic resources,How useful was the support experience?,3.0,1.0
+STU-FB-00083,Student,STU002230,2026-09-01,Tutoring usefulness,How useful was the support experience?,1.0,1.0
+STU-FB-00084,Student,STU001428,2026-09-23,Tutoring usefulness,How useful was the support experience?,1.0,0.0
+STU-FB-00085,Student,STU001740,2026-09-25,Communication,How useful was the support experience?,2.0,1.0
+STU-FB-00086,Student,STU000315,2026-09-11,Tutoring usefulness,How useful was the support experience?,3.0,0.0
+STU-FB-00087,Student,STU001793,2026-09-06,Tutoring usefulness,How useful was the support experience?,3.0,0.0
+STU-FB-00088,Student,STU001635,2026-09-13,Academic resources,How useful was the support experience?,2.0,1.0
+STU-FB-00089,Student,STU002074,2026-09-24,Study skills,How useful was the support experience?,3.0,1.0
+STU-FB-00090,Student,STU001073,2026-09-06,Study skills,How useful was the support experience?,3.0,1.0
+STU-FB-00091,Student,STU001514,2026-09-28,Study skills,How useful was the support experience?,2.0,1.0
+STU-FB-00092,Student,STU001042,2026-09-16,Academic resources,How useful was the support experience?,3.0,1.0
+STU-FB-00093,Student,STU002147,2026-09-05,Study skills,How useful was the support experience?,5.0,1.0
+STU-FB-00094,Student,STU000536,2026-09-21,Communication,How useful was the support experience?,4.0,1.0
+STU-FB-00095,Student,STU000170,2026-09-26,Academic resources,How useful was the support experience?,5.0,1.0
+STU-FB-00096,Student,STU002098,2026-09-17,Academic resources,How useful was the support experience?,2.0,0.0
+STU-FB-00097,Student,STU001113,2026-09-27,Communication,How useful was the support experience?,2.0,0.0
+STU-FB-00098,Student,STU000290,2026-09-19,Study skills,How useful was the support experience?,5.0,0.0
+STU-FB-00099,Student,STU000051,2026-09-04,Academic resources,How useful was the support experience?,3.0,1.0
+STU-FB-00100,Student,STU001413,2026-09-18,Academic resources,How useful was the support experience?,3.0,0.0
+STU-FB-00101,Student,STU002154,2026-09-09,Communication,How useful was the support experience?,4.0,1.0
+STU-FB-00102,Student,STU001250,2026-09-13,Communication,How useful was the support experience?,3.0,0.0
+STU-FB-00103,Student,STU000371,2026-09-03,Advising access,How useful was the support experience?,2.0,1.0
+STU-FB-00104,Student,STU002045,2026-09-05,Tutoring usefulness,How useful was the support experience?,1.0,1.0
+STU-FB-00105,Student,STU000760,2026-09-23,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-00106,Student,STU002070,2026-09-14,Scheduling,How useful was the support experience?,,
+STU-FB-00107,Student,STU001020,2026-09-13,Advising access,How useful was the support experience?,1.0,1.0
+STU-FB-00108,Student,STU001642,2026-09-25,Communication,How useful was the support experience?,1.0,1.0
+STU-FB-00109,Student,STU000693,2026-09-21,Study skills,How useful was the support experience?,3.0,1.0
+STU-FB-00110,Student,STU001273,2026-09-08,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-00111,Student,STU000107,2026-09-14,Communication,How useful was the support experience?,2.0,0.0
+STU-FB-00112,Student,STU002036,2026-09-09,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-00113,Student,STU001545,2026-09-19,Tutoring usefulness,How useful was the support experience?,3.0,0.0
+STU-FB-00114,Student,STU000065,2026-09-22,Communication,How useful was the support experience?,5.0,1.0
+STU-FB-00115,Student,STU000933,2026-09-27,Study skills,How useful was the support experience?,1.0,0.0
+STU-FB-00116,Student,STU000654,2026-09-15,Tutoring usefulness,How useful was the support experience?,2.0,1.0
+STU-FB-00117,Student,STU001048,2026-09-09,Advising access,How useful was the support experience?,4.0,1.0
+STU-FB-00118,Student,STU000942,2026-09-21,Academic resources,How useful was the support experience?,5.0,1.0
+STU-FB-00119,Student,STU000537,2026-09-25,Communication,How useful was the support experience?,3.0,0.0
+STU-FB-00120,Student,STU002408,2026-09-20,Tutoring usefulness,How useful was the support experience?,4.0,1.0
+STU-FB-00121,Student,STU001867,2026-09-11,Tutoring usefulness,How useful was the support experience?,2.0,1.0
+STU-FB-00122,Student,STU002426,2026-09-17,Academic resources,How useful was the support experience?,1.0,1.0
+STU-FB-00123,Student,STU001837,2026-09-19,Academic resources,How useful was the support experience?,3.0,1.0
+STU-FB-00124,Student,STU002342,2026-09-07,Advising access,How useful was the support experience?,2.0,1.0
+STU-FB-00125,Student,STU002253,2026-09-10,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-00126,Student,STU000723,2026-09-15,Scheduling,How useful was the support experience?,4.0,0.0
+STU-FB-00127,Student,STU000513,2026-09-06,Academic resources,How useful was the support experience?,3.0,1.0
+STU-FB-00128,Student,STU001933,2026-09-22,Advising access,How useful was the support experience?,1.0,0.0
+STU-FB-00129,Student,STU000549,2026-09-21,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-00130,Student,STU000832,2026-09-12,Communication,How useful was the support experience?,4.0,0.0
+STU-FB-00131,Student,STU002364,2026-09-06,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-00132,Student,STU000917,2026-09-22,Communication,How useful was the support experience?,5.0,0.0
+STU-FB-00133,Student,STU001592,2026-09-17,Tutoring usefulness,How useful was the support experience?,3.0,0.0
+STU-FB-00134,Student,STU000735,2026-09-27,Scheduling,How useful was the support experience?,3.0,1.0
+STU-FB-00135,Student,STU000679,2026-09-07,Scheduling,How useful was the support experience?,3.0,0.0
+STU-FB-00136,Student,STU000404,2026-09-17,Tutoring usefulness,How useful was the support experience?,2.0,0.0
+STU-FB-00137,Student,STU001007,2026-09-06,Tutoring usefulness,How useful was the support experience?,5.0,0.0
+STU-FB-00138,Student,STU001694,2026-09-12,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-00139,Student,STU000067,2026-09-14,Tutoring usefulness,How useful was the support experience?,1.0,0.0
+STU-FB-00140,Student,STU001640,2026-09-25,Advising access,How useful was the support experience?,3.0,0.0
+STU-FB-00141,Student,STU001978,2026-09-17,Study skills,How useful was the support experience?,2.0,1.0
+STU-FB-00142,Student,STU001456,2026-09-27,Study skills,How useful was the support experience?,5.0,1.0
+STU-FB-00143,Student,STU000833,2026-09-16,Advising access,How useful was the support experience?,5.0,1.0
+STU-FB-00144,Student,STU001456,2026-09-11,Scheduling,How useful was the support experience?,3.0,1.0
+STU-FB-00145,Student,STU002260,2026-09-11,Academic resources,How useful was the support experience?,5.0,1.0
+STU-FB-00146,Student,STU002087,2026-09-22,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-00147,Student,STU000379,2026-09-26,Advising access,How useful was the support experience?,4.0,0.0
+STU-FB-00148,Student,STU000640,2026-09-23,Communication,How useful was the support experience?,5.0,0.0
+STU-FB-00149,Student,STU000195,2026-09-09,Scheduling,How useful was the support experience?,5.0,1.0
+STU-FB-00150,Student,STU000071,2026-09-18,Scheduling,How useful was the support experience?,5.0,1.0
+STU-FB-00151,Student,STU002195,2026-09-11,Academic resources,How useful was the support experience?,5.0,1.0
+STU-FB-00152,Student,STU001079,2026-09-28,Academic resources,How useful was the support experience?,5.0,1.0
+STU-FB-00153,Student,STU001528,2026-09-21,Communication,How useful was the support experience?,5.0,0.0
+STU-FB-00154,Student,STU001916,2026-09-03,Scheduling,How useful was the support experience?,3.0,1.0
+STU-FB-00155,Student,STU001462,2026-09-15,Advising access,How useful was the support experience?,4.0,1.0
+STU-FB-00156,Student,STU000030,2026-09-16,Advising access,How useful was the support experience?,5.0,0.0
+STU-FB-00157,Student,STU000922,2026-09-06,Advising access,How useful was the support experience?,1.0,1.0
+STU-FB-00158,Student,STU001626,2026-09-12,Academic resources,How useful was the support experience?,,
+STU-FB-00159,Student,STU000548,2026-09-19,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-00160,Student,STU000248,2026-09-14,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-00161,Student,STU002467,2026-09-27,Academic resources,How useful was the support experience?,2.0,0.0
+STU-FB-00162,Student,STU000981,2026-09-25,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-00163,Student,STU001809,2026-09-23,Scheduling,How useful was the support experience?,3.0,1.0
+STU-FB-00164,Student,STU000474,2026-09-17,Study skills,How useful was the support experience?,5.0,1.0
+STU-FB-00165,Student,STU000982,2026-09-16,Advising access,How useful was the support experience?,2.0,1.0
+STU-FB-00166,Student,STU001678,2026-09-04,Study skills,How useful was the support experience?,,
+STU-FB-00167,Student,STU001186,2026-09-19,Scheduling,How useful was the support experience?,2.0,0.0
+STU-FB-00168,Student,STU000078,2026-09-15,Communication,How useful was the support experience?,,
+STU-FB-00169,Student,STU001692,2026-09-11,Tutoring usefulness,How useful was the support experience?,3.0,0.0
+STU-FB-00170,Student,STU002499,2026-09-05,Tutoring usefulness,How useful was the support experience?,2.0,0.0
+STU-FB-00171,Student,STU002182,2026-09-05,Study skills,How useful was the support experience?,2.0,1.0
+STU-FB-00172,Student,STU002160,2026-09-21,Tutoring usefulness,How useful was the support experience?,1.0,1.0
+STU-FB-00173,Student,STU000813,2026-09-02,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-00174,Student,STU001101,2026-09-28,Tutoring usefulness,How useful was the support experience?,2.0,1.0
+STU-FB-00175,Student,STU001432,2026-09-28,Academic resources,How useful was the support experience?,1.0,0.0
+STU-FB-00176,Student,STU002022,2026-09-26,Academic resources,How useful was the support experience?,3.0,1.0
+STU-FB-00177,Student,STU000080,2026-09-14,Advising access,How useful was the support experience?,4.0,0.0
+STU-FB-00178,Student,STU000911,2026-09-20,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-00179,Student,STU001694,2026-09-03,Academic resources,How useful was the support experience?,2.0,0.0
+STU-FB-00180,Student,STU000352,2026-09-11,Scheduling,How useful was the support experience?,,
+STU-FB-00181,Student,STU001837,2026-09-14,Academic resources,How useful was the support experience?,4.0,0.0
+STU-FB-00182,Student,STU000014,2026-09-13,Advising access,How useful was the support experience?,5.0,0.0
+STU-FB-00183,Student,STU000351,2026-09-05,Communication,How useful was the support experience?,4.0,1.0
+STU-FB-00184,Student,STU000580,2026-09-21,Tutoring usefulness,How useful was the support experience?,1.0,1.0
+STU-FB-00185,Student,STU001474,2026-09-18,Study skills,How useful was the support experience?,5.0,0.0
+STU-FB-00186,Student,STU002316,2026-09-08,Tutoring usefulness,How useful was the support experience?,2.0,1.0
+STU-FB-00187,Student,STU001563,2026-09-10,Tutoring usefulness,How useful was the support experience?,2.0,1.0
+STU-FB-00188,Student,STU000779,2026-09-17,Academic resources,How useful was the support experience?,2.0,1.0
+STU-FB-00189,Student,STU000565,2026-09-21,Tutoring usefulness,How useful was the support experience?,2.0,0.0
+STU-FB-00190,Student,STU000147,2026-09-15,Advising access,How useful was the support experience?,5.0,1.0
+STU-FB-00191,Student,STU000567,2026-09-04,Academic resources,How useful was the support experience?,5.0,0.0
+STU-FB-00192,Student,STU002477,2026-09-28,Communication,How useful was the support experience?,2.0,0.0
+STU-FB-00193,Student,STU001646,2026-09-22,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-00194,Student,STU000799,2026-09-24,Study skills,How useful was the support experience?,2.0,0.0
+STU-FB-00195,Student,STU001184,2026-09-15,Study skills,How useful was the support experience?,5.0,1.0
+STU-FB-00196,Student,STU001884,2026-09-04,Scheduling,How useful was the support experience?,3.0,0.0
+STU-FB-00197,Student,STU000016,2026-09-04,Study skills,How useful was the support experience?,2.0,1.0
+STU-FB-00198,Student,STU000594,2026-09-02,Communication,How useful was the support experience?,2.0,1.0
+STU-FB-00199,Student,STU000426,2026-09-05,Communication,How useful was the support experience?,3.0,0.0
+STU-FB-00200,Student,STU002418,2026-09-12,Communication,How useful was the support experience?,5.0,0.0
+STU-FB-00201,Student,STU002330,2026-09-23,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-00202,Student,STU001840,2026-09-05,Advising access,How useful was the support experience?,4.0,1.0
+STU-FB-00203,Student,STU002271,2026-09-13,Communication,How useful was the support experience?,2.0,1.0
+STU-FB-00204,Student,STU001550,2026-09-11,Communication,How useful was the support experience?,2.0,1.0
+STU-FB-00205,Student,STU000796,2026-09-28,Study skills,How useful was the support experience?,2.0,1.0
+STU-FB-00206,Student,STU001339,2026-09-18,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-00207,Student,STU002249,2026-09-09,Scheduling,How useful was the support experience?,1.0,0.0
+STU-FB-00208,Student,STU001985,2026-09-28,Communication,How useful was the support experience?,1.0,0.0
+STU-FB-00209,Student,STU000483,2026-09-09,Academic resources,How useful was the support experience?,3.0,1.0
+STU-FB-00210,Student,STU001344,2026-09-01,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-00211,Student,STU000493,2026-09-25,Study skills,How useful was the support experience?,2.0,0.0
+STU-FB-00212,Student,STU000086,2026-09-05,Study skills,How useful was the support experience?,3.0,1.0
+STU-FB-00213,Student,STU001844,2026-09-17,Study skills,How useful was the support experience?,5.0,1.0
+STU-FB-00214,Student,STU000979,2026-09-23,Tutoring usefulness,How useful was the support experience?,3.0,1.0
+STU-FB-00215,Student,STU000880,2026-09-23,Tutoring usefulness,How useful was the support experience?,5.0,1.0
+STU-FB-00216,Student,STU000093,2026-09-10,Advising access,How useful was the support experience?,3.0,1.0
+STU-FB-00217,Student,STU001718,2026-09-16,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-00218,Student,STU001446,2026-09-18,Academic resources,How useful was the support experience?,1.0,0.0
+STU-FB-00219,Student,STU001845,2026-09-18,Study skills,How useful was the support experience?,2.0,0.0
+STU-FB-00220,Student,STU001398,2026-09-26,Tutoring usefulness,How useful was the support experience?,3.0,0.0
+STU-FB-00221,Student,STU001253,2026-09-01,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-00222,Student,STU001718,2026-09-22,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-00223,Student,STU000255,2026-09-01,Study skills,How useful was the support experience?,5.0,1.0
+STU-FB-00224,Student,STU002404,2026-09-08,Communication,How useful was the support experience?,,
+STU-FB-00225,Student,STU001788,2026-09-24,Study skills,How useful was the support experience?,4.0,1.0
+STU-FB-00226,Student,STU001957,2026-09-14,Advising access,How useful was the support experience?,5.0,1.0
+STU-FB-00227,Student,STU000768,2026-09-17,Tutoring usefulness,How useful was the support experience?,2.0,0.0
+STU-FB-00228,Student,STU001949,2026-09-17,Academic resources,How useful was the support experience?,5.0,1.0
+STU-FB-00229,Student,STU000047,2026-09-12,Academic resources,How useful was the support experience?,1.0,1.0
+STU-FB-00230,Student,STU000745,2026-09-08,Advising access,How useful was the support experience?,4.0,0.0
+STU-FB-00231,Student,STU001376,2026-09-11,Advising access,How useful was the support experience?,2.0,1.0
+STU-FB-00232,Student,STU002032,2026-09-16,Tutoring usefulness,How useful was the support experience?,3.0,1.0
+STU-FB-00233,Student,STU002129,2026-09-12,Study skills,How useful was the support experience?,4.0,1.0
+STU-FB-00234,Student,STU000212,2026-09-20,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-00235,Student,STU002287,2026-09-19,Advising access,How useful was the support experience?,2.0,1.0
+STU-FB-00236,Student,STU001048,2026-09-08,Tutoring usefulness,How useful was the support experience?,5.0,1.0
+STU-FB-00237,Student,STU000942,2026-09-23,Scheduling,How useful was the support experience?,3.0,1.0
+STU-FB-00238,Student,STU000512,2026-09-05,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-00239,Student,STU002409,2026-09-21,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-00240,Student,STU001238,2026-09-19,Study skills,How useful was the support experience?,2.0,1.0
+STU-FB-00241,Student,STU000395,2026-09-20,Academic resources,How useful was the support experience?,2.0,1.0
+STU-FB-00242,Student,STU002021,2026-09-13,Scheduling,How useful was the support experience?,5.0,0.0
+STU-FB-00243,Student,STU000586,2026-09-18,Study skills,How useful was the support experience?,3.0,1.0
+STU-FB-00244,Student,STU000312,2026-09-16,Advising access,How useful was the support experience?,4.0,1.0
+STU-FB-00245,Student,STU000225,2026-09-03,Scheduling,How useful was the support experience?,5.0,0.0
+STU-FB-00246,Student,STU001902,2026-09-09,Tutoring usefulness,How useful was the support experience?,5.0,1.0
+STU-FB-00247,Student,STU001626,2026-09-05,Academic resources,How useful was the support experience?,1.0,0.0
+STU-FB-00248,Student,STU001107,2026-09-14,Academic resources,How useful was the support experience?,5.0,1.0
+STU-FB-00249,Student,STU002131,2026-09-27,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-00250,Student,STU002305,2026-09-01,Tutoring usefulness,How useful was the support experience?,1.0,1.0
+STU-FB-00251,Student,STU001889,2026-09-08,Communication,How useful was the support experience?,4.0,1.0
+STU-FB-00252,Student,STU000747,2026-09-02,Advising access,How useful was the support experience?,4.0,1.0
+STU-FB-00253,Student,STU000162,2026-09-19,Advising access,How useful was the support experience?,1.0,1.0
+STU-FB-00254,Student,STU000124,2026-09-27,Communication,How useful was the support experience?,1.0,1.0
+STU-FB-00255,Student,STU000113,2026-09-14,Advising access,How useful was the support experience?,1.0,1.0
+STU-FB-00256,Student,STU001591,2026-09-02,Academic resources,How useful was the support experience?,3.0,1.0
+STU-FB-00257,Student,STU002215,2026-09-15,Communication,How useful was the support experience?,1.0,0.0
+STU-FB-00258,Student,STU000476,2026-09-26,Advising access,How useful was the support experience?,1.0,0.0
+STU-FB-00259,Student,STU001825,2026-09-15,Study skills,How useful was the support experience?,4.0,1.0
+STU-FB-00260,Student,STU000831,2026-09-22,Scheduling,How useful was the support experience?,3.0,1.0
+STU-FB-00261,Student,STU000515,2026-09-18,Communication,How useful was the support experience?,1.0,1.0
+STU-FB-00262,Student,STU002003,2026-09-16,Communication,How useful was the support experience?,5.0,1.0
+STU-FB-00263,Student,STU001707,2026-09-10,Study skills,How useful was the support experience?,2.0,0.0
+STU-FB-00264,Student,STU001028,2026-09-04,Advising access,How useful was the support experience?,1.0,0.0
+STU-FB-00265,Student,STU000093,2026-09-19,Academic resources,How useful was the support experience?,2.0,1.0
+STU-FB-00266,Student,STU001601,2026-09-11,Advising access,How useful was the support experience?,2.0,1.0
+STU-FB-00267,Student,STU000073,2026-09-02,Academic resources,How useful was the support experience?,4.0,0.0
+STU-FB-00268,Student,STU001588,2026-09-08,Communication,How useful was the support experience?,5.0,1.0
+STU-FB-00269,Student,STU000401,2026-09-24,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-00270,Student,STU000799,2026-09-14,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-00271,Student,STU001666,2026-09-08,Advising access,How useful was the support experience?,4.0,1.0
+STU-FB-00272,Student,STU000135,2026-09-16,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-00273,Student,STU001753,2026-09-15,Advising access,How useful was the support experience?,2.0,0.0
+STU-FB-00274,Student,STU000801,2026-09-03,Academic resources,How useful was the support experience?,2.0,1.0
+STU-FB-00275,Student,STU002013,2026-09-22,Communication,How useful was the support experience?,2.0,1.0
+STU-FB-00276,Student,STU002463,2026-09-05,Scheduling,How useful was the support experience?,3.0,0.0
+STU-FB-00277,Student,STU002157,2026-09-08,Study skills,How useful was the support experience?,2.0,1.0
+STU-FB-00278,Student,STU000876,2026-09-10,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-00279,Student,STU001244,2026-09-18,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-00280,Student,STU000320,2026-09-27,Scheduling,How useful was the support experience?,5.0,1.0
+STU-FB-00281,Student,STU001548,2026-09-03,Academic resources,How useful was the support experience?,3.0,1.0
+STU-FB-00282,Student,STU001846,2026-09-02,Tutoring usefulness,How useful was the support experience?,4.0,1.0
+STU-FB-00283,Student,STU001775,2026-09-25,Communication,How useful was the support experience?,4.0,1.0
+STU-FB-00284,Student,STU001441,2026-09-16,Communication,How useful was the support experience?,5.0,1.0
+STU-FB-00285,Student,STU002151,2026-09-14,Scheduling,How useful was the support experience?,1.0,0.0
+STU-FB-00286,Student,STU001945,2026-09-13,Study skills,How useful was the support experience?,5.0,1.0
+STU-FB-00287,Student,STU000345,2026-09-26,Advising access,How useful was the support experience?,4.0,1.0
+STU-FB-00288,Student,STU001016,2026-09-14,Advising access,How useful was the support experience?,5.0,1.0
+STU-FB-00289,Student,STU000169,2026-09-11,Academic resources,How useful was the support experience?,2.0,1.0
+STU-FB-00290,Student,STU001650,2026-09-23,Communication,How useful was the support experience?,4.0,1.0
+STU-FB-00291,Student,STU001396,2026-09-04,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-00292,Student,STU001854,2026-09-13,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-00293,Student,STU002007,2026-09-25,Tutoring usefulness,How useful was the support experience?,5.0,1.0
+STU-FB-00294,Student,STU002495,2026-09-09,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-00295,Student,STU001128,2026-09-08,Scheduling,How useful was the support experience?,3.0,1.0
+STU-FB-00296,Student,STU000286,2026-09-05,Tutoring usefulness,How useful was the support experience?,,
+STU-FB-00297,Student,STU000443,2026-09-05,Communication,How useful was the support experience?,4.0,1.0
+STU-FB-00298,Student,STU000640,2026-09-01,Academic resources,How useful was the support experience?,1.0,1.0
+STU-FB-00299,Student,STU000317,2026-09-04,Study skills,How useful was the support experience?,2.0,1.0
+STU-FB-00300,Student,STU000548,2026-09-15,Tutoring usefulness,How useful was the support experience?,2.0,1.0
+STU-FB-00301,Student,STU001135,2026-09-02,Tutoring usefulness,How useful was the support experience?,4.0,1.0
+STU-FB-00302,Student,STU000181,2026-09-01,Communication,How useful was the support experience?,5.0,1.0
+STU-FB-00303,Student,STU000045,2026-09-20,Communication,How useful was the support experience?,5.0,0.0
+STU-FB-00304,Student,STU001564,2026-09-27,Academic resources,How useful was the support experience?,1.0,1.0
+STU-FB-00305,Student,STU000332,2026-09-16,Scheduling,How useful was the support experience?,4.0,0.0
+STU-FB-00306,Student,STU001246,2026-09-12,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-00307,Student,STU002197,2026-09-26,Advising access,How useful was the support experience?,1.0,0.0
+STU-FB-00308,Student,STU000270,2026-09-19,Academic resources,How useful was the support experience?,3.0,1.0
+STU-FB-00309,Student,STU001212,2026-09-19,Advising access,How useful was the support experience?,4.0,0.0
+STU-FB-00310,Student,STU000970,2026-09-18,Study skills,How useful was the support experience?,1.0,0.0
+STU-FB-00311,Student,STU000548,2026-09-03,Academic resources,How useful was the support experience?,5.0,1.0
+STU-FB-00312,Student,STU001928,2026-09-24,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-00313,Student,STU001571,2026-09-22,Academic resources,How useful was the support experience?,1.0,1.0
+STU-FB-00314,Student,STU001473,2026-09-03,Study skills,How useful was the support experience?,5.0,0.0
+STU-FB-00315,Student,STU000919,2026-09-24,Tutoring usefulness,How useful was the support experience?,4.0,1.0
+STU-FB-00316,Student,STU000440,2026-09-19,Study skills,How useful was the support experience?,1.0,0.0
+STU-FB-00317,Student,STU001370,2026-09-04,Academic resources,How useful was the support experience?,3.0,1.0
+STU-FB-00318,Student,STU000314,2026-09-17,Communication,How useful was the support experience?,4.0,1.0
+STU-FB-00319,Student,STU000638,2026-09-01,Scheduling,How useful was the support experience?,,
+STU-FB-00320,Student,STU001669,2026-09-18,Academic resources,How useful was the support experience?,5.0,1.0
+STU-FB-00321,Student,STU000210,2026-09-09,Tutoring usefulness,How useful was the support experience?,1.0,0.0
+STU-FB-00322,Student,STU001197,2026-09-12,Advising access,How useful was the support experience?,3.0,1.0
+STU-FB-00323,Student,STU002376,2026-09-17,Scheduling,How useful was the support experience?,5.0,0.0
+STU-FB-00324,Student,STU001716,2026-09-12,Scheduling,How useful was the support experience?,,
+STU-FB-00325,Student,STU000539,2026-09-28,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-00326,Student,STU000457,2026-09-03,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-00327,Student,STU000092,2026-09-13,Academic resources,How useful was the support experience?,5.0,1.0
+STU-FB-00328,Student,STU000805,2026-09-14,Communication,How useful was the support experience?,3.0,0.0
+STU-FB-00329,Student,STU001166,2026-09-04,Advising access,How useful was the support experience?,2.0,1.0
+STU-FB-00330,Student,STU000726,2026-09-09,Advising access,How useful was the support experience?,3.0,0.0
+STU-FB-00331,Student,STU001888,2026-09-12,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-00332,Student,STU001035,2026-09-14,Communication,How useful was the support experience?,1.0,0.0
+STU-FB-00333,Student,STU001976,2026-09-17,Advising access,How useful was the support experience?,5.0,1.0
+STU-FB-00334,Student,STU001794,2026-09-11,Tutoring usefulness,How useful was the support experience?,,
+STU-FB-00335,Student,STU000860,2026-09-01,Academic resources,How useful was the support experience?,5.0,1.0
+STU-FB-00336,Student,STU000043,2026-09-26,Communication,How useful was the support experience?,2.0,1.0
+STU-FB-00337,Student,STU000315,2026-09-28,Communication,How useful was the support experience?,4.0,0.0
+STU-FB-00338,Student,STU001168,2026-09-06,Academic resources,How useful was the support experience?,2.0,1.0
+STU-FB-00339,Student,STU002297,2026-09-04,Tutoring usefulness,How useful was the support experience?,3.0,1.0
+STU-FB-00340,Student,STU002209,2026-09-28,Study skills,How useful was the support experience?,5.0,0.0
+STU-FB-00341,Student,STU000392,2026-09-10,Communication,How useful was the support experience?,2.0,1.0
+STU-FB-00342,Student,STU001245,2026-09-03,Tutoring usefulness,How useful was the support experience?,4.0,1.0
+STU-FB-00343,Student,STU001338,2026-09-20,Tutoring usefulness,How useful was the support experience?,5.0,0.0
+STU-FB-00344,Student,STU000683,2026-09-22,Academic resources,How useful was the support experience?,3.0,1.0
+STU-FB-00345,Student,STU001175,2026-09-03,Tutoring usefulness,How useful was the support experience?,2.0,1.0
+STU-FB-00346,Student,STU001489,2026-09-14,Tutoring usefulness,How useful was the support experience?,5.0,1.0
+STU-FB-00347,Student,STU000630,2026-09-21,Communication,How useful was the support experience?,1.0,1.0
+STU-FB-00348,Student,STU001836,2026-09-23,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-00349,Student,STU001309,2026-09-02,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-00350,Student,STU001286,2026-09-15,Scheduling,How useful was the support experience?,2.0,0.0
+STU-FB-00351,Student,STU002100,2026-09-10,Advising access,How useful was the support experience?,,
+STU-FB-00352,Student,STU001855,2026-09-22,Tutoring usefulness,How useful was the support experience?,4.0,1.0
+STU-FB-00353,Student,STU000964,2026-09-16,Advising access,How useful was the support experience?,4.0,1.0
+STU-FB-00354,Student,STU002313,2026-09-14,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-00355,Student,STU001430,2026-09-21,Tutoring usefulness,How useful was the support experience?,4.0,0.0
+STU-FB-00356,Student,STU002206,2026-09-23,Tutoring usefulness,How useful was the support experience?,4.0,1.0
+STU-FB-00357,Student,STU000800,2026-09-20,Academic resources,How useful was the support experience?,3.0,1.0
+STU-FB-00358,Student,STU000938,2026-09-26,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-00359,Student,STU000333,2026-09-03,Tutoring usefulness,How useful was the support experience?,3.0,0.0
+STU-FB-00360,Student,STU000398,2026-09-02,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-00361,Student,STU002314,2026-09-08,Advising access,How useful was the support experience?,1.0,1.0
+STU-FB-00362,Student,STU001735,2026-09-04,Academic resources,How useful was the support experience?,3.0,1.0
+STU-FB-00363,Student,STU000233,2026-09-11,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-00364,Student,STU000127,2026-09-24,Communication,How useful was the support experience?,2.0,1.0
+STU-FB-00365,Student,STU001171,2026-09-19,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-00366,Student,STU001788,2026-09-25,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-00367,Student,STU002259,2026-09-27,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-00368,Student,STU000258,2026-09-18,Scheduling,How useful was the support experience?,,
+STU-FB-00369,Student,STU000790,2026-09-08,Academic resources,How useful was the support experience?,3.0,1.0
+STU-FB-00370,Student,STU000030,2026-09-27,Advising access,How useful was the support experience?,3.0,1.0
+STU-FB-00371,Student,STU000889,2026-09-02,Communication,How useful was the support experience?,,
+STU-FB-00372,Student,STU001816,2026-09-28,Tutoring usefulness,How useful was the support experience?,1.0,1.0
+STU-FB-00373,Student,STU001423,2026-09-16,Study skills,How useful was the support experience?,3.0,1.0
+STU-FB-00374,Student,STU002261,2026-09-28,Advising access,How useful was the support experience?,5.0,0.0
+STU-FB-00375,Student,STU002481,2026-09-08,Advising access,How useful was the support experience?,3.0,0.0
+STU-FB-00376,Student,STU000162,2026-09-08,Study skills,How useful was the support experience?,3.0,1.0
+STU-FB-00377,Student,STU000902,2026-09-16,Study skills,How useful was the support experience?,3.0,1.0
+STU-FB-00378,Student,STU000167,2026-09-12,Study skills,How useful was the support experience?,4.0,1.0
+STU-FB-00379,Student,STU001142,2026-09-15,Academic resources,How useful was the support experience?,5.0,1.0
+STU-FB-00380,Student,STU001899,2026-09-22,Advising access,How useful was the support experience?,1.0,0.0
+STU-FB-00381,Student,STU000699,2026-09-27,Advising access,How useful was the support experience?,4.0,1.0
+STU-FB-00382,Student,STU000629,2026-09-04,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-00383,Student,STU001439,2026-09-08,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-00384,Student,STU000862,2026-09-22,Advising access,How useful was the support experience?,3.0,1.0
+STU-FB-00385,Student,STU000176,2026-09-07,Tutoring usefulness,How useful was the support experience?,1.0,0.0
+STU-FB-00386,Student,STU001354,2026-09-28,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-00387,Student,STU001215,2026-09-19,Study skills,How useful was the support experience?,4.0,0.0
+STU-FB-00388,Student,STU001029,2026-09-21,Scheduling,How useful was the support experience?,1.0,0.0
+STU-FB-00389,Student,STU001530,2026-09-05,Tutoring usefulness,How useful was the support experience?,3.0,1.0
+STU-FB-00390,Student,STU000369,2026-09-09,Advising access,How useful was the support experience?,1.0,0.0
+STU-FB-00391,Student,STU001327,2026-09-26,Advising access,How useful was the support experience?,1.0,1.0
+STU-FB-00392,Student,STU001430,2026-09-01,Scheduling,How useful was the support experience?,,
+STU-FB-00393,Student,STU001414,2026-09-13,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-00394,Student,STU000451,2026-09-01,Study skills,How useful was the support experience?,5.0,1.0
+STU-FB-00395,Student,STU000534,2026-09-16,Communication,How useful was the support experience?,,
+STU-FB-00396,Student,STU002475,2026-09-24,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-00397,Student,STU002010,2026-09-18,Advising access,How useful was the support experience?,1.0,1.0
+STU-FB-00398,Student,STU000827,2026-09-25,Tutoring usefulness,How useful was the support experience?,5.0,1.0
+STU-FB-00399,Student,STU001710,2026-09-14,Study skills,How useful was the support experience?,3.0,0.0
+STU-FB-00400,Student,STU001207,2026-09-21,Study skills,How useful was the support experience?,4.0,1.0
+STU-FB-00401,Student,STU000220,2026-09-26,Scheduling,How useful was the support experience?,3.0,1.0
+STU-FB-00402,Student,STU000826,2026-09-13,Scheduling,How useful was the support experience?,5.0,1.0
+STU-FB-00403,Student,STU000794,2026-09-28,Scheduling,How useful was the support experience?,4.0,0.0
+STU-FB-00404,Student,STU000295,2026-09-13,Study skills,How useful was the support experience?,3.0,0.0
+STU-FB-00405,Student,STU000742,2026-09-20,Communication,How useful was the support experience?,1.0,0.0
+STU-FB-00406,Student,STU002210,2026-09-01,Advising access,How useful was the support experience?,1.0,1.0
+STU-FB-00407,Student,STU001556,2026-09-27,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-00408,Student,STU000176,2026-09-16,Advising access,How useful was the support experience?,3.0,1.0
+STU-FB-00409,Student,STU002063,2026-09-28,Advising access,How useful was the support experience?,3.0,0.0
+STU-FB-00410,Student,STU002265,2026-09-07,Communication,How useful was the support experience?,2.0,1.0
+STU-FB-00411,Student,STU000904,2026-09-18,Advising access,How useful was the support experience?,,
+STU-FB-00412,Student,STU002179,2026-09-12,Advising access,How useful was the support experience?,4.0,1.0
+STU-FB-00413,Student,STU001605,2026-09-17,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-00414,Student,STU001557,2026-09-08,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-00415,Student,STU001355,2026-09-23,Academic resources,How useful was the support experience?,1.0,1.0
+STU-FB-00416,Student,STU000082,2026-09-26,Study skills,How useful was the support experience?,,
+STU-FB-00417,Student,STU002238,2026-09-16,Study skills,How useful was the support experience?,3.0,1.0
+STU-FB-00418,Student,STU001948,2026-09-03,Academic resources,How useful was the support experience?,1.0,1.0
+STU-FB-00419,Student,STU001433,2026-09-14,Advising access,How useful was the support experience?,4.0,0.0
+STU-FB-00420,Student,STU000414,2026-09-25,Academic resources,How useful was the support experience?,5.0,1.0
+STU-FB-00421,Student,STU001820,2026-09-15,Academic resources,How useful was the support experience?,1.0,1.0
+STU-FB-00422,Student,STU001978,2026-09-07,Advising access,How useful was the support experience?,1.0,0.0
+STU-FB-00423,Student,STU001728,2026-09-11,Academic resources,How useful was the support experience?,2.0,1.0
+STU-FB-00424,Student,STU000169,2026-09-14,Scheduling,How useful was the support experience?,1.0,0.0
+STU-FB-00425,Student,STU001739,2026-09-01,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-00426,Student,STU001649,2026-09-09,Tutoring usefulness,How useful was the support experience?,1.0,1.0
+STU-FB-00427,Student,STU000535,2026-09-12,Communication,How useful was the support experience?,5.0,1.0
+STU-FB-00428,Student,STU001927,2026-09-26,Advising access,How useful was the support experience?,5.0,1.0
+STU-FB-00429,Student,STU000125,2026-09-28,Tutoring usefulness,How useful was the support experience?,3.0,1.0
+STU-FB-00430,Student,STU000251,2026-09-16,Advising access,How useful was the support experience?,4.0,1.0
+STU-FB-00431,Student,STU002407,2026-09-04,Advising access,How useful was the support experience?,4.0,1.0
+STU-FB-00432,Student,STU000356,2026-09-17,Advising access,How useful was the support experience?,3.0,1.0
+STU-FB-00433,Student,STU001169,2026-09-07,Academic resources,How useful was the support experience?,5.0,1.0
+STU-FB-00434,Student,STU002202,2026-09-05,Tutoring usefulness,How useful was the support experience?,1.0,1.0
+STU-FB-00435,Student,STU002109,2026-09-27,Tutoring usefulness,How useful was the support experience?,,
+STU-FB-00436,Student,STU002036,2026-09-21,Advising access,How useful was the support experience?,1.0,0.0
+STU-FB-00437,Student,STU002286,2026-09-12,Communication,How useful was the support experience?,4.0,1.0
+STU-FB-00438,Student,STU002272,2026-09-01,Tutoring usefulness,How useful was the support experience?,5.0,0.0
+STU-FB-00439,Student,STU000570,2026-09-16,Tutoring usefulness,How useful was the support experience?,5.0,1.0
+STU-FB-00440,Student,STU002349,2026-09-10,Study skills,How useful was the support experience?,4.0,0.0
+STU-FB-00441,Student,STU001400,2026-09-04,Study skills,How useful was the support experience?,4.0,0.0
+STU-FB-00442,Student,STU001351,2026-09-27,Study skills,How useful was the support experience?,2.0,1.0
+STU-FB-00443,Student,STU000555,2026-09-13,Tutoring usefulness,How useful was the support experience?,5.0,0.0
+STU-FB-00444,Student,STU000816,2026-09-06,Study skills,How useful was the support experience?,2.0,0.0
+STU-FB-00445,Student,STU002299,2026-09-16,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-00446,Student,STU002467,2026-09-04,Advising access,How useful was the support experience?,2.0,1.0
+STU-FB-00447,Student,STU000494,2026-09-25,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-00448,Student,STU001964,2026-09-21,Communication,How useful was the support experience?,1.0,1.0
+STU-FB-00449,Student,STU001061,2026-09-14,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-00450,Student,STU001194,2026-09-15,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-00451,Student,STU001579,2026-09-12,Communication,How useful was the support experience?,5.0,1.0
+STU-FB-00452,Student,STU001029,2026-09-13,Academic resources,How useful was the support experience?,1.0,0.0
+STU-FB-00453,Student,STU001916,2026-09-17,Communication,How useful was the support experience?,,
+STU-FB-00454,Student,STU001311,2026-09-19,Advising access,How useful was the support experience?,5.0,1.0
+STU-FB-00455,Student,STU000482,2026-09-01,Advising access,How useful was the support experience?,3.0,0.0
+STU-FB-00456,Student,STU002328,2026-09-23,Study skills,How useful was the support experience?,5.0,0.0
+STU-FB-00457,Student,STU000799,2026-09-09,Advising access,How useful was the support experience?,,
+STU-FB-00458,Student,STU001146,2026-09-06,Advising access,How useful was the support experience?,3.0,0.0
+STU-FB-00459,Student,STU001589,2026-09-20,Scheduling,How useful was the support experience?,3.0,0.0
+STU-FB-00460,Student,STU002255,2026-09-26,Advising access,How useful was the support experience?,4.0,1.0
+STU-FB-00461,Student,STU001840,2026-09-26,Scheduling,How useful was the support experience?,4.0,0.0
+STU-FB-00462,Student,STU001035,2026-09-13,Academic resources,How useful was the support experience?,2.0,1.0
+STU-FB-00463,Student,STU000827,2026-09-20,Study skills,How useful was the support experience?,3.0,0.0
+STU-FB-00464,Student,STU000550,2026-09-18,Scheduling,How useful was the support experience?,5.0,1.0
+STU-FB-00465,Student,STU000124,2026-09-27,Communication,How useful was the support experience?,,
+STU-FB-00466,Student,STU002120,2026-09-13,Communication,How useful was the support experience?,4.0,1.0
+STU-FB-00467,Student,STU000699,2026-09-02,Tutoring usefulness,How useful was the support experience?,2.0,1.0
+STU-FB-00468,Student,STU000943,2026-09-01,Advising access,How useful was the support experience?,3.0,0.0
+STU-FB-00469,Student,STU001528,2026-09-25,Advising access,How useful was the support experience?,2.0,1.0
+STU-FB-00470,Student,STU001074,2026-09-09,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-00471,Student,STU002225,2026-09-05,Study skills,How useful was the support experience?,2.0,0.0
+STU-FB-00472,Student,STU001912,2026-09-27,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-00473,Student,STU001320,2026-09-03,Communication,How useful was the support experience?,4.0,1.0
+STU-FB-00474,Student,STU001377,2026-09-20,Scheduling,How useful was the support experience?,2.0,0.0
+STU-FB-00475,Student,STU001163,2026-09-23,Study skills,How useful was the support experience?,5.0,0.0
+STU-FB-00476,Student,STU000467,2026-09-18,Study skills,How useful was the support experience?,3.0,1.0
+STU-FB-00477,Student,STU001385,2026-09-17,Tutoring usefulness,How useful was the support experience?,1.0,1.0
+STU-FB-00478,Student,STU000291,2026-09-10,Communication,How useful was the support experience?,2.0,1.0
+STU-FB-00479,Student,STU002118,2026-09-27,Scheduling,How useful was the support experience?,5.0,1.0
+STU-FB-00480,Student,STU001176,2026-09-11,Tutoring usefulness,How useful was the support experience?,1.0,1.0
+STU-FB-00481,Student,STU000570,2026-09-14,Communication,How useful was the support experience?,1.0,1.0
+STU-FB-00482,Student,STU000233,2026-09-06,Scheduling,How useful was the support experience?,3.0,1.0
+STU-FB-00483,Student,STU001229,2026-09-11,Tutoring usefulness,How useful was the support experience?,1.0,1.0
+STU-FB-00484,Student,STU002313,2026-09-15,Scheduling,How useful was the support experience?,3.0,1.0
+STU-FB-00485,Student,STU001554,2026-09-10,Tutoring usefulness,How useful was the support experience?,3.0,1.0
+STU-FB-00486,Student,STU001509,2026-09-14,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-00487,Student,STU001849,2026-09-01,Academic resources,How useful was the support experience?,2.0,0.0
+STU-FB-00488,Student,STU000239,2026-09-04,Study skills,How useful was the support experience?,3.0,0.0
+STU-FB-00489,Student,STU000205,2026-09-03,Advising access,How useful was the support experience?,4.0,0.0
+STU-FB-00490,Student,STU000083,2026-09-28,Study skills,How useful was the support experience?,3.0,1.0
+STU-FB-00491,Student,STU002427,2026-09-17,Scheduling,How useful was the support experience?,3.0,1.0
+STU-FB-00492,Student,STU000304,2026-09-08,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-00493,Student,STU002392,2026-09-17,Communication,How useful was the support experience?,4.0,0.0
+STU-FB-00494,Student,STU002034,2026-09-19,Advising access,How useful was the support experience?,1.0,1.0
+STU-FB-00495,Student,STU000535,2026-09-12,Study skills,How useful was the support experience?,1.0,0.0
+STU-FB-00496,Student,STU000095,2026-09-23,Academic resources,How useful was the support experience?,1.0,1.0
+STU-FB-00497,Student,STU002089,2026-09-14,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-00498,Student,STU000126,2026-09-13,Tutoring usefulness,How useful was the support experience?,4.0,1.0
+STU-FB-00499,Student,STU001904,2026-09-01,Tutoring usefulness,How useful was the support experience?,3.0,0.0
+STU-FB-00500,Student,STU001543,2026-09-05,Tutoring usefulness,How useful was the support experience?,5.0,1.0
+STU-FB-00501,Student,STU001038,2026-09-22,Study skills,How useful was the support experience?,5.0,1.0
+STU-FB-00502,Student,STU000383,2026-09-22,Tutoring usefulness,How useful was the support experience?,5.0,1.0
+STU-FB-00503,Student,STU001997,2026-09-21,Advising access,How useful was the support experience?,5.0,0.0
+STU-FB-00504,Student,STU000208,2026-09-28,Advising access,How useful was the support experience?,1.0,1.0
+STU-FB-00505,Student,STU000390,2026-09-28,Scheduling,How useful was the support experience?,5.0,1.0
+STU-FB-00506,Student,STU001716,2026-09-27,Academic resources,How useful was the support experience?,5.0,1.0
+STU-FB-00507,Student,STU001623,2026-09-13,Communication,How useful was the support experience?,2.0,1.0
+STU-FB-00508,Student,STU002447,2026-09-20,Study skills,How useful was the support experience?,5.0,1.0
+STU-FB-00509,Student,STU000634,2026-09-28,Scheduling,How useful was the support experience?,4.0,0.0
+STU-FB-00510,Student,STU002150,2026-09-19,Academic resources,How useful was the support experience?,,
+STU-FB-00511,Student,STU002026,2026-09-11,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-00512,Student,STU000013,2026-09-28,Scheduling,How useful was the support experience?,5.0,0.0
+STU-FB-00513,Student,STU001694,2026-09-17,Study skills,How useful was the support experience?,2.0,0.0
+STU-FB-00514,Student,STU001944,2026-09-27,Study skills,How useful was the support experience?,5.0,1.0
+STU-FB-00515,Student,STU002009,2026-09-08,Tutoring usefulness,How useful was the support experience?,1.0,0.0
+STU-FB-00516,Student,STU001822,2026-09-08,Communication,How useful was the support experience?,5.0,1.0
+STU-FB-00517,Student,STU000559,2026-09-17,Tutoring usefulness,How useful was the support experience?,3.0,0.0
+STU-FB-00518,Student,STU000745,2026-09-13,Scheduling,How useful was the support experience?,3.0,1.0
+STU-FB-00519,Student,STU000979,2026-09-14,Academic resources,How useful was the support experience?,2.0,1.0
+STU-FB-00520,Student,STU000769,2026-09-04,Communication,How useful was the support experience?,2.0,1.0
+STU-FB-00521,Student,STU001766,2026-09-26,Scheduling,How useful was the support experience?,3.0,1.0
+STU-FB-00522,Student,STU000640,2026-09-05,Advising access,How useful was the support experience?,5.0,0.0
+STU-FB-00523,Student,STU001600,2026-09-28,Academic resources,How useful was the support experience?,3.0,1.0
+STU-FB-00524,Student,STU000771,2026-09-08,Communication,How useful was the support experience?,1.0,1.0
+STU-FB-00525,Student,STU001876,2026-09-05,Tutoring usefulness,How useful was the support experience?,1.0,0.0
+STU-FB-00526,Student,STU000740,2026-09-06,Advising access,How useful was the support experience?,3.0,1.0
+STU-FB-00527,Student,STU000710,2026-09-06,Academic resources,How useful was the support experience?,1.0,0.0
+STU-FB-00528,Student,STU002219,2026-09-16,Academic resources,How useful was the support experience?,2.0,1.0
+STU-FB-00529,Student,STU001314,2026-09-07,Communication,How useful was the support experience?,1.0,0.0
+STU-FB-00530,Student,STU001945,2026-09-13,Communication,How useful was the support experience?,2.0,1.0
+STU-FB-00531,Student,STU001437,2026-09-01,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-00532,Student,STU000474,2026-09-22,Communication,How useful was the support experience?,5.0,1.0
+STU-FB-00533,Student,STU000151,2026-09-02,Communication,How useful was the support experience?,5.0,1.0
+STU-FB-00534,Student,STU000896,2026-09-21,Advising access,How useful was the support experience?,3.0,0.0
+STU-FB-00535,Student,STU001491,2026-09-23,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-00536,Student,STU001373,2026-09-22,Advising access,How useful was the support experience?,3.0,1.0
+STU-FB-00537,Student,STU000747,2026-09-28,Communication,How useful was the support experience?,5.0,1.0
+STU-FB-00538,Student,STU002016,2026-09-22,Academic resources,How useful was the support experience?,1.0,1.0
+STU-FB-00539,Student,STU001346,2026-09-18,Tutoring usefulness,How useful was the support experience?,2.0,1.0
+STU-FB-00540,Student,STU000423,2026-09-02,Tutoring usefulness,How useful was the support experience?,1.0,1.0
+STU-FB-00541,Student,STU000590,2026-09-01,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-00542,Student,STU002062,2026-09-26,Scheduling,How useful was the support experience?,4.0,0.0
+STU-FB-00543,Student,STU001128,2026-09-10,Communication,How useful was the support experience?,4.0,1.0
+STU-FB-00544,Student,STU001317,2026-09-06,Advising access,How useful was the support experience?,4.0,1.0
+STU-FB-00545,Student,STU000200,2026-09-25,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-00546,Student,STU000746,2026-09-04,Advising access,How useful was the support experience?,5.0,0.0
+STU-FB-00547,Student,STU002458,2026-09-05,Academic resources,How useful was the support experience?,3.0,1.0
+STU-FB-00548,Student,STU001094,2026-09-15,Scheduling,How useful was the support experience?,4.0,0.0
+STU-FB-00549,Student,STU002369,2026-09-09,Advising access,How useful was the support experience?,4.0,0.0
+STU-FB-00550,Student,STU002274,2026-09-11,Advising access,How useful was the support experience?,4.0,1.0
+STU-FB-00551,Student,STU001519,2026-09-06,Tutoring usefulness,How useful was the support experience?,2.0,0.0
+STU-FB-00552,Student,STU000564,2026-09-19,Communication,How useful was the support experience?,2.0,1.0
+STU-FB-00553,Student,STU001421,2026-09-11,Advising access,How useful was the support experience?,4.0,0.0
+STU-FB-00554,Student,STU000242,2026-09-15,Academic resources,How useful was the support experience?,2.0,1.0
+STU-FB-00555,Student,STU001410,2026-09-01,Scheduling,How useful was the support experience?,2.0,0.0
+STU-FB-00556,Student,STU000956,2026-09-24,Study skills,How useful was the support experience?,5.0,0.0
+STU-FB-00557,Student,STU000869,2026-09-08,Study skills,How useful was the support experience?,2.0,0.0
+STU-FB-00558,Student,STU000504,2026-09-10,Advising access,How useful was the support experience?,4.0,1.0
+STU-FB-00559,Student,STU002054,2026-09-17,Advising access,How useful was the support experience?,1.0,1.0
+STU-FB-00560,Student,STU000756,2026-09-01,Advising access,How useful was the support experience?,5.0,1.0
+STU-FB-00561,Student,STU001511,2026-09-03,Academic resources,How useful was the support experience?,3.0,1.0
+STU-FB-00562,Student,STU002155,2026-09-28,Academic resources,How useful was the support experience?,4.0,0.0
+STU-FB-00563,Student,STU001856,2026-09-04,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-00564,Student,STU002403,2026-09-16,Advising access,How useful was the support experience?,,
+STU-FB-00565,Student,STU002243,2026-09-10,Tutoring usefulness,How useful was the support experience?,1.0,1.0
+STU-FB-00566,Student,STU000614,2026-09-13,Advising access,How useful was the support experience?,2.0,1.0
+STU-FB-00567,Student,STU001372,2026-09-25,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-00568,Student,STU000382,2026-09-23,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-00569,Student,STU002317,2026-09-19,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-00570,Student,STU001967,2026-09-17,Tutoring usefulness,How useful was the support experience?,1.0,0.0
+STU-FB-00571,Student,STU002474,2026-09-13,Academic resources,How useful was the support experience?,3.0,1.0
+STU-FB-00572,Student,STU002316,2026-09-25,Advising access,How useful was the support experience?,3.0,1.0
+STU-FB-00573,Student,STU000003,2026-09-09,Communication,How useful was the support experience?,2.0,0.0
+STU-FB-00574,Student,STU002311,2026-09-17,Advising access,How useful was the support experience?,2.0,0.0
+STU-FB-00575,Student,STU001572,2026-09-27,Study skills,How useful was the support experience?,3.0,0.0
+STU-FB-00576,Student,STU000771,2026-09-25,Advising access,How useful was the support experience?,5.0,1.0
+STU-FB-00577,Student,STU001915,2026-09-06,Advising access,How useful was the support experience?,3.0,1.0
+STU-FB-00578,Student,STU001527,2026-09-13,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-00579,Student,STU000319,2026-09-21,Scheduling,How useful was the support experience?,2.0,0.0
+STU-FB-00580,Student,STU000844,2026-09-25,Communication,How useful was the support experience?,4.0,1.0
+STU-FB-00581,Student,STU002398,2026-09-07,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-00582,Student,STU001837,2026-09-25,Academic resources,How useful was the support experience?,5.0,1.0
+STU-FB-00583,Student,STU001635,2026-09-10,Academic resources,How useful was the support experience?,5.0,1.0
+STU-FB-00584,Student,STU001177,2026-09-18,Communication,How useful was the support experience?,2.0,1.0
+STU-FB-00585,Student,STU000049,2026-09-25,Communication,How useful was the support experience?,2.0,1.0
+STU-FB-00586,Student,STU001563,2026-09-27,Advising access,How useful was the support experience?,5.0,1.0
+STU-FB-00587,Student,STU000083,2026-09-01,Tutoring usefulness,How useful was the support experience?,3.0,1.0
+STU-FB-00588,Student,STU000769,2026-09-09,Advising access,How useful was the support experience?,1.0,0.0
+STU-FB-00589,Student,STU002128,2026-09-06,Study skills,How useful was the support experience?,2.0,0.0
+STU-FB-00590,Student,STU001519,2026-09-10,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-00591,Student,STU002356,2026-09-14,Scheduling,How useful was the support experience?,3.0,1.0
+STU-FB-00592,Student,STU001348,2026-09-04,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-00593,Student,STU001097,2026-09-11,Academic resources,How useful was the support experience?,1.0,1.0
+STU-FB-00594,Student,STU002040,2026-09-23,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-00595,Student,STU001020,2026-09-26,Tutoring usefulness,How useful was the support experience?,1.0,0.0
+STU-FB-00596,Student,STU001559,2026-09-05,Scheduling,How useful was the support experience?,3.0,0.0
+STU-FB-00597,Student,STU000240,2026-09-05,Study skills,How useful was the support experience?,2.0,1.0
+STU-FB-00598,Student,STU000580,2026-09-01,Tutoring usefulness,How useful was the support experience?,5.0,1.0
+STU-FB-00599,Student,STU000618,2026-09-03,Academic resources,How useful was the support experience?,4.0,0.0
+STU-FB-00600,Student,STU000613,2026-09-23,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-00601,Student,STU000806,2026-09-06,Tutoring usefulness,How useful was the support experience?,1.0,0.0
+STU-FB-00602,Student,STU001964,2026-09-14,Tutoring usefulness,How useful was the support experience?,3.0,0.0
+STU-FB-00603,Student,STU000501,2026-09-24,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-00604,Student,STU001118,2026-09-23,Advising access,How useful was the support experience?,4.0,1.0
+STU-FB-00605,Student,STU001688,2026-09-26,Communication,How useful was the support experience?,4.0,1.0
+STU-FB-00606,Student,STU001552,2026-09-21,Advising access,How useful was the support experience?,,
+STU-FB-00607,Student,STU002233,2026-09-23,Tutoring usefulness,How useful was the support experience?,5.0,1.0
+STU-FB-00608,Student,STU002458,2026-09-06,Scheduling,How useful was the support experience?,5.0,1.0
+STU-FB-00609,Student,STU000193,2026-09-07,Tutoring usefulness,How useful was the support experience?,2.0,1.0
+STU-FB-00610,Student,STU000068,2026-09-02,Advising access,How useful was the support experience?,4.0,1.0
+STU-FB-00611,Student,STU000592,2026-09-23,Study skills,How useful was the support experience?,5.0,0.0
+STU-FB-00612,Student,STU000765,2026-09-09,Academic resources,How useful was the support experience?,4.0,0.0
+STU-FB-00613,Student,STU002287,2026-09-13,Study skills,How useful was the support experience?,4.0,1.0
+STU-FB-00614,Student,STU001676,2026-09-02,Tutoring usefulness,How useful was the support experience?,3.0,1.0
+STU-FB-00615,Student,STU000929,2026-09-05,Scheduling,How useful was the support experience?,3.0,0.0
+STU-FB-00616,Student,STU001747,2026-09-13,Academic resources,How useful was the support experience?,5.0,0.0
+STU-FB-00617,Student,STU001955,2026-09-09,Study skills,How useful was the support experience?,4.0,0.0
+STU-FB-00618,Student,STU001085,2026-09-24,Scheduling,How useful was the support experience?,2.0,0.0
+STU-FB-00619,Student,STU001762,2026-09-20,Scheduling,How useful was the support experience?,3.0,1.0
+STU-FB-00620,Student,STU001886,2026-09-18,Study skills,How useful was the support experience?,1.0,0.0
+STU-FB-00621,Student,STU002048,2026-09-20,Study skills,How useful was the support experience?,,
+STU-FB-00622,Student,STU000116,2026-09-18,Study skills,How useful was the support experience?,4.0,0.0
+STU-FB-00623,Student,STU002139,2026-09-21,Advising access,How useful was the support experience?,1.0,0.0
+STU-FB-00624,Student,STU002258,2026-09-16,Academic resources,How useful was the support experience?,2.0,1.0
+STU-FB-00625,Student,STU001557,2026-09-16,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-00626,Student,STU002362,2026-09-18,Academic resources,How useful was the support experience?,5.0,1.0
+STU-FB-00627,Student,STU001268,2026-09-06,Advising access,How useful was the support experience?,1.0,0.0
+STU-FB-00628,Student,STU000575,2026-09-27,Scheduling,How useful was the support experience?,3.0,1.0
+STU-FB-00629,Student,STU001986,2026-09-02,Tutoring usefulness,How useful was the support experience?,1.0,1.0
+STU-FB-00630,Student,STU000018,2026-09-26,Tutoring usefulness,How useful was the support experience?,3.0,0.0
+STU-FB-00631,Student,STU000641,2026-09-07,Advising access,How useful was the support experience?,5.0,0.0
+STU-FB-00632,Student,STU000818,2026-09-02,Scheduling,How useful was the support experience?,5.0,1.0
+STU-FB-00633,Student,STU000906,2026-09-26,Tutoring usefulness,How useful was the support experience?,1.0,0.0
+STU-FB-00634,Student,STU002409,2026-09-05,Academic resources,How useful was the support experience?,3.0,0.0
+STU-FB-00635,Student,STU001380,2026-09-07,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-00636,Student,STU001156,2026-09-04,Study skills,How useful was the support experience?,5.0,1.0
+STU-FB-00637,Student,STU000830,2026-09-08,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-00638,Student,STU002412,2026-09-19,Scheduling,How useful was the support experience?,5.0,1.0
+STU-FB-00639,Student,STU000880,2026-09-06,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-00640,Student,STU000098,2026-09-19,Advising access,How useful was the support experience?,2.0,1.0
+STU-FB-00641,Student,STU001602,2026-09-02,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-00642,Student,STU000697,2026-09-16,Academic resources,How useful was the support experience?,2.0,1.0
+STU-FB-00643,Student,STU002482,2026-09-25,Scheduling,How useful was the support experience?,,
+STU-FB-00644,Student,STU000969,2026-09-06,Study skills,How useful was the support experience?,2.0,1.0
+STU-FB-00645,Student,STU000676,2026-09-13,Academic resources,How useful was the support experience?,5.0,1.0
+STU-FB-00646,Student,STU002145,2026-09-28,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-00647,Student,STU002113,2026-09-14,Advising access,How useful was the support experience?,5.0,1.0
+STU-FB-00648,Student,STU002051,2026-09-20,Academic resources,How useful was the support experience?,5.0,0.0
+STU-FB-00649,Student,STU001649,2026-09-18,Advising access,How useful was the support experience?,,
+STU-FB-00650,Student,STU002101,2026-09-20,Scheduling,How useful was the support experience?,1.0,0.0
+STU-FB-00651,Student,STU000511,2026-09-15,Communication,How useful was the support experience?,1.0,1.0
+STU-FB-00652,Student,STU000938,2026-09-07,Academic resources,How useful was the support experience?,2.0,1.0
+STU-FB-00653,Student,STU001348,2026-09-19,Advising access,How useful was the support experience?,,
+STU-FB-00654,Student,STU000161,2026-09-28,Advising access,How useful was the support experience?,,
+STU-FB-00655,Student,STU000190,2026-09-03,Communication,How useful was the support experience?,2.0,1.0
+STU-FB-00656,Student,STU000113,2026-09-21,Scheduling,How useful was the support experience?,2.0,0.0
+STU-FB-00657,Student,STU000769,2026-09-16,Scheduling,How useful was the support experience?,5.0,0.0
+STU-FB-00658,Student,STU002388,2026-09-13,Scheduling,How useful was the support experience?,5.0,0.0
+STU-FB-00659,Student,STU000700,2026-09-19,Tutoring usefulness,How useful was the support experience?,2.0,0.0
+STU-FB-00660,Student,STU001618,2026-09-21,Communication,How useful was the support experience?,4.0,1.0
+STU-FB-00661,Student,STU000650,2026-09-12,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-00662,Student,STU001578,2026-09-09,Advising access,How useful was the support experience?,4.0,1.0
+STU-FB-00663,Student,STU000456,2026-09-20,Scheduling,How useful was the support experience?,1.0,0.0
+STU-FB-00664,Student,STU000547,2026-09-28,Scheduling,How useful was the support experience?,1.0,0.0
+STU-FB-00665,Student,STU001500,2026-09-15,Tutoring usefulness,How useful was the support experience?,2.0,1.0
+STU-FB-00666,Student,STU002261,2026-09-19,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-00667,Student,STU000025,2026-09-23,Tutoring usefulness,How useful was the support experience?,5.0,0.0
+STU-FB-00668,Student,STU002340,2026-09-06,Tutoring usefulness,How useful was the support experience?,2.0,1.0
+STU-FB-00669,Student,STU000418,2026-09-27,Study skills,How useful was the support experience?,,
+STU-FB-00670,Student,STU001944,2026-09-18,Academic resources,How useful was the support experience?,1.0,1.0
+STU-FB-00671,Student,STU002313,2026-09-26,Academic resources,How useful was the support experience?,2.0,1.0
+STU-FB-00672,Student,STU001486,2026-09-08,Advising access,How useful was the support experience?,2.0,0.0
+STU-FB-00673,Student,STU000938,2026-09-08,Scheduling,How useful was the support experience?,1.0,0.0
+STU-FB-00674,Student,STU001210,2026-09-08,Study skills,How useful was the support experience?,5.0,1.0
+STU-FB-00675,Student,STU000269,2026-09-12,Academic resources,How useful was the support experience?,3.0,1.0
+STU-FB-00676,Student,STU000443,2026-09-08,Scheduling,How useful was the support experience?,2.0,0.0
+STU-FB-00677,Student,STU000299,2026-09-09,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-00678,Student,STU000362,2026-09-09,Academic resources,How useful was the support experience?,2.0,1.0
+STU-FB-00679,Student,STU001409,2026-09-15,Scheduling,How useful was the support experience?,3.0,0.0
+STU-FB-00680,Student,STU000784,2026-09-05,Tutoring usefulness,How useful was the support experience?,5.0,1.0
+STU-FB-00681,Student,STU001709,2026-09-01,Tutoring usefulness,How useful was the support experience?,4.0,1.0
+STU-FB-00682,Student,STU001263,2026-09-03,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-00683,Student,STU002149,2026-09-08,Study skills,How useful was the support experience?,4.0,0.0
+STU-FB-00684,Student,STU000294,2026-09-23,Academic resources,How useful was the support experience?,1.0,1.0
+STU-FB-00685,Student,STU000796,2026-09-26,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-00686,Student,STU000104,2026-09-26,Advising access,How useful was the support experience?,4.0,0.0
+STU-FB-00687,Student,STU001213,2026-09-13,Advising access,How useful was the support experience?,1.0,1.0
+STU-FB-00688,Student,STU001722,2026-09-26,Academic resources,How useful was the support experience?,2.0,1.0
+STU-FB-00689,Student,STU001408,2026-09-20,Academic resources,How useful was the support experience?,3.0,1.0
+STU-FB-00690,Student,STU002400,2026-09-03,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-00691,Student,STU001184,2026-09-18,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-00692,Student,STU001872,2026-09-08,Study skills,How useful was the support experience?,3.0,1.0
+STU-FB-00693,Student,STU001374,2026-09-28,Tutoring usefulness,How useful was the support experience?,5.0,0.0
+STU-FB-00694,Student,STU002118,2026-09-15,Advising access,How useful was the support experience?,3.0,1.0
+STU-FB-00695,Student,STU002355,2026-09-20,Scheduling,How useful was the support experience?,1.0,0.0
+STU-FB-00696,Student,STU000413,2026-09-04,Scheduling,How useful was the support experience?,3.0,1.0
+STU-FB-00697,Student,STU002321,2026-09-13,Advising access,How useful was the support experience?,5.0,0.0
+STU-FB-00698,Student,STU000362,2026-09-10,Advising access,How useful was the support experience?,1.0,1.0
+STU-FB-00699,Student,STU001641,2026-09-24,Tutoring usefulness,How useful was the support experience?,1.0,1.0
+STU-FB-00700,Student,STU001979,2026-09-19,Study skills,How useful was the support experience?,2.0,0.0
+STU-FB-00701,Student,STU000004,2026-09-02,Communication,How useful was the support experience?,1.0,1.0
+STU-FB-00702,Student,STU000636,2026-09-05,Academic resources,How useful was the support experience?,1.0,0.0
+STU-FB-00703,Student,STU001466,2026-09-28,Study skills,How useful was the support experience?,5.0,0.0
+STU-FB-00704,Student,STU001369,2026-09-27,Tutoring usefulness,How useful was the support experience?,3.0,1.0
+STU-FB-00705,Student,STU001731,2026-09-12,Tutoring usefulness,How useful was the support experience?,1.0,0.0
+STU-FB-00706,Student,STU002016,2026-09-06,Study skills,How useful was the support experience?,4.0,1.0
+STU-FB-00707,Student,STU002231,2026-09-21,Communication,How useful was the support experience?,1.0,0.0
+STU-FB-00708,Student,STU000526,2026-09-21,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-00709,Student,STU002013,2026-09-02,Study skills,How useful was the support experience?,5.0,1.0
+STU-FB-00710,Student,STU000165,2026-09-26,Study skills,How useful was the support experience?,3.0,1.0
+STU-FB-00711,Student,STU001262,2026-09-15,Advising access,How useful was the support experience?,4.0,0.0
+STU-FB-00712,Student,STU000292,2026-09-10,Tutoring usefulness,How useful was the support experience?,5.0,0.0
+STU-FB-00713,Student,STU001980,2026-09-11,Academic resources,How useful was the support experience?,2.0,1.0
+STU-FB-00714,Student,STU001536,2026-09-23,Advising access,How useful was the support experience?,,
+STU-FB-00715,Student,STU001357,2026-09-19,Study skills,How useful was the support experience?,4.0,1.0
+STU-FB-00716,Student,STU002059,2026-09-27,Communication,How useful was the support experience?,1.0,0.0
+STU-FB-00717,Student,STU001219,2026-09-22,Tutoring usefulness,How useful was the support experience?,2.0,0.0
+STU-FB-00718,Student,STU000808,2026-09-04,Study skills,How useful was the support experience?,1.0,0.0
+STU-FB-00719,Student,STU002155,2026-09-24,Tutoring usefulness,How useful was the support experience?,5.0,0.0
+STU-FB-00720,Student,STU001634,2026-09-25,Advising access,How useful was the support experience?,,
+STU-FB-00721,Student,STU002495,2026-09-25,Study skills,How useful was the support experience?,3.0,1.0
+STU-FB-00722,Student,STU000155,2026-09-10,Academic resources,How useful was the support experience?,2.0,1.0
+STU-FB-00723,Student,STU000744,2026-09-11,Scheduling,How useful was the support experience?,3.0,0.0
+STU-FB-00724,Student,STU000574,2026-09-14,Study skills,How useful was the support experience?,3.0,0.0
+STU-FB-00725,Student,STU001868,2026-09-12,Study skills,How useful was the support experience?,4.0,1.0
+STU-FB-00726,Student,STU001920,2026-09-19,Advising access,How useful was the support experience?,3.0,1.0
+STU-FB-00727,Student,STU001812,2026-09-18,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-00728,Student,STU001032,2026-09-14,Advising access,How useful was the support experience?,1.0,0.0
+STU-FB-00729,Student,STU000542,2026-09-19,Study skills,How useful was the support experience?,3.0,0.0
+STU-FB-00730,Student,STU000338,2026-09-25,Academic resources,How useful was the support experience?,1.0,1.0
+STU-FB-00731,Student,STU001290,2026-09-25,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-00732,Student,STU000996,2026-09-15,Tutoring usefulness,How useful was the support experience?,,
+STU-FB-00733,Student,STU001571,2026-09-20,Advising access,How useful was the support experience?,2.0,1.0
+STU-FB-00734,Student,STU001861,2026-09-22,Study skills,How useful was the support experience?,5.0,1.0
+STU-FB-00735,Student,STU001992,2026-09-20,Academic resources,How useful was the support experience?,2.0,0.0
+STU-FB-00736,Student,STU001340,2026-09-01,Advising access,How useful was the support experience?,5.0,0.0
+STU-FB-00737,Student,STU000162,2026-09-16,Study skills,How useful was the support experience?,1.0,0.0
+STU-FB-00738,Student,STU001453,2026-09-13,Advising access,How useful was the support experience?,,
+STU-FB-00739,Student,STU001948,2026-09-07,Study skills,How useful was the support experience?,3.0,0.0
+STU-FB-00740,Student,STU001820,2026-09-14,Academic resources,How useful was the support experience?,5.0,0.0
+STU-FB-00741,Student,STU002154,2026-09-04,Scheduling,How useful was the support experience?,1.0,0.0
+STU-FB-00742,Student,STU000480,2026-09-16,Advising access,How useful was the support experience?,4.0,1.0
+STU-FB-00743,Student,STU000871,2026-09-01,Communication,How useful was the support experience?,1.0,1.0
+STU-FB-00744,Student,STU001470,2026-09-16,Study skills,How useful was the support experience?,3.0,1.0
+STU-FB-00745,Student,STU001291,2026-09-21,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-00746,Student,STU001437,2026-09-15,Study skills,How useful was the support experience?,2.0,0.0
+STU-FB-00747,Student,STU001616,2026-09-11,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-00748,Student,STU001394,2026-09-02,Tutoring usefulness,How useful was the support experience?,4.0,1.0
+STU-FB-00749,Student,STU001490,2026-09-08,Scheduling,How useful was the support experience?,3.0,1.0
+STU-FB-00750,Student,STU000219,2026-09-14,Study skills,How useful was the support experience?,2.0,0.0
+STU-FB-00751,Student,STU001636,2026-09-20,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-00752,Student,STU001250,2026-09-18,Communication,How useful was the support experience?,2.0,1.0
+STU-FB-00753,Student,STU001999,2026-09-18,Scheduling,How useful was the support experience?,1.0,0.0
+STU-FB-00754,Student,STU000449,2026-09-22,Advising access,How useful was the support experience?,5.0,1.0
+STU-FB-00755,Student,STU001501,2026-09-10,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-00756,Student,STU001790,2026-09-19,Academic resources,How useful was the support experience?,4.0,0.0
+STU-FB-00757,Student,STU000259,2026-09-23,Tutoring usefulness,How useful was the support experience?,4.0,0.0
+STU-FB-00758,Student,STU000705,2026-09-15,Scheduling,How useful was the support experience?,3.0,1.0
+STU-FB-00759,Student,STU000853,2026-09-02,Study skills,How useful was the support experience?,3.0,0.0
+STU-FB-00760,Student,STU000431,2026-09-08,Academic resources,How useful was the support experience?,5.0,1.0
+STU-FB-00761,Student,STU001904,2026-09-11,Study skills,How useful was the support experience?,,
+STU-FB-00762,Student,STU001619,2026-09-20,Academic resources,How useful was the support experience?,3.0,0.0
+STU-FB-00763,Student,STU000722,2026-09-04,Study skills,How useful was the support experience?,3.0,1.0
+STU-FB-00764,Student,STU002408,2026-09-26,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-00765,Student,STU001964,2026-09-24,Tutoring usefulness,How useful was the support experience?,5.0,1.0
+STU-FB-00766,Student,STU000039,2026-09-28,Study skills,How useful was the support experience?,3.0,0.0
+STU-FB-00767,Student,STU001152,2026-09-23,Advising access,How useful was the support experience?,4.0,1.0
+STU-FB-00768,Student,STU000934,2026-09-14,Advising access,How useful was the support experience?,3.0,1.0
+STU-FB-00769,Student,STU000022,2026-09-23,Scheduling,How useful was the support experience?,3.0,1.0
+STU-FB-00770,Student,STU001081,2026-09-17,Study skills,How useful was the support experience?,4.0,1.0
+STU-FB-00771,Student,STU002003,2026-09-16,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-00772,Student,STU000124,2026-09-24,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-00773,Student,STU002038,2026-09-11,Tutoring usefulness,How useful was the support experience?,2.0,1.0
+STU-FB-00774,Student,STU002444,2026-09-16,Study skills,How useful was the support experience?,5.0,0.0
+STU-FB-00775,Student,STU001137,2026-09-11,Study skills,How useful was the support experience?,,
+STU-FB-00776,Student,STU002438,2026-09-27,Tutoring usefulness,How useful was the support experience?,5.0,0.0
+STU-FB-00777,Student,STU001799,2026-09-05,Scheduling,How useful was the support experience?,,
+STU-FB-00778,Student,STU000567,2026-09-07,Tutoring usefulness,How useful was the support experience?,5.0,0.0
+STU-FB-00779,Student,STU002053,2026-09-15,Scheduling,How useful was the support experience?,1.0,0.0
+STU-FB-00780,Student,STU001906,2026-09-22,Tutoring usefulness,How useful was the support experience?,5.0,1.0
+STU-FB-00781,Student,STU001051,2026-09-03,Academic resources,How useful was the support experience?,2.0,1.0
+STU-FB-00782,Student,STU001635,2026-09-06,Academic resources,How useful was the support experience?,1.0,0.0
+STU-FB-00783,Student,STU001993,2026-09-26,Communication,How useful was the support experience?,4.0,1.0
+STU-FB-00784,Student,STU000891,2026-09-20,Advising access,How useful was the support experience?,2.0,1.0
+STU-FB-00785,Student,STU000669,2026-09-03,Communication,How useful was the support experience?,2.0,1.0
+STU-FB-00786,Student,STU001939,2026-09-08,Study skills,How useful was the support experience?,,
+STU-FB-00787,Student,STU001985,2026-09-21,Advising access,How useful was the support experience?,2.0,1.0
+STU-FB-00788,Student,STU000236,2026-09-22,Advising access,How useful was the support experience?,4.0,0.0
+STU-FB-00789,Student,STU000706,2026-09-21,Study skills,How useful was the support experience?,,
+STU-FB-00790,Student,STU001172,2026-09-22,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-00791,Student,STU001038,2026-09-13,Tutoring usefulness,How useful was the support experience?,3.0,0.0
+STU-FB-00792,Student,STU001254,2026-09-13,Advising access,How useful was the support experience?,4.0,1.0
+STU-FB-00793,Student,STU000775,2026-09-16,Scheduling,How useful was the support experience?,5.0,1.0
+STU-FB-00794,Student,STU002043,2026-09-10,Communication,How useful was the support experience?,5.0,1.0
+STU-FB-00795,Student,STU001009,2026-09-05,Tutoring usefulness,How useful was the support experience?,2.0,1.0
+STU-FB-00796,Student,STU000283,2026-09-01,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-00797,Student,STU002165,2026-09-07,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-00798,Student,STU001109,2026-09-19,Study skills,How useful was the support experience?,4.0,1.0
+STU-FB-00799,Student,STU000654,2026-09-01,Advising access,How useful was the support experience?,2.0,1.0
+STU-FB-00800,Student,STU001263,2026-09-17,Scheduling,How useful was the support experience?,5.0,1.0
+STU-FB-00801,Student,STU001498,2026-09-21,Scheduling,How useful was the support experience?,2.0,0.0
+STU-FB-00802,Student,STU000159,2026-09-18,Communication,How useful was the support experience?,4.0,0.0
+STU-FB-00803,Student,STU001440,2026-09-03,Advising access,How useful was the support experience?,5.0,0.0
+STU-FB-00804,Student,STU001610,2026-09-21,Study skills,How useful was the support experience?,5.0,1.0
+STU-FB-00805,Student,STU001860,2026-09-09,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-00806,Student,STU000174,2026-09-15,Communication,How useful was the support experience?,1.0,0.0
+STU-FB-00807,Student,STU000587,2026-09-24,Communication,How useful was the support experience?,4.0,1.0
+STU-FB-00808,Student,STU001981,2026-09-24,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-00809,Student,STU001316,2026-09-06,Communication,How useful was the support experience?,4.0,1.0
+STU-FB-00810,Student,STU000268,2026-09-21,Advising access,How useful was the support experience?,4.0,0.0
+STU-FB-00811,Student,STU001092,2026-09-11,Academic resources,How useful was the support experience?,5.0,1.0
+STU-FB-00812,Student,STU002176,2026-09-07,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-00813,Student,STU002278,2026-09-26,Study skills,How useful was the support experience?,2.0,1.0
+STU-FB-00814,Student,STU000780,2026-09-12,Advising access,How useful was the support experience?,1.0,0.0
+STU-FB-00815,Student,STU002188,2026-09-23,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-00816,Student,STU000687,2026-09-02,Communication,How useful was the support experience?,5.0,1.0
+STU-FB-00817,Student,STU000952,2026-09-11,Scheduling,How useful was the support experience?,1.0,0.0
+STU-FB-00818,Student,STU001993,2026-09-09,Academic resources,How useful was the support experience?,5.0,0.0
+STU-FB-00819,Student,STU001567,2026-09-17,Communication,How useful was the support experience?,1.0,1.0
+STU-FB-00820,Student,STU001779,2026-09-15,Study skills,How useful was the support experience?,5.0,0.0
+STU-FB-00821,Student,STU001474,2026-09-20,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-00822,Student,STU000741,2026-09-18,Scheduling,How useful was the support experience?,4.0,0.0
+STU-FB-00823,Student,STU002385,2026-09-25,Tutoring usefulness,How useful was the support experience?,,
+STU-FB-00824,Student,STU002116,2026-09-18,Study skills,How useful was the support experience?,2.0,1.0
+STU-FB-00825,Student,STU001482,2026-09-04,Advising access,How useful was the support experience?,3.0,1.0
+STU-FB-00826,Student,STU001734,2026-09-11,Tutoring usefulness,How useful was the support experience?,4.0,0.0
+STU-FB-00827,Student,STU001036,2026-09-17,Tutoring usefulness,How useful was the support experience?,3.0,0.0
+STU-FB-00828,Student,STU000416,2026-09-16,Scheduling,How useful was the support experience?,1.0,0.0
+STU-FB-00829,Student,STU000458,2026-09-09,Communication,How useful was the support experience?,3.0,0.0
+STU-FB-00830,Student,STU000454,2026-09-01,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-00831,Student,STU001732,2026-09-25,Study skills,How useful was the support experience?,,
+STU-FB-00832,Student,STU001975,2026-09-05,Tutoring usefulness,How useful was the support experience?,2.0,1.0
+STU-FB-00833,Student,STU000790,2026-09-10,Study skills,How useful was the support experience?,4.0,1.0
+STU-FB-00834,Student,STU002299,2026-09-16,Scheduling,How useful was the support experience?,1.0,0.0
+STU-FB-00835,Student,STU002387,2026-09-23,Communication,How useful was the support experience?,1.0,1.0
+STU-FB-00836,Student,STU002171,2026-09-10,Advising access,How useful was the support experience?,4.0,1.0
+STU-FB-00837,Student,STU000721,2026-09-01,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-00838,Student,STU000144,2026-09-17,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-00839,Student,STU002358,2026-09-16,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-00840,Student,STU000591,2026-09-05,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-00841,Student,STU000755,2026-09-04,Academic resources,How useful was the support experience?,1.0,1.0
+STU-FB-00842,Student,STU001408,2026-09-22,Tutoring usefulness,How useful was the support experience?,5.0,1.0
+STU-FB-00843,Student,STU000796,2026-09-05,Study skills,How useful was the support experience?,3.0,1.0
+STU-FB-00844,Student,STU002202,2026-09-19,Academic resources,How useful was the support experience?,1.0,1.0
+STU-FB-00845,Student,STU001291,2026-09-27,Communication,How useful was the support experience?,1.0,1.0
+STU-FB-00846,Student,STU001243,2026-09-09,Study skills,How useful was the support experience?,1.0,0.0
+STU-FB-00847,Student,STU000232,2026-09-13,Study skills,How useful was the support experience?,4.0,0.0
+STU-FB-00848,Student,STU002287,2026-09-14,Advising access,How useful was the support experience?,3.0,0.0
+STU-FB-00849,Student,STU000507,2026-09-25,Tutoring usefulness,How useful was the support experience?,4.0,1.0
+STU-FB-00850,Student,STU000986,2026-09-01,Communication,How useful was the support experience?,5.0,1.0
+STU-FB-00851,Student,STU001369,2026-09-21,Advising access,How useful was the support experience?,2.0,1.0
+STU-FB-00852,Student,STU000542,2026-09-10,Advising access,How useful was the support experience?,2.0,1.0
+STU-FB-00853,Student,STU002103,2026-09-16,Communication,How useful was the support experience?,4.0,0.0
+STU-FB-00854,Student,STU000855,2026-09-28,Tutoring usefulness,How useful was the support experience?,4.0,1.0
+STU-FB-00855,Student,STU001700,2026-09-17,Advising access,How useful was the support experience?,5.0,0.0
+STU-FB-00856,Student,STU001901,2026-09-24,Study skills,How useful was the support experience?,4.0,1.0
+STU-FB-00857,Student,STU001055,2026-09-28,Advising access,How useful was the support experience?,3.0,1.0
+STU-FB-00858,Student,STU001380,2026-09-22,Tutoring usefulness,How useful was the support experience?,5.0,1.0
+STU-FB-00859,Student,STU002355,2026-09-02,Scheduling,How useful was the support experience?,3.0,1.0
+STU-FB-00860,Student,STU000058,2026-09-23,Academic resources,How useful was the support experience?,3.0,1.0
+STU-FB-00861,Student,STU001522,2026-09-26,Communication,How useful was the support experience?,1.0,1.0
+STU-FB-00862,Student,STU001503,2026-09-02,Communication,How useful was the support experience?,,
+STU-FB-00863,Student,STU000966,2026-09-23,Communication,How useful was the support experience?,1.0,1.0
+STU-FB-00864,Student,STU001323,2026-09-24,Advising access,How useful was the support experience?,,
+STU-FB-00865,Student,STU001458,2026-09-22,Academic resources,How useful was the support experience?,3.0,0.0
+STU-FB-00866,Student,STU001413,2026-09-10,Scheduling,How useful was the support experience?,5.0,0.0
+STU-FB-00867,Student,STU000981,2026-09-21,Study skills,How useful was the support experience?,,
+STU-FB-00868,Student,STU001455,2026-09-02,Study skills,How useful was the support experience?,4.0,0.0
+STU-FB-00869,Student,STU000641,2026-09-12,Study skills,How useful was the support experience?,4.0,1.0
+STU-FB-00870,Student,STU000522,2026-09-17,Tutoring usefulness,How useful was the support experience?,4.0,0.0
+STU-FB-00871,Student,STU002163,2026-09-26,Study skills,How useful was the support experience?,2.0,1.0
+STU-FB-00872,Student,STU000870,2026-09-19,Scheduling,How useful was the support experience?,5.0,1.0
+STU-FB-00873,Student,STU001879,2026-09-21,Tutoring usefulness,How useful was the support experience?,3.0,0.0
+STU-FB-00874,Student,STU000391,2026-09-20,Tutoring usefulness,How useful was the support experience?,4.0,0.0
+STU-FB-00875,Student,STU001191,2026-09-28,Scheduling,How useful was the support experience?,,
+STU-FB-00876,Student,STU000546,2026-09-27,Tutoring usefulness,How useful was the support experience?,1.0,1.0
+STU-FB-00877,Student,STU001172,2026-09-24,Study skills,How useful was the support experience?,4.0,0.0
+STU-FB-00878,Student,STU000039,2026-09-03,Communication,How useful was the support experience?,5.0,1.0
+STU-FB-00879,Student,STU001375,2026-09-11,Scheduling,How useful was the support experience?,4.0,0.0
+STU-FB-00880,Student,STU002483,2026-09-17,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-00881,Student,STU001625,2026-09-12,Academic resources,How useful was the support experience?,1.0,0.0
+STU-FB-00882,Student,STU001213,2026-09-20,Communication,How useful was the support experience?,4.0,1.0
+STU-FB-00883,Student,STU001574,2026-09-28,Study skills,How useful was the support experience?,3.0,0.0
+STU-FB-00884,Student,STU000808,2026-09-28,Communication,How useful was the support experience?,5.0,1.0
+STU-FB-00885,Student,STU000719,2026-09-20,Scheduling,How useful was the support experience?,3.0,1.0
+STU-FB-00886,Student,STU001119,2026-09-09,Advising access,How useful was the support experience?,5.0,1.0
+STU-FB-00887,Student,STU000493,2026-09-02,Study skills,How useful was the support experience?,,
+STU-FB-00888,Student,STU000469,2026-09-25,Academic resources,How useful was the support experience?,4.0,0.0
+STU-FB-00889,Student,STU001513,2026-09-27,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-00890,Student,STU000015,2026-09-21,Communication,How useful was the support experience?,4.0,1.0
+STU-FB-00891,Student,STU001398,2026-09-11,Tutoring usefulness,How useful was the support experience?,5.0,1.0
+STU-FB-00892,Student,STU000747,2026-09-24,Scheduling,How useful was the support experience?,4.0,0.0
+STU-FB-00893,Student,STU001284,2026-09-06,Scheduling,How useful was the support experience?,3.0,0.0
+STU-FB-00894,Student,STU001445,2026-09-22,Advising access,How useful was the support experience?,5.0,1.0
+STU-FB-00895,Student,STU000100,2026-09-19,Academic resources,How useful was the support experience?,1.0,0.0
+STU-FB-00896,Student,STU002172,2026-09-20,Academic resources,How useful was the support experience?,2.0,0.0
+STU-FB-00897,Student,STU002470,2026-09-19,Study skills,How useful was the support experience?,5.0,1.0
+STU-FB-00898,Student,STU000426,2026-09-06,Advising access,How useful was the support experience?,2.0,1.0
+STU-FB-00899,Student,STU000853,2026-09-07,Tutoring usefulness,How useful was the support experience?,3.0,1.0
+STU-FB-00900,Student,STU001553,2026-09-17,Tutoring usefulness,How useful was the support experience?,4.0,0.0
+STU-FB-00901,Student,STU000203,2026-09-11,Advising access,How useful was the support experience?,3.0,1.0
+STU-FB-00902,Student,STU002370,2026-09-24,Study skills,How useful was the support experience?,2.0,1.0
+STU-FB-00903,Student,STU001277,2026-09-11,Academic resources,How useful was the support experience?,,
+STU-FB-00904,Student,STU002472,2026-09-05,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-00905,Student,STU001236,2026-09-07,Academic resources,How useful was the support experience?,3.0,0.0
+STU-FB-00906,Student,STU002009,2026-09-01,Communication,How useful was the support experience?,2.0,0.0
+STU-FB-00907,Student,STU001769,2026-09-07,Academic resources,How useful was the support experience?,2.0,0.0
+STU-FB-00908,Student,STU002021,2026-09-18,Scheduling,How useful was the support experience?,2.0,0.0
+STU-FB-00909,Student,STU000456,2026-09-14,Tutoring usefulness,How useful was the support experience?,3.0,1.0
+STU-FB-00910,Student,STU001833,2026-09-08,Study skills,How useful was the support experience?,5.0,0.0
+STU-FB-00911,Student,STU000479,2026-09-11,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-00912,Student,STU000443,2026-09-22,Tutoring usefulness,How useful was the support experience?,2.0,1.0
+STU-FB-00913,Student,STU001536,2026-09-13,Tutoring usefulness,How useful was the support experience?,5.0,1.0
+STU-FB-00914,Student,STU000502,2026-09-19,Academic resources,How useful was the support experience?,2.0,0.0
+STU-FB-00915,Student,STU000840,2026-09-14,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-00916,Student,STU000423,2026-09-25,Advising access,How useful was the support experience?,4.0,1.0
+STU-FB-00917,Student,STU000191,2026-09-11,Academic resources,How useful was the support experience?,1.0,1.0
+STU-FB-00918,Student,STU000177,2026-09-16,Tutoring usefulness,How useful was the support experience?,2.0,1.0
+STU-FB-00919,Student,STU002192,2026-09-17,Study skills,How useful was the support experience?,3.0,1.0
+STU-FB-00920,Student,STU000347,2026-09-26,Advising access,How useful was the support experience?,1.0,1.0
+STU-FB-00921,Student,STU000557,2026-09-09,Scheduling,How useful was the support experience?,5.0,0.0
+STU-FB-00922,Student,STU002057,2026-09-08,Scheduling,How useful was the support experience?,5.0,0.0
+STU-FB-00923,Student,STU001855,2026-09-27,Study skills,How useful was the support experience?,2.0,0.0
+STU-FB-00924,Student,STU001919,2026-09-19,Scheduling,How useful was the support experience?,2.0,0.0
+STU-FB-00925,Student,STU001001,2026-09-08,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-00926,Student,STU001723,2026-09-27,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-00927,Student,STU000083,2026-09-18,Study skills,How useful was the support experience?,,
+STU-FB-00928,Student,STU000234,2026-09-18,Academic resources,How useful was the support experience?,3.0,1.0
+STU-FB-00929,Student,STU001628,2026-09-09,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-00930,Student,STU002463,2026-09-18,Study skills,How useful was the support experience?,2.0,0.0
+STU-FB-00931,Student,STU002042,2026-09-15,Communication,How useful was the support experience?,1.0,1.0
+STU-FB-00932,Student,STU001739,2026-09-17,Advising access,How useful was the support experience?,1.0,1.0
+STU-FB-00933,Student,STU002010,2026-09-08,Academic resources,How useful was the support experience?,3.0,1.0
+STU-FB-00934,Student,STU001553,2026-09-04,Academic resources,How useful was the support experience?,,
+STU-FB-00935,Student,STU001480,2026-09-17,Academic resources,How useful was the support experience?,3.0,0.0
+STU-FB-00936,Student,STU001755,2026-09-14,Tutoring usefulness,How useful was the support experience?,1.0,1.0
+STU-FB-00937,Student,STU000564,2026-09-15,Study skills,How useful was the support experience?,2.0,1.0
+STU-FB-00938,Student,STU000945,2026-09-26,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-00939,Student,STU001289,2026-09-09,Study skills,How useful was the support experience?,4.0,0.0
+STU-FB-00940,Student,STU000534,2026-09-09,Scheduling,How useful was the support experience?,5.0,1.0
+STU-FB-00941,Student,STU000663,2026-09-02,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-00942,Student,STU000503,2026-09-24,Academic resources,How useful was the support experience?,2.0,1.0
+STU-FB-00943,Student,STU000472,2026-09-05,Academic resources,How useful was the support experience?,2.0,1.0
+STU-FB-00944,Student,STU001967,2026-09-03,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-00945,Student,STU001104,2026-09-14,Study skills,How useful was the support experience?,3.0,1.0
+STU-FB-00946,Student,STU001843,2026-09-11,Scheduling,How useful was the support experience?,3.0,0.0
+STU-FB-00947,Student,STU001049,2026-09-16,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-00948,Student,STU000217,2026-09-07,Tutoring usefulness,How useful was the support experience?,3.0,1.0
+STU-FB-00949,Student,STU000732,2026-09-16,Communication,How useful was the support experience?,4.0,0.0
+STU-FB-00950,Student,STU001933,2026-09-20,Tutoring usefulness,How useful was the support experience?,3.0,1.0
+STU-FB-00951,Student,STU002004,2026-09-04,Academic resources,How useful was the support experience?,2.0,1.0
+STU-FB-00952,Student,STU002477,2026-09-27,Advising access,How useful was the support experience?,,
+STU-FB-00953,Student,STU000934,2026-09-04,Scheduling,How useful was the support experience?,,
+STU-FB-00954,Student,STU002237,2026-09-12,Tutoring usefulness,How useful was the support experience?,1.0,1.0
+STU-FB-00955,Student,STU002244,2026-09-14,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-00956,Student,STU001422,2026-09-28,Tutoring usefulness,How useful was the support experience?,,
+STU-FB-00957,Student,STU001229,2026-09-26,Tutoring usefulness,How useful was the support experience?,5.0,0.0
+STU-FB-00958,Student,STU001523,2026-09-09,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-00959,Student,STU000747,2026-09-28,Tutoring usefulness,How useful was the support experience?,3.0,1.0
+STU-FB-00960,Student,STU001773,2026-09-20,Advising access,How useful was the support experience?,1.0,0.0
+STU-FB-00961,Student,STU000744,2026-09-05,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-00962,Student,STU001078,2026-09-18,Scheduling,How useful was the support experience?,5.0,1.0
+STU-FB-00963,Student,STU002452,2026-09-17,Advising access,How useful was the support experience?,1.0,1.0
+STU-FB-00964,Student,STU001927,2026-09-27,Scheduling,How useful was the support experience?,3.0,1.0
+STU-FB-00965,Student,STU000897,2026-09-18,Study skills,How useful was the support experience?,2.0,1.0
+STU-FB-00966,Student,STU001151,2026-09-17,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-00967,Student,STU001557,2026-09-08,Academic resources,How useful was the support experience?,4.0,0.0
+STU-FB-00968,Student,STU001930,2026-09-14,Scheduling,How useful was the support experience?,3.0,1.0
+STU-FB-00969,Student,STU002269,2026-09-06,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-00970,Student,STU001853,2026-09-20,Scheduling,How useful was the support experience?,5.0,0.0
+STU-FB-00971,Student,STU001754,2026-09-23,Academic resources,How useful was the support experience?,2.0,1.0
+STU-FB-00972,Student,STU001069,2026-09-04,Tutoring usefulness,How useful was the support experience?,3.0,1.0
+STU-FB-00973,Student,STU002329,2026-09-02,Study skills,How useful was the support experience?,5.0,1.0
+STU-FB-00974,Student,STU000953,2026-09-08,Study skills,How useful was the support experience?,2.0,0.0
+STU-FB-00975,Student,STU000157,2026-09-06,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-00976,Student,STU001360,2026-09-23,Study skills,How useful was the support experience?,5.0,1.0
+STU-FB-00977,Student,STU001394,2026-09-14,Communication,How useful was the support experience?,2.0,0.0
+STU-FB-00978,Student,STU000324,2026-09-26,Tutoring usefulness,How useful was the support experience?,4.0,1.0
+STU-FB-00979,Student,STU000620,2026-09-19,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-00980,Student,STU000130,2026-09-19,Study skills,How useful was the support experience?,3.0,1.0
+STU-FB-00981,Student,STU001261,2026-09-05,Advising access,How useful was the support experience?,1.0,0.0
+STU-FB-00982,Student,STU002063,2026-09-24,Advising access,How useful was the support experience?,5.0,1.0
+STU-FB-00983,Student,STU002433,2026-09-25,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-00984,Student,STU001410,2026-09-04,Communication,How useful was the support experience?,1.0,0.0
+STU-FB-00985,Student,STU000044,2026-09-23,Advising access,How useful was the support experience?,5.0,1.0
+STU-FB-00986,Student,STU000718,2026-09-08,Study skills,How useful was the support experience?,3.0,1.0
+STU-FB-00987,Student,STU000865,2026-09-01,Academic resources,How useful was the support experience?,3.0,1.0
+STU-FB-00988,Student,STU000869,2026-09-14,Tutoring usefulness,How useful was the support experience?,5.0,1.0
+STU-FB-00989,Student,STU000046,2026-09-01,Communication,How useful was the support experience?,4.0,0.0
+STU-FB-00990,Student,STU000742,2026-09-05,Advising access,How useful was the support experience?,,
+STU-FB-00991,Student,STU000045,2026-09-19,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-00992,Student,STU001128,2026-09-05,Study skills,How useful was the support experience?,5.0,1.0
+STU-FB-00993,Student,STU002107,2026-09-01,Advising access,How useful was the support experience?,1.0,1.0
+STU-FB-00994,Student,STU002290,2026-09-26,Study skills,How useful was the support experience?,3.0,1.0
+STU-FB-00995,Student,STU001176,2026-09-24,Scheduling,How useful was the support experience?,3.0,1.0
+STU-FB-00996,Student,STU000364,2026-09-21,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-00997,Student,STU000079,2026-09-16,Academic resources,How useful was the support experience?,4.0,0.0
+STU-FB-00998,Student,STU000786,2026-09-04,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-00999,Student,STU001361,2026-09-06,Communication,How useful was the support experience?,4.0,0.0
+STU-FB-01000,Student,STU000426,2026-09-01,Scheduling,How useful was the support experience?,,
+STU-FB-01001,Student,STU000529,2026-09-02,Study skills,How useful was the support experience?,3.0,1.0
+STU-FB-01002,Student,STU002471,2026-09-09,Communication,How useful was the support experience?,2.0,1.0
+STU-FB-01003,Student,STU001645,2026-09-13,Scheduling,How useful was the support experience?,4.0,0.0
+STU-FB-01004,Student,STU002407,2026-09-21,Tutoring usefulness,How useful was the support experience?,4.0,1.0
+STU-FB-01005,Student,STU000775,2026-09-25,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-01006,Student,STU000976,2026-09-28,Study skills,How useful was the support experience?,,
+STU-FB-01007,Student,STU001255,2026-09-10,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-01008,Student,STU001636,2026-09-03,Scheduling,How useful was the support experience?,3.0,1.0
+STU-FB-01009,Student,STU002229,2026-09-25,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-01010,Student,STU002453,2026-09-07,Study skills,How useful was the support experience?,3.0,1.0
+STU-FB-01011,Student,STU002354,2026-09-06,Academic resources,How useful was the support experience?,2.0,1.0
+STU-FB-01012,Student,STU000628,2026-09-22,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-01013,Student,STU001448,2026-09-12,Tutoring usefulness,How useful was the support experience?,2.0,0.0
+STU-FB-01014,Student,STU001747,2026-09-20,Academic resources,How useful was the support experience?,5.0,1.0
+STU-FB-01015,Student,STU000040,2026-09-01,Scheduling,How useful was the support experience?,2.0,0.0
+STU-FB-01016,Student,STU002059,2026-09-05,Advising access,How useful was the support experience?,2.0,1.0
+STU-FB-01017,Student,STU001563,2026-09-22,Communication,How useful was the support experience?,2.0,0.0
+STU-FB-01018,Student,STU000854,2026-09-19,Scheduling,How useful was the support experience?,5.0,1.0
+STU-FB-01019,Student,STU001834,2026-09-03,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-01020,Student,STU000033,2026-09-01,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-01021,Student,STU001528,2026-09-15,Tutoring usefulness,How useful was the support experience?,2.0,1.0
+STU-FB-01022,Student,STU000787,2026-09-05,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-01023,Student,STU001710,2026-09-21,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-01024,Student,STU002090,2026-09-11,Study skills,How useful was the support experience?,2.0,0.0
+STU-FB-01025,Student,STU002173,2026-09-17,Scheduling,How useful was the support experience?,1.0,0.0
+STU-FB-01026,Student,STU001297,2026-09-26,Communication,How useful was the support experience?,4.0,0.0
+STU-FB-01027,Student,STU001268,2026-09-26,Communication,How useful was the support experience?,5.0,1.0
+STU-FB-01028,Student,STU000055,2026-09-03,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-01029,Student,STU002102,2026-09-12,Study skills,How useful was the support experience?,5.0,1.0
+STU-FB-01030,Student,STU002194,2026-09-24,Tutoring usefulness,How useful was the support experience?,4.0,0.0
+STU-FB-01031,Student,STU001955,2026-09-20,Academic resources,How useful was the support experience?,5.0,1.0
+STU-FB-01032,Student,STU002408,2026-09-23,Tutoring usefulness,How useful was the support experience?,4.0,1.0
+STU-FB-01033,Student,STU000236,2026-09-25,Advising access,How useful was the support experience?,5.0,0.0
+STU-FB-01034,Student,STU001165,2026-09-17,Study skills,How useful was the support experience?,3.0,0.0
+STU-FB-01035,Student,STU000789,2026-09-16,Advising access,How useful was the support experience?,,
+STU-FB-01036,Student,STU000225,2026-09-17,Study skills,How useful was the support experience?,4.0,0.0
+STU-FB-01037,Student,STU001291,2026-09-03,Communication,How useful was the support experience?,,
+STU-FB-01038,Student,STU001817,2026-09-04,Communication,How useful was the support experience?,1.0,1.0
+STU-FB-01039,Student,STU000518,2026-09-12,Study skills,How useful was the support experience?,3.0,0.0
+STU-FB-01040,Student,STU002134,2026-09-09,Tutoring usefulness,How useful was the support experience?,3.0,0.0
+STU-FB-01041,Student,STU001011,2026-09-23,Study skills,How useful was the support experience?,3.0,1.0
+STU-FB-01042,Student,STU001956,2026-09-26,Study skills,How useful was the support experience?,2.0,0.0
+STU-FB-01043,Student,STU000219,2026-09-01,Tutoring usefulness,How useful was the support experience?,2.0,0.0
+STU-FB-01044,Student,STU000259,2026-09-21,Study skills,How useful was the support experience?,2.0,1.0
+STU-FB-01045,Student,STU000848,2026-09-14,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-01046,Student,STU000127,2026-09-21,Academic resources,How useful was the support experience?,5.0,0.0
+STU-FB-01047,Student,STU001585,2026-09-08,Tutoring usefulness,How useful was the support experience?,3.0,1.0
+STU-FB-01048,Student,STU002467,2026-09-13,Advising access,How useful was the support experience?,2.0,1.0
+STU-FB-01049,Student,STU001099,2026-09-05,Communication,How useful was the support experience?,5.0,1.0
+STU-FB-01050,Student,STU002240,2026-09-03,Scheduling,How useful was the support experience?,5.0,1.0
+STU-FB-01051,Student,STU001842,2026-09-14,Tutoring usefulness,How useful was the support experience?,3.0,1.0
+STU-FB-01052,Student,STU001666,2026-09-21,Advising access,How useful was the support experience?,4.0,1.0
+STU-FB-01053,Student,STU000426,2026-09-26,Advising access,How useful was the support experience?,5.0,1.0
+STU-FB-01054,Student,STU001548,2026-09-09,Advising access,How useful was the support experience?,2.0,1.0
+STU-FB-01055,Student,STU001780,2026-09-25,Tutoring usefulness,How useful was the support experience?,2.0,1.0
+STU-FB-01056,Student,STU000627,2026-09-05,Advising access,How useful was the support experience?,,
+STU-FB-01057,Student,STU002199,2026-09-10,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-01058,Student,STU001424,2026-09-04,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-01059,Student,STU001826,2026-09-07,Scheduling,How useful was the support experience?,2.0,0.0
+STU-FB-01060,Student,STU001492,2026-09-16,Advising access,How useful was the support experience?,1.0,1.0
+STU-FB-01061,Student,STU001259,2026-09-11,Communication,How useful was the support experience?,4.0,0.0
+STU-FB-01062,Student,STU000260,2026-09-06,Academic resources,How useful was the support experience?,5.0,1.0
+STU-FB-01063,Student,STU001737,2026-09-28,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-01064,Student,STU001094,2026-09-09,Communication,How useful was the support experience?,1.0,1.0
+STU-FB-01065,Student,STU002350,2026-09-10,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-01066,Student,STU002495,2026-09-20,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-01067,Student,STU002169,2026-09-08,Advising access,How useful was the support experience?,1.0,0.0
+STU-FB-01068,Student,STU002426,2026-09-03,Communication,How useful was the support experience?,5.0,0.0
+STU-FB-01069,Student,STU002169,2026-09-23,Communication,How useful was the support experience?,2.0,1.0
+STU-FB-01070,Student,STU001835,2026-09-06,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-01071,Student,STU001467,2026-09-10,Study skills,How useful was the support experience?,4.0,1.0
+STU-FB-01072,Student,STU000562,2026-09-16,Advising access,How useful was the support experience?,2.0,1.0
+STU-FB-01073,Student,STU000463,2026-09-21,Study skills,How useful was the support experience?,2.0,1.0
+STU-FB-01074,Student,STU001967,2026-09-08,Advising access,How useful was the support experience?,2.0,1.0
+STU-FB-01075,Student,STU002233,2026-09-22,Academic resources,How useful was the support experience?,3.0,0.0
+STU-FB-01076,Student,STU002489,2026-09-26,Advising access,How useful was the support experience?,4.0,1.0
+STU-FB-01077,Student,STU000110,2026-09-17,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-01078,Student,STU001029,2026-09-09,Academic resources,How useful was the support experience?,5.0,0.0
+STU-FB-01079,Student,STU000407,2026-09-21,Study skills,How useful was the support experience?,3.0,1.0
+STU-FB-01080,Student,STU000648,2026-09-22,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-01081,Student,STU000547,2026-09-28,Communication,How useful was the support experience?,4.0,1.0
+STU-FB-01082,Student,STU000034,2026-09-08,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-01083,Student,STU001564,2026-09-19,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-01084,Student,STU000913,2026-09-11,Communication,How useful was the support experience?,1.0,0.0
+STU-FB-01085,Student,STU002047,2026-09-16,Communication,How useful was the support experience?,4.0,1.0
+STU-FB-01086,Student,STU000922,2026-09-17,Communication,How useful was the support experience?,4.0,1.0
+STU-FB-01087,Student,STU001589,2026-09-20,Academic resources,How useful was the support experience?,2.0,1.0
+STU-FB-01088,Student,STU001269,2026-09-01,Advising access,How useful was the support experience?,1.0,1.0
+STU-FB-01089,Student,STU001729,2026-09-24,Tutoring usefulness,How useful was the support experience?,2.0,0.0
+STU-FB-01090,Student,STU000195,2026-09-02,Communication,How useful was the support experience?,5.0,1.0
+STU-FB-01091,Student,STU000381,2026-09-10,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-01092,Student,STU000612,2026-09-17,Study skills,How useful was the support experience?,2.0,1.0
+STU-FB-01093,Student,STU001188,2026-09-11,Tutoring usefulness,How useful was the support experience?,1.0,1.0
+STU-FB-01094,Student,STU001126,2026-09-05,Study skills,How useful was the support experience?,3.0,1.0
+STU-FB-01095,Student,STU001490,2026-09-06,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-01096,Student,STU000960,2026-09-04,Communication,How useful was the support experience?,2.0,0.0
+STU-FB-01097,Student,STU002041,2026-09-19,Communication,How useful was the support experience?,4.0,1.0
+STU-FB-01098,Student,STU001272,2026-09-17,Tutoring usefulness,How useful was the support experience?,5.0,0.0
+STU-FB-01099,Student,STU002028,2026-09-15,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-01100,Student,STU000170,2026-09-20,Academic resources,How useful was the support experience?,2.0,0.0
+STU-FB-01101,Student,STU000094,2026-09-12,Scheduling,How useful was the support experience?,5.0,1.0
+STU-FB-01102,Student,STU000114,2026-09-05,Tutoring usefulness,How useful was the support experience?,5.0,1.0
+STU-FB-01103,Student,STU000959,2026-09-21,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-01104,Student,STU001880,2026-09-15,Academic resources,How useful was the support experience?,,
+STU-FB-01105,Student,STU001429,2026-09-07,Study skills,How useful was the support experience?,3.0,1.0
+STU-FB-01106,Student,STU000137,2026-09-20,Advising access,How useful was the support experience?,4.0,1.0
+STU-FB-01107,Student,STU000139,2026-09-11,Academic resources,How useful was the support experience?,3.0,1.0
+STU-FB-01108,Student,STU000943,2026-09-10,Advising access,How useful was the support experience?,1.0,1.0
+STU-FB-01109,Student,STU000836,2026-09-24,Study skills,How useful was the support experience?,4.0,0.0
+STU-FB-01110,Student,STU001969,2026-09-02,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-01111,Student,STU001833,2026-09-21,Communication,How useful was the support experience?,2.0,1.0
+STU-FB-01112,Student,STU002360,2026-09-18,Academic resources,How useful was the support experience?,3.0,0.0
+STU-FB-01113,Student,STU000403,2026-09-21,Communication,How useful was the support experience?,1.0,1.0
+STU-FB-01114,Student,STU000621,2026-09-20,Academic resources,How useful was the support experience?,3.0,0.0
+STU-FB-01115,Student,STU001903,2026-09-23,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-01116,Student,STU002037,2026-09-11,Advising access,How useful was the support experience?,2.0,1.0
+STU-FB-01117,Student,STU000147,2026-09-22,Academic resources,How useful was the support experience?,2.0,1.0
+STU-FB-01118,Student,STU000753,2026-09-16,Scheduling,How useful was the support experience?,5.0,1.0
+STU-FB-01119,Student,STU001518,2026-09-04,Study skills,How useful was the support experience?,4.0,1.0
+STU-FB-01120,Student,STU000889,2026-09-27,Tutoring usefulness,How useful was the support experience?,3.0,1.0
+STU-FB-01121,Student,STU000953,2026-09-23,Study skills,How useful was the support experience?,4.0,1.0
+STU-FB-01122,Student,STU001121,2026-09-25,Tutoring usefulness,How useful was the support experience?,3.0,0.0
+STU-FB-01123,Student,STU001063,2026-09-26,Study skills,How useful was the support experience?,3.0,0.0
+STU-FB-01124,Student,STU002298,2026-09-01,Tutoring usefulness,How useful was the support experience?,5.0,0.0
+STU-FB-01125,Student,STU001839,2026-09-03,Communication,How useful was the support experience?,4.0,1.0
+STU-FB-01126,Student,STU000163,2026-09-15,Communication,How useful was the support experience?,5.0,0.0
+STU-FB-01127,Student,STU001140,2026-09-24,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-01128,Student,STU002169,2026-09-27,Academic resources,How useful was the support experience?,2.0,1.0
+STU-FB-01129,Student,STU002283,2026-09-08,Academic resources,How useful was the support experience?,1.0,1.0
+STU-FB-01130,Student,STU002053,2026-09-26,Tutoring usefulness,How useful was the support experience?,1.0,1.0
+STU-FB-01131,Student,STU001960,2026-09-26,Academic resources,How useful was the support experience?,5.0,1.0
+STU-FB-01132,Student,STU001238,2026-09-24,Academic resources,How useful was the support experience?,1.0,0.0
+STU-FB-01133,Student,STU000763,2026-09-11,Advising access,How useful was the support experience?,4.0,1.0
+STU-FB-01134,Student,STU001586,2026-09-05,Advising access,How useful was the support experience?,3.0,1.0
+STU-FB-01135,Student,STU002405,2026-09-07,Study skills,How useful was the support experience?,2.0,1.0
+STU-FB-01136,Student,STU001068,2026-09-14,Scheduling,How useful was the support experience?,5.0,1.0
+STU-FB-01137,Student,STU002289,2026-09-26,Scheduling,How useful was the support experience?,3.0,0.0
+STU-FB-01138,Student,STU001237,2026-09-13,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-01139,Student,STU001011,2026-09-05,Scheduling,How useful was the support experience?,5.0,1.0
+STU-FB-01140,Student,STU000652,2026-09-26,Academic resources,How useful was the support experience?,1.0,1.0
+STU-FB-01141,Student,STU001909,2026-09-21,Scheduling,How useful was the support experience?,3.0,1.0
+STU-FB-01142,Student,STU000499,2026-09-27,Scheduling,How useful was the support experience?,3.0,1.0
+STU-FB-01143,Student,STU001291,2026-09-05,Advising access,How useful was the support experience?,4.0,0.0
+STU-FB-01144,Student,STU001705,2026-09-07,Advising access,How useful was the support experience?,3.0,1.0
+STU-FB-01145,Student,STU001411,2026-09-21,Communication,How useful was the support experience?,5.0,1.0
+STU-FB-01146,Student,STU000893,2026-09-28,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-01147,Student,STU000630,2026-09-05,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-01148,Student,STU001735,2026-09-20,Study skills,How useful was the support experience?,3.0,1.0
+STU-FB-01149,Student,STU002392,2026-09-03,Tutoring usefulness,How useful was the support experience?,5.0,1.0
+STU-FB-01150,Student,STU001549,2026-09-17,Communication,How useful was the support experience?,1.0,1.0
+STU-FB-01151,Student,STU001999,2026-09-17,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-01152,Student,STU002097,2026-09-28,Tutoring usefulness,How useful was the support experience?,4.0,1.0
+STU-FB-01153,Student,STU000173,2026-09-03,Scheduling,How useful was the support experience?,3.0,1.0
+STU-FB-01154,Student,STU001496,2026-09-02,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-01155,Student,STU002150,2026-09-19,Tutoring usefulness,How useful was the support experience?,2.0,1.0
+STU-FB-01156,Student,STU001115,2026-09-28,Study skills,How useful was the support experience?,2.0,1.0
+STU-FB-01157,Student,STU001094,2026-09-01,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-01158,Student,STU002411,2026-09-06,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-01159,Student,STU000195,2026-09-04,Academic resources,How useful was the support experience?,4.0,0.0
+STU-FB-01160,Student,STU000247,2026-09-12,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-01161,Student,STU002083,2026-09-18,Study skills,How useful was the support experience?,5.0,1.0
+STU-FB-01162,Student,STU001738,2026-09-13,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-01163,Student,STU001189,2026-09-14,Scheduling,How useful was the support experience?,3.0,1.0
+STU-FB-01164,Student,STU000180,2026-09-02,Scheduling,How useful was the support experience?,3.0,1.0
+STU-FB-01165,Student,STU001176,2026-09-21,Communication,How useful was the support experience?,2.0,1.0
+STU-FB-01166,Student,STU000082,2026-09-08,Study skills,How useful was the support experience?,3.0,1.0
+STU-FB-01167,Student,STU001604,2026-09-09,Advising access,How useful was the support experience?,1.0,1.0
+STU-FB-01168,Student,STU002355,2026-09-24,Study skills,How useful was the support experience?,2.0,1.0
+STU-FB-01169,Student,STU001549,2026-09-28,Tutoring usefulness,How useful was the support experience?,5.0,0.0
+STU-FB-01170,Student,STU001051,2026-09-01,Study skills,How useful was the support experience?,5.0,1.0
+STU-FB-01171,Student,STU000198,2026-09-28,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-01172,Student,STU001486,2026-09-21,Tutoring usefulness,How useful was the support experience?,4.0,1.0
+STU-FB-01173,Student,STU000134,2026-09-01,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-01174,Student,STU001257,2026-09-09,Tutoring usefulness,How useful was the support experience?,2.0,1.0
+STU-FB-01175,Student,STU000055,2026-09-26,Advising access,How useful was the support experience?,2.0,1.0
+STU-FB-01176,Student,STU001295,2026-09-13,Study skills,How useful was the support experience?,1.0,0.0
+STU-FB-01177,Student,STU001815,2026-09-14,Academic resources,How useful was the support experience?,2.0,1.0
+STU-FB-01178,Student,STU000734,2026-09-24,Study skills,How useful was the support experience?,5.0,1.0
+STU-FB-01179,Student,STU002477,2026-09-22,Academic resources,How useful was the support experience?,5.0,1.0
+STU-FB-01180,Student,STU000220,2026-09-01,Academic resources,How useful was the support experience?,1.0,1.0
+STU-FB-01181,Student,STU002476,2026-09-08,Academic resources,How useful was the support experience?,1.0,1.0
+STU-FB-01182,Student,STU002247,2026-09-22,Tutoring usefulness,How useful was the support experience?,2.0,0.0
+STU-FB-01183,Student,STU000261,2026-09-22,Tutoring usefulness,How useful was the support experience?,4.0,1.0
+STU-FB-01184,Student,STU000115,2026-09-21,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-01185,Student,STU000925,2026-09-01,Scheduling,How useful was the support experience?,1.0,0.0
+STU-FB-01186,Student,STU001244,2026-09-06,Study skills,How useful was the support experience?,4.0,0.0
+STU-FB-01187,Student,STU000899,2026-09-26,Communication,How useful was the support experience?,3.0,0.0
+STU-FB-01188,Student,STU002469,2026-09-21,Scheduling,How useful was the support experience?,3.0,0.0
+STU-FB-01189,Student,STU000308,2026-09-08,Communication,How useful was the support experience?,1.0,1.0
+STU-FB-01190,Student,STU001251,2026-09-22,Advising access,How useful was the support experience?,3.0,1.0
+STU-FB-01191,Student,STU001531,2026-09-26,Tutoring usefulness,How useful was the support experience?,3.0,1.0
+STU-FB-01192,Student,STU001139,2026-09-14,Advising access,How useful was the support experience?,4.0,0.0
+STU-FB-01193,Student,STU000644,2026-09-05,Advising access,How useful was the support experience?,3.0,1.0
+STU-FB-01194,Student,STU000037,2026-09-20,Advising access,How useful was the support experience?,4.0,1.0
+STU-FB-01195,Student,STU002127,2026-09-18,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-01196,Student,STU000190,2026-09-13,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-01197,Student,STU002042,2026-09-13,Academic resources,How useful was the support experience?,5.0,0.0
+STU-FB-01198,Student,STU001585,2026-09-12,Communication,How useful was the support experience?,5.0,0.0
+STU-FB-01199,Student,STU000367,2026-09-23,Communication,How useful was the support experience?,1.0,0.0
+STU-FB-01200,Student,STU000986,2026-09-23,Tutoring usefulness,How useful was the support experience?,,
+STU-FB-01201,Student,STU002347,2026-09-20,Scheduling,How useful was the support experience?,5.0,1.0
+STU-FB-01202,Student,STU001736,2026-09-06,Academic resources,How useful was the support experience?,3.0,1.0
+STU-FB-01203,Student,STU000610,2026-09-08,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-01204,Student,STU002081,2026-09-27,Communication,How useful was the support experience?,4.0,0.0
+STU-FB-01205,Student,STU002281,2026-09-10,Communication,How useful was the support experience?,2.0,1.0
+STU-FB-01206,Student,STU000680,2026-09-08,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-01207,Student,STU000478,2026-09-24,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-01208,Student,STU002223,2026-09-13,Communication,How useful was the support experience?,2.0,1.0
+STU-FB-01209,Student,STU001835,2026-09-28,Study skills,How useful was the support experience?,3.0,1.0
+STU-FB-01210,Student,STU001786,2026-09-08,Advising access,How useful was the support experience?,3.0,0.0
+STU-FB-01211,Student,STU001336,2026-09-12,Scheduling,How useful was the support experience?,5.0,1.0
+STU-FB-01212,Student,STU001256,2026-09-02,Advising access,How useful was the support experience?,4.0,0.0
+STU-FB-01213,Student,STU002124,2026-09-04,Scheduling,How useful was the support experience?,2.0,0.0
+STU-FB-01214,Student,STU000889,2026-09-01,Communication,How useful was the support experience?,4.0,0.0
+STU-FB-01215,Student,STU002276,2026-09-10,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-01216,Student,STU000276,2026-09-25,Study skills,How useful was the support experience?,3.0,1.0
+STU-FB-01217,Student,STU002224,2026-09-02,Communication,How useful was the support experience?,4.0,1.0
+STU-FB-01218,Student,STU001020,2026-09-21,Advising access,How useful was the support experience?,2.0,0.0
+STU-FB-01219,Student,STU000882,2026-09-23,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-01220,Student,STU000626,2026-09-28,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-01221,Student,STU000615,2026-09-16,Scheduling,How useful was the support experience?,2.0,0.0
+STU-FB-01222,Student,STU001742,2026-09-07,Scheduling,How useful was the support experience?,,
+STU-FB-01223,Student,STU001303,2026-09-05,Tutoring usefulness,How useful was the support experience?,5.0,1.0
+STU-FB-01224,Student,STU001556,2026-09-04,Communication,How useful was the support experience?,4.0,0.0
+STU-FB-01225,Student,STU000827,2026-09-21,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-01226,Student,STU002309,2026-09-24,Tutoring usefulness,How useful was the support experience?,1.0,0.0
+STU-FB-01227,Student,STU001895,2026-09-26,Tutoring usefulness,How useful was the support experience?,,
+STU-FB-01228,Student,STU000367,2026-09-19,Tutoring usefulness,How useful was the support experience?,2.0,1.0
+STU-FB-01229,Student,STU002040,2026-09-06,Tutoring usefulness,How useful was the support experience?,5.0,1.0
+STU-FB-01230,Student,STU000522,2026-09-21,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-01231,Student,STU000869,2026-09-11,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-01232,Student,STU001001,2026-09-04,Study skills,How useful was the support experience?,5.0,1.0
+STU-FB-01233,Student,STU001375,2026-09-12,Communication,How useful was the support experience?,1.0,0.0
+STU-FB-01234,Student,STU000235,2026-09-08,Study skills,How useful was the support experience?,4.0,1.0
+STU-FB-01235,Student,STU000760,2026-09-20,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-01236,Student,STU002059,2026-09-01,Academic resources,How useful was the support experience?,1.0,1.0
+STU-FB-01237,Student,STU001967,2026-09-10,Communication,How useful was the support experience?,1.0,0.0
+STU-FB-01238,Student,STU000407,2026-09-02,Scheduling,How useful was the support experience?,5.0,1.0
+STU-FB-01239,Student,STU000090,2026-09-27,Advising access,How useful was the support experience?,4.0,0.0
+STU-FB-01240,Student,STU001281,2026-09-07,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-01241,Student,STU000900,2026-09-11,Academic resources,How useful was the support experience?,1.0,1.0
+STU-FB-01242,Student,STU002273,2026-09-05,Communication,How useful was the support experience?,3.0,0.0
+STU-FB-01243,Student,STU001978,2026-09-15,Academic resources,How useful was the support experience?,5.0,1.0
+STU-FB-01244,Student,STU001840,2026-09-27,Tutoring usefulness,How useful was the support experience?,4.0,1.0
+STU-FB-01245,Student,STU002485,2026-09-21,Scheduling,How useful was the support experience?,4.0,0.0
+STU-FB-01246,Student,STU000701,2026-09-04,Advising access,How useful was the support experience?,1.0,1.0
+STU-FB-01247,Student,STU002140,2026-09-18,Advising access,How useful was the support experience?,,
+STU-FB-01248,Student,STU002181,2026-09-12,Study skills,How useful was the support experience?,3.0,1.0
+STU-FB-01249,Student,STU001632,2026-09-14,Tutoring usefulness,How useful was the support experience?,2.0,0.0
+STU-FB-01250,Student,STU002471,2026-09-02,Communication,How useful was the support experience?,1.0,1.0
+STU-FB-01251,Student,STU002279,2026-09-27,Communication,How useful was the support experience?,2.0,1.0
+STU-FB-01252,Student,STU001391,2026-09-13,Communication,How useful was the support experience?,5.0,1.0
+STU-FB-01253,Student,STU000058,2026-09-10,Academic resources,How useful was the support experience?,4.0,0.0
+STU-FB-01254,Student,STU001636,2026-09-26,Communication,How useful was the support experience?,3.0,0.0
+STU-FB-01255,Student,STU002471,2026-09-18,Communication,How useful was the support experience?,1.0,0.0
+STU-FB-01256,Student,STU002009,2026-09-23,Academic resources,How useful was the support experience?,3.0,0.0
+STU-FB-01257,Student,STU000690,2026-09-09,Advising access,How useful was the support experience?,3.0,1.0
+STU-FB-01258,Student,STU001727,2026-09-13,Academic resources,How useful was the support experience?,1.0,0.0
+STU-FB-01259,Student,STU000696,2026-09-22,Advising access,How useful was the support experience?,4.0,1.0
+STU-FB-01260,Student,STU002420,2026-09-18,Advising access,How useful was the support experience?,2.0,1.0
+STU-FB-01261,Student,STU002234,2026-09-08,Tutoring usefulness,How useful was the support experience?,4.0,1.0
+STU-FB-01262,Student,STU000293,2026-09-16,Advising access,How useful was the support experience?,3.0,0.0
+STU-FB-01263,Student,STU000530,2026-09-11,Advising access,How useful was the support experience?,4.0,1.0
+STU-FB-01264,Student,STU002500,2026-09-13,Communication,How useful was the support experience?,2.0,0.0
+STU-FB-01265,Student,STU002043,2026-09-24,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-01266,Student,STU001555,2026-09-08,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-01267,Student,STU002010,2026-09-14,Advising access,How useful was the support experience?,2.0,1.0
+STU-FB-01268,Student,STU000073,2026-09-11,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-01269,Student,STU000981,2026-09-08,Scheduling,How useful was the support experience?,5.0,1.0
+STU-FB-01270,Student,STU002152,2026-09-13,Study skills,How useful was the support experience?,3.0,1.0
+STU-FB-01271,Student,STU000107,2026-09-10,Academic resources,How useful was the support experience?,1.0,1.0
+STU-FB-01272,Student,STU002315,2026-09-05,Advising access,How useful was the support experience?,5.0,1.0
+STU-FB-01273,Student,STU000488,2026-09-05,Tutoring usefulness,How useful was the support experience?,2.0,1.0
+STU-FB-01274,Student,STU001896,2026-09-04,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-01275,Student,STU002241,2026-09-13,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-01276,Student,STU000093,2026-09-26,Communication,How useful was the support experience?,2.0,0.0
+STU-FB-01277,Student,STU001674,2026-09-23,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-01278,Student,STU001302,2026-09-17,Advising access,How useful was the support experience?,5.0,0.0
+STU-FB-01279,Student,STU000932,2026-09-14,Academic resources,How useful was the support experience?,3.0,0.0
+STU-FB-01280,Student,STU000732,2026-09-13,Study skills,How useful was the support experience?,2.0,1.0
+STU-FB-01281,Student,STU000465,2026-09-19,Study skills,How useful was the support experience?,5.0,1.0
+STU-FB-01282,Student,STU001011,2026-09-10,Tutoring usefulness,How useful was the support experience?,3.0,1.0
+STU-FB-01283,Student,STU000721,2026-09-25,Advising access,How useful was the support experience?,1.0,0.0
+STU-FB-01284,Student,STU002198,2026-09-06,Academic resources,How useful was the support experience?,1.0,1.0
+STU-FB-01285,Student,STU002299,2026-09-02,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-01286,Student,STU000048,2026-09-21,Communication,How useful was the support experience?,1.0,1.0
+STU-FB-01287,Student,STU002332,2026-09-02,Tutoring usefulness,How useful was the support experience?,1.0,0.0
+STU-FB-01288,Student,STU000742,2026-09-07,Study skills,How useful was the support experience?,5.0,1.0
+STU-FB-01289,Student,STU001308,2026-09-25,Tutoring usefulness,How useful was the support experience?,3.0,0.0
+STU-FB-01290,Student,STU001016,2026-09-04,Scheduling,How useful was the support experience?,3.0,0.0
+STU-FB-01291,Student,STU001496,2026-09-25,Communication,How useful was the support experience?,2.0,1.0
+STU-FB-01292,Student,STU000927,2026-09-06,Academic resources,How useful was the support experience?,3.0,1.0
+STU-FB-01293,Student,STU001292,2026-09-03,Advising access,How useful was the support experience?,5.0,1.0
+STU-FB-01294,Student,STU000397,2026-09-10,Advising access,How useful was the support experience?,,
+STU-FB-01295,Student,STU001433,2026-09-04,Study skills,How useful was the support experience?,5.0,0.0
+STU-FB-01296,Student,STU001179,2026-09-08,Scheduling,How useful was the support experience?,3.0,1.0
+STU-FB-01297,Student,STU000061,2026-09-07,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-01298,Student,STU001131,2026-09-23,Scheduling,How useful was the support experience?,1.0,0.0
+STU-FB-01299,Student,STU002065,2026-09-23,Advising access,How useful was the support experience?,1.0,1.0
+STU-FB-01300,Student,STU001813,2026-09-25,Scheduling,How useful was the support experience?,,
+STU-FB-01301,Student,STU000030,2026-09-11,Tutoring usefulness,How useful was the support experience?,2.0,1.0
+STU-FB-01302,Student,STU000810,2026-09-08,Advising access,How useful was the support experience?,4.0,1.0
+STU-FB-01303,Student,STU000768,2026-09-16,Academic resources,How useful was the support experience?,1.0,1.0
+STU-FB-01304,Student,STU002132,2026-09-02,Study skills,How useful was the support experience?,,
+STU-FB-01305,Student,STU000047,2026-09-01,Advising access,How useful was the support experience?,2.0,1.0
+STU-FB-01306,Student,STU001150,2026-09-06,Communication,How useful was the support experience?,,
+STU-FB-01307,Student,STU000898,2026-09-19,Tutoring usefulness,How useful was the support experience?,4.0,1.0
+STU-FB-01308,Student,STU001223,2026-09-06,Advising access,How useful was the support experience?,3.0,1.0
+STU-FB-01309,Student,STU002221,2026-09-28,Tutoring usefulness,How useful was the support experience?,5.0,0.0
+STU-FB-01310,Student,STU001564,2026-09-06,Communication,How useful was the support experience?,,
+STU-FB-01311,Student,STU001723,2026-09-14,Communication,How useful was the support experience?,1.0,1.0
+STU-FB-01312,Student,STU002427,2026-09-06,Scheduling,How useful was the support experience?,3.0,0.0
+STU-FB-01313,Student,STU001088,2026-09-14,Study skills,How useful was the support experience?,3.0,0.0
+STU-FB-01314,Student,STU001176,2026-09-08,Academic resources,How useful was the support experience?,,
+STU-FB-01315,Student,STU000626,2026-09-19,Study skills,How useful was the support experience?,5.0,1.0
+STU-FB-01316,Student,STU000564,2026-09-21,Study skills,How useful was the support experience?,4.0,1.0
+STU-FB-01317,Student,STU000625,2026-09-09,Study skills,How useful was the support experience?,3.0,1.0
+STU-FB-01318,Student,STU001813,2026-09-11,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-01319,Student,STU001709,2026-09-10,Tutoring usefulness,How useful was the support experience?,4.0,0.0
+STU-FB-01320,Student,STU002258,2026-09-03,Study skills,How useful was the support experience?,3.0,1.0
+STU-FB-01321,Student,STU001029,2026-09-10,Scheduling,How useful was the support experience?,3.0,0.0
+STU-FB-01322,Student,STU002088,2026-09-10,Scheduling,How useful was the support experience?,5.0,1.0
+STU-FB-01323,Student,STU000720,2026-09-10,Tutoring usefulness,How useful was the support experience?,2.0,1.0
+STU-FB-01324,Student,STU002292,2026-09-09,Study skills,How useful was the support experience?,3.0,1.0
+STU-FB-01325,Student,STU001191,2026-09-08,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-01326,Student,STU001524,2026-09-24,Tutoring usefulness,How useful was the support experience?,4.0,1.0
+STU-FB-01327,Student,STU000727,2026-09-04,Academic resources,How useful was the support experience?,5.0,0.0
+STU-FB-01328,Student,STU000378,2026-09-13,Academic resources,How useful was the support experience?,3.0,1.0
+STU-FB-01329,Student,STU001461,2026-09-10,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-01330,Student,STU002433,2026-09-04,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-01331,Student,STU000961,2026-09-08,Communication,How useful was the support experience?,4.0,1.0
+STU-FB-01332,Student,STU000340,2026-09-12,Advising access,How useful was the support experience?,4.0,1.0
+STU-FB-01333,Student,STU001242,2026-09-19,Communication,How useful was the support experience?,,
+STU-FB-01334,Student,STU001397,2026-09-14,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-01335,Student,STU000164,2026-09-07,Study skills,How useful was the support experience?,5.0,1.0
+STU-FB-01336,Student,STU001488,2026-09-14,Academic resources,How useful was the support experience?,1.0,1.0
+STU-FB-01337,Student,STU002202,2026-09-18,Tutoring usefulness,How useful was the support experience?,5.0,1.0
+STU-FB-01338,Student,STU002141,2026-09-26,Study skills,How useful was the support experience?,,
+STU-FB-01339,Student,STU001932,2026-09-13,Communication,How useful was the support experience?,5.0,1.0
+STU-FB-01340,Student,STU001478,2026-09-11,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-01341,Student,STU000834,2026-09-22,Scheduling,How useful was the support experience?,3.0,1.0
+STU-FB-01342,Student,STU002147,2026-09-08,Advising access,How useful was the support experience?,4.0,1.0
+STU-FB-01343,Student,STU001544,2026-09-14,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-01344,Student,STU000934,2026-09-03,Tutoring usefulness,How useful was the support experience?,4.0,1.0
+STU-FB-01345,Student,STU001235,2026-09-27,Academic resources,How useful was the support experience?,,
+STU-FB-01346,Student,STU000794,2026-09-20,Advising access,How useful was the support experience?,1.0,1.0
+STU-FB-01347,Student,STU000924,2026-09-19,Study skills,How useful was the support experience?,4.0,1.0
+STU-FB-01348,Student,STU001021,2026-09-26,Scheduling,How useful was the support experience?,4.0,0.0
+STU-FB-01349,Student,STU000516,2026-09-16,Academic resources,How useful was the support experience?,3.0,0.0
+STU-FB-01350,Student,STU000973,2026-09-09,Academic resources,How useful was the support experience?,1.0,1.0
+STU-FB-01351,Student,STU001929,2026-09-09,Scheduling,How useful was the support experience?,2.0,0.0
+STU-FB-01352,Student,STU000088,2026-09-18,Scheduling,How useful was the support experience?,3.0,1.0
+STU-FB-01353,Student,STU000300,2026-09-10,Academic resources,How useful was the support experience?,1.0,0.0
+STU-FB-01354,Student,STU000900,2026-09-06,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-01355,Student,STU000527,2026-09-10,Study skills,How useful was the support experience?,5.0,1.0
+STU-FB-01356,Student,STU002402,2026-09-23,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-01357,Student,STU001835,2026-09-15,Advising access,How useful was the support experience?,3.0,1.0
+STU-FB-01358,Student,STU001616,2026-09-27,Tutoring usefulness,How useful was the support experience?,2.0,1.0
+STU-FB-01359,Student,STU000398,2026-09-09,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-01360,Student,STU002496,2026-09-07,Scheduling,How useful was the support experience?,1.0,0.0
+STU-FB-01361,Student,STU001649,2026-09-12,Advising access,How useful was the support experience?,,
+STU-FB-01362,Student,STU001393,2026-09-17,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-01363,Student,STU000073,2026-09-26,Study skills,How useful was the support experience?,3.0,1.0
+STU-FB-01364,Student,STU000988,2026-09-25,Tutoring usefulness,How useful was the support experience?,4.0,1.0
+STU-FB-01365,Student,STU000619,2026-09-26,Academic resources,How useful was the support experience?,3.0,1.0
+STU-FB-01366,Student,STU000125,2026-09-26,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-01367,Student,STU001395,2026-09-07,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-01368,Student,STU000713,2026-09-22,Advising access,How useful was the support experience?,1.0,0.0
+STU-FB-01369,Student,STU001414,2026-09-18,Study skills,How useful was the support experience?,,
+STU-FB-01370,Student,STU000076,2026-09-12,Advising access,How useful was the support experience?,3.0,1.0
+STU-FB-01371,Student,STU000654,2026-09-26,Study skills,How useful was the support experience?,4.0,0.0
+STU-FB-01372,Student,STU000929,2026-09-16,Communication,How useful was the support experience?,1.0,1.0
+STU-FB-01373,Student,STU002187,2026-09-16,Communication,How useful was the support experience?,5.0,1.0
+STU-FB-01374,Student,STU000566,2026-09-12,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-01375,Student,STU000684,2026-09-12,Communication,How useful was the support experience?,2.0,1.0
+STU-FB-01376,Student,STU002430,2026-09-28,Communication,How useful was the support experience?,3.0,0.0
+STU-FB-01377,Student,STU001098,2026-09-09,Academic resources,How useful was the support experience?,1.0,0.0
+STU-FB-01378,Student,STU001719,2026-09-24,Study skills,How useful was the support experience?,5.0,0.0
+STU-FB-01379,Student,STU002013,2026-09-21,Academic resources,How useful was the support experience?,2.0,1.0
+STU-FB-01380,Student,STU001548,2026-09-26,Study skills,How useful was the support experience?,4.0,1.0
+STU-FB-01381,Student,STU001172,2026-09-14,Scheduling,How useful was the support experience?,4.0,0.0
+STU-FB-01382,Student,STU001791,2026-09-28,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-01383,Student,STU001596,2026-09-14,Communication,How useful was the support experience?,4.0,1.0
+STU-FB-01384,Student,STU000273,2026-09-27,Academic resources,How useful was the support experience?,1.0,1.0
+STU-FB-01385,Student,STU000093,2026-09-15,Tutoring usefulness,How useful was the support experience?,4.0,1.0
+STU-FB-01386,Student,STU001035,2026-09-13,Tutoring usefulness,How useful was the support experience?,3.0,0.0
+STU-FB-01387,Student,STU000383,2026-09-14,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-01388,Student,STU002310,2026-09-10,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-01389,Student,STU001138,2026-09-25,Tutoring usefulness,How useful was the support experience?,4.0,1.0
+STU-FB-01390,Student,STU002361,2026-09-20,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-01391,Student,STU001500,2026-09-12,Tutoring usefulness,How useful was the support experience?,2.0,1.0
+STU-FB-01392,Student,STU001102,2026-09-21,Tutoring usefulness,How useful was the support experience?,2.0,1.0
+STU-FB-01393,Student,STU002115,2026-09-01,Academic resources,How useful was the support experience?,2.0,1.0
+STU-FB-01394,Student,STU002367,2026-09-01,Academic resources,How useful was the support experience?,5.0,1.0
+STU-FB-01395,Student,STU001169,2026-09-11,Communication,How useful was the support experience?,4.0,1.0
+STU-FB-01396,Student,STU000142,2026-09-12,Academic resources,How useful was the support experience?,1.0,1.0
+STU-FB-01397,Student,STU000206,2026-09-14,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-01398,Student,STU001142,2026-09-24,Communication,How useful was the support experience?,5.0,1.0
+STU-FB-01399,Student,STU002216,2026-09-10,Tutoring usefulness,How useful was the support experience?,1.0,1.0
+STU-FB-01400,Student,STU001541,2026-09-23,Communication,How useful was the support experience?,5.0,0.0
+STU-FB-01401,Student,STU001045,2026-09-04,Communication,How useful was the support experience?,2.0,1.0
+STU-FB-01402,Student,STU002156,2026-09-07,Advising access,How useful was the support experience?,2.0,1.0
+STU-FB-01403,Student,STU001336,2026-09-08,Study skills,How useful was the support experience?,4.0,1.0
+STU-FB-01404,Student,STU001495,2026-09-28,Tutoring usefulness,How useful was the support experience?,1.0,1.0
+STU-FB-01405,Student,STU001923,2026-09-05,Communication,How useful was the support experience?,4.0,0.0
+STU-FB-01406,Student,STU002497,2026-09-23,Communication,How useful was the support experience?,3.0,0.0
+STU-FB-01407,Student,STU000981,2026-09-05,Communication,How useful was the support experience?,5.0,1.0
+STU-FB-01408,Student,STU001009,2026-09-03,Study skills,How useful was the support experience?,3.0,0.0
+STU-FB-01409,Student,STU002453,2026-09-26,Scheduling,How useful was the support experience?,5.0,1.0
+STU-FB-01410,Student,STU002130,2026-09-27,Tutoring usefulness,How useful was the support experience?,3.0,0.0
+STU-FB-01411,Student,STU001897,2026-09-10,Tutoring usefulness,How useful was the support experience?,5.0,0.0
+STU-FB-01412,Student,STU002265,2026-09-20,Academic resources,How useful was the support experience?,5.0,0.0
+STU-FB-01413,Student,STU001505,2026-09-15,Advising access,How useful was the support experience?,3.0,1.0
+STU-FB-01414,Student,STU001436,2026-09-11,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-01415,Student,STU000971,2026-09-04,Study skills,How useful was the support experience?,3.0,0.0
+STU-FB-01416,Student,STU001869,2026-09-05,Study skills,How useful was the support experience?,5.0,0.0
+STU-FB-01417,Student,STU001331,2026-09-20,Academic resources,How useful was the support experience?,1.0,1.0
+STU-FB-01418,Student,STU002181,2026-09-18,Study skills,How useful was the support experience?,,
+STU-FB-01419,Student,STU001781,2026-09-07,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-01420,Student,STU002094,2026-09-28,Scheduling,How useful was the support experience?,1.0,0.0
+STU-FB-01421,Student,STU001549,2026-09-23,Advising access,How useful was the support experience?,,
+STU-FB-01422,Student,STU000797,2026-09-20,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-01423,Student,STU000908,2026-09-09,Academic resources,How useful was the support experience?,4.0,0.0
+STU-FB-01424,Student,STU001782,2026-09-06,Scheduling,How useful was the support experience?,4.0,0.0
+STU-FB-01425,Student,STU001424,2026-09-27,Advising access,How useful was the support experience?,2.0,1.0
+STU-FB-01426,Student,STU001167,2026-09-21,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-01427,Student,STU001022,2026-09-09,Tutoring usefulness,How useful was the support experience?,4.0,0.0
+STU-FB-01428,Student,STU000130,2026-09-09,Communication,How useful was the support experience?,4.0,1.0
+STU-FB-01429,Student,STU000522,2026-09-02,Study skills,How useful was the support experience?,1.0,0.0
+STU-FB-01430,Student,STU000046,2026-09-27,Communication,How useful was the support experience?,4.0,1.0
+STU-FB-01431,Student,STU001795,2026-09-05,Advising access,How useful was the support experience?,,
+STU-FB-01432,Student,STU000895,2026-09-27,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-01433,Student,STU000830,2026-09-12,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-01434,Student,STU000166,2026-09-15,Communication,How useful was the support experience?,2.0,1.0
+STU-FB-01435,Student,STU000392,2026-09-06,Scheduling,How useful was the support experience?,3.0,1.0
+STU-FB-01436,Student,STU001863,2026-09-02,Academic resources,How useful was the support experience?,3.0,1.0
+STU-FB-01437,Student,STU001704,2026-09-12,Communication,How useful was the support experience?,3.0,0.0
+STU-FB-01438,Student,STU001840,2026-09-01,Tutoring usefulness,How useful was the support experience?,2.0,1.0
+STU-FB-01439,Student,STU000584,2026-09-21,Tutoring usefulness,How useful was the support experience?,2.0,1.0
+STU-FB-01440,Student,STU001165,2026-09-14,Study skills,How useful was the support experience?,5.0,1.0
+STU-FB-01441,Student,STU000752,2026-09-07,Tutoring usefulness,How useful was the support experience?,1.0,1.0
+STU-FB-01442,Student,STU000987,2026-09-16,Tutoring usefulness,How useful was the support experience?,5.0,0.0
+STU-FB-01443,Student,STU000212,2026-09-12,Academic resources,How useful was the support experience?,1.0,0.0
+STU-FB-01444,Student,STU001647,2026-09-09,Communication,How useful was the support experience?,2.0,1.0
+STU-FB-01445,Student,STU001189,2026-09-21,Academic resources,How useful was the support experience?,,
+STU-FB-01446,Student,STU000987,2026-09-23,Study skills,How useful was the support experience?,1.0,1.0
+STU-FB-01447,Student,STU001361,2026-09-21,Study skills,How useful was the support experience?,2.0,0.0
+STU-FB-01448,Student,STU000451,2026-09-11,Scheduling,How useful was the support experience?,2.0,0.0
+STU-FB-01449,Student,STU000958,2026-09-07,Study skills,How useful was the support experience?,2.0,1.0
+STU-FB-01450,Student,STU000346,2026-09-19,Advising access,How useful was the support experience?,2.0,1.0
+STU-FB-01451,Student,STU001569,2026-09-03,Tutoring usefulness,How useful was the support experience?,1.0,1.0
+STU-FB-01452,Student,STU002144,2026-09-01,Academic resources,How useful was the support experience?,4.0,0.0
+STU-FB-01453,Student,STU001804,2026-09-04,Study skills,How useful was the support experience?,4.0,1.0
+STU-FB-01454,Student,STU001394,2026-09-26,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-01455,Student,STU000819,2026-09-26,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-01456,Student,STU000584,2026-09-22,Tutoring usefulness,How useful was the support experience?,2.0,1.0
+STU-FB-01457,Student,STU000691,2026-09-21,Advising access,How useful was the support experience?,1.0,1.0
+STU-FB-01458,Student,STU002263,2026-09-25,Study skills,How useful was the support experience?,2.0,0.0
+STU-FB-01459,Student,STU001382,2026-09-18,Tutoring usefulness,How useful was the support experience?,2.0,0.0
+STU-FB-01460,Student,STU000585,2026-09-24,Advising access,How useful was the support experience?,1.0,0.0
+STU-FB-01461,Student,STU001495,2026-09-27,Tutoring usefulness,How useful was the support experience?,2.0,0.0
+STU-FB-01462,Student,STU000142,2026-09-28,Tutoring usefulness,How useful was the support experience?,1.0,1.0
+STU-FB-01463,Student,STU000778,2026-09-06,Academic resources,How useful was the support experience?,5.0,1.0
+STU-FB-01464,Student,STU001708,2026-09-05,Academic resources,How useful was the support experience?,2.0,1.0
+STU-FB-01465,Student,STU000378,2026-09-26,Study skills,How useful was the support experience?,4.0,0.0
+STU-FB-01466,Student,STU000689,2026-09-21,Tutoring usefulness,How useful was the support experience?,2.0,1.0
+STU-FB-01467,Student,STU000692,2026-09-13,Communication,How useful was the support experience?,5.0,0.0
+STU-FB-01468,Student,STU000008,2026-09-24,Advising access,How useful was the support experience?,3.0,0.0
+STU-FB-01469,Student,STU002462,2026-09-12,Scheduling,How useful was the support experience?,4.0,1.0
+STU-FB-01470,Student,STU002130,2026-09-09,Scheduling,How useful was the support experience?,5.0,0.0
+STU-FB-01471,Student,STU002480,2026-09-23,Communication,How useful was the support experience?,3.0,1.0
+STU-FB-01472,Student,STU002021,2026-09-09,Study skills,How useful was the support experience?,5.0,1.0
+STU-FB-01473,Student,STU002077,2026-09-06,Tutoring usefulness,How useful was the support experience?,2.0,1.0
+STU-FB-01474,Student,STU001603,2026-09-27,Scheduling,How useful was the support experience?,2.0,1.0
+STU-FB-01475,Student,STU001477,2026-09-24,Study skills,How useful was the support experience?,2.0,1.0
+STU-FB-01476,Student,STU001357,2026-09-07,Communication,How useful was the support experience?,2.0,0.0
+STU-FB-01477,Student,STU000228,2026-09-28,Scheduling,How useful was the support experience?,3.0,0.0
+STU-FB-01478,Student,STU001841,2026-09-18,Tutoring usefulness,How useful was the support experience?,3.0,1.0
+STU-FB-01479,Student,STU000226,2026-09-14,Academic resources,How useful was the support experience?,2.0,1.0
+STU-FB-01480,Student,STU000373,2026-09-12,Tutoring usefulness,How useful was the support experience?,5.0,0.0
+STU-FB-01481,Student,STU002200,2026-09-15,Tutoring usefulness,How useful was the support experience?,5.0,1.0
+STU-FB-01482,Student,STU001884,2026-09-04,Study skills,How useful was the support experience?,4.0,0.0
+STU-FB-01483,Student,STU002083,2026-09-20,Scheduling,How useful was the support experience?,5.0,0.0
+STU-FB-01484,Student,STU002019,2026-09-08,Advising access,How useful was the support experience?,2.0,0.0
+STU-FB-01485,Student,STU000619,2026-09-06,Study skills,How useful was the support experience?,2.0,1.0
+STU-FB-01486,Student,STU001786,2026-09-07,Tutoring usefulness,How useful was the support experience?,2.0,1.0
+STU-FB-01487,Student,STU001231,2026-09-22,Scheduling,How useful was the support experience?,,
+STU-FB-01488,Student,STU000166,2026-09-22,Tutoring usefulness,How useful was the support experience?,3.0,0.0
+STU-FB-01489,Student,STU001008,2026-09-02,Communication,How useful was the support experience?,2.0,0.0
+STU-FB-01490,Student,STU000925,2026-09-21,Advising access,How useful was the support experience?,1.0,1.0
+STU-FB-01491,Student,STU001041,2026-09-24,Academic resources,How useful was the support experience?,4.0,1.0
+STU-FB-01492,Student,STU002322,2026-09-27,Advising access,How useful was the support experience?,,
+STU-FB-01493,Student,STU000599,2026-09-13,Scheduling,How useful was the support experience?,1.0,1.0
+STU-FB-01494,Student,STU000832,2026-09-10,Tutoring usefulness,How useful was the support experience?,1.0,0.0
+STU-FB-01495,Student,STU000501,2026-09-20,Advising access,How useful was the support experience?,4.0,0.0
+STU-FB-01496,Student,STU002296,2026-09-28,Academic resources,How useful was the support experience?,,
+STU-FB-01497,Student,STU000876,2026-09-20,Scheduling,How useful was the support experience?,2.0,0.0
+STU-FB-01498,Student,STU000747,2026-09-13,Tutoring usefulness,How useful was the support experience?,4.0,1.0
+STU-FB-01499,Student,STU000403,2026-09-15,Communication,How useful was the support experience?,,
+STU-FB-01500,Student,STU000684,2026-09-25,Tutoring usefulness,How useful was the support experience?,4.0,0.0
+FAC-FB-00001,Faculty,,2026-09-25,Communication,How useful was the support coordination process?,3.0,0.0
+FAC-FB-00002,Faculty,,2026-09-17,Intervention coordination,How useful was the support coordination process?,5.0,0.0
+FAC-FB-00003,Faculty,,2026-09-17,Dashboard usefulness,How useful was the support coordination process?,2.0,1.0
+FAC-FB-00004,Faculty,,2026-09-21,Intervention coordination,How useful was the support coordination process?,3.0,1.0
+FAC-FB-00005,Faculty,,2026-09-08,Data visibility,How useful was the support coordination process?,,
+FAC-FB-00006,Faculty,,2026-09-28,Communication,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00007,Faculty,,2026-09-16,Data visibility,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00008,Faculty,,2026-09-13,Referral process,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00009,Faculty,,2026-09-02,Data visibility,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00010,Faculty,,2026-09-17,Dashboard usefulness,How useful was the support coordination process?,4.0,1.0
+FAC-FB-00011,Faculty,,2026-09-25,Dashboard usefulness,How useful was the support coordination process?,5.0,1.0
+FAC-FB-00012,Faculty,,2026-09-06,Dashboard usefulness,How useful was the support coordination process?,5.0,0.0
+FAC-FB-00013,Faculty,,2026-09-03,Intervention coordination,How useful was the support coordination process?,4.0,0.0
+FAC-FB-00014,Faculty,,2026-09-28,Data visibility,How useful was the support coordination process?,3.0,1.0
+FAC-FB-00015,Faculty,,2026-09-06,Data visibility,How useful was the support coordination process?,3.0,1.0
+FAC-FB-00016,Faculty,,2026-09-03,Dashboard usefulness,How useful was the support coordination process?,5.0,1.0
+FAC-FB-00017,Faculty,,2026-09-18,Referral process,How useful was the support coordination process?,2.0,1.0
+FAC-FB-00018,Faculty,,2026-09-12,Dashboard usefulness,How useful was the support coordination process?,3.0,0.0
+FAC-FB-00019,Faculty,,2026-09-13,Dashboard usefulness,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00020,Faculty,,2026-09-18,Data visibility,How useful was the support coordination process?,4.0,1.0
+FAC-FB-00021,Faculty,,2026-09-01,Dashboard usefulness,How useful was the support coordination process?,1.0,0.0
+FAC-FB-00022,Faculty,,2026-09-28,Communication,How useful was the support coordination process?,5.0,1.0
+FAC-FB-00023,Faculty,,2026-09-05,Intervention coordination,How useful was the support coordination process?,4.0,1.0
+FAC-FB-00024,Faculty,,2026-09-19,Dashboard usefulness,How useful was the support coordination process?,5.0,1.0
+FAC-FB-00025,Faculty,,2026-09-18,Dashboard usefulness,How useful was the support coordination process?,1.0,0.0
+FAC-FB-00026,Faculty,,2026-09-14,Data visibility,How useful was the support coordination process?,4.0,1.0
+FAC-FB-00027,Faculty,,2026-09-08,Communication,How useful was the support coordination process?,,
+FAC-FB-00028,Faculty,,2026-09-09,Data visibility,How useful was the support coordination process?,4.0,1.0
+FAC-FB-00029,Faculty,,2026-09-04,Communication,How useful was the support coordination process?,5.0,1.0
+FAC-FB-00030,Faculty,,2026-09-11,Communication,How useful was the support coordination process?,3.0,1.0
+FAC-FB-00031,Faculty,,2026-09-06,Referral process,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00032,Faculty,,2026-09-16,Referral process,How useful was the support coordination process?,3.0,1.0
+FAC-FB-00033,Faculty,,2026-09-23,Referral process,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00034,Faculty,,2026-09-11,Data visibility,How useful was the support coordination process?,2.0,1.0
+FAC-FB-00035,Faculty,,2026-09-16,Referral process,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00036,Faculty,,2026-09-10,Communication,How useful was the support coordination process?,5.0,1.0
+FAC-FB-00037,Faculty,,2026-09-02,Referral process,How useful was the support coordination process?,5.0,1.0
+FAC-FB-00038,Faculty,,2026-09-15,Intervention coordination,How useful was the support coordination process?,3.0,0.0
+FAC-FB-00039,Faculty,,2026-09-07,Referral process,How useful was the support coordination process?,4.0,1.0
+FAC-FB-00040,Faculty,,2026-09-26,Communication,How useful was the support coordination process?,2.0,1.0
+FAC-FB-00041,Faculty,,2026-09-14,Intervention coordination,How useful was the support coordination process?,2.0,1.0
+FAC-FB-00042,Faculty,,2026-09-06,Communication,How useful was the support coordination process?,5.0,1.0
+FAC-FB-00043,Faculty,,2026-09-11,Dashboard usefulness,How useful was the support coordination process?,2.0,1.0
+FAC-FB-00044,Faculty,,2026-09-10,Intervention coordination,How useful was the support coordination process?,2.0,0.0
+FAC-FB-00045,Faculty,,2026-09-27,Data visibility,How useful was the support coordination process?,3.0,0.0
+FAC-FB-00046,Faculty,,2026-09-12,Data visibility,How useful was the support coordination process?,5.0,1.0
+FAC-FB-00047,Faculty,,2026-09-13,Dashboard usefulness,How useful was the support coordination process?,2.0,1.0
+FAC-FB-00048,Faculty,,2026-09-26,Data visibility,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00049,Faculty,,2026-09-22,Referral process,How useful was the support coordination process?,4.0,1.0
+FAC-FB-00050,Faculty,,2026-09-25,Intervention coordination,How useful was the support coordination process?,2.0,0.0
+FAC-FB-00051,Faculty,,2026-09-25,Data visibility,How useful was the support coordination process?,4.0,0.0
+FAC-FB-00052,Faculty,,2026-09-06,Communication,How useful was the support coordination process?,4.0,0.0
+FAC-FB-00053,Faculty,,2026-09-01,Data visibility,How useful was the support coordination process?,4.0,0.0
+FAC-FB-00054,Faculty,,2026-09-19,Dashboard usefulness,How useful was the support coordination process?,2.0,1.0
+FAC-FB-00055,Faculty,,2026-09-21,Dashboard usefulness,How useful was the support coordination process?,5.0,0.0
+FAC-FB-00056,Faculty,,2026-09-01,Data visibility,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00057,Faculty,,2026-09-04,Dashboard usefulness,How useful was the support coordination process?,5.0,1.0
+FAC-FB-00058,Faculty,,2026-09-22,Communication,How useful was the support coordination process?,4.0,1.0
+FAC-FB-00059,Faculty,,2026-09-11,Referral process,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00060,Faculty,,2026-09-10,Data visibility,How useful was the support coordination process?,2.0,1.0
+FAC-FB-00061,Faculty,,2026-09-27,Referral process,How useful was the support coordination process?,2.0,1.0
+FAC-FB-00062,Faculty,,2026-09-23,Communication,How useful was the support coordination process?,2.0,1.0
+FAC-FB-00063,Faculty,,2026-09-06,Data visibility,How useful was the support coordination process?,3.0,0.0
+FAC-FB-00064,Faculty,,2026-09-25,Dashboard usefulness,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00065,Faculty,,2026-09-22,Data visibility,How useful was the support coordination process?,2.0,1.0
+FAC-FB-00066,Faculty,,2026-09-19,Intervention coordination,How useful was the support coordination process?,2.0,1.0
+FAC-FB-00067,Faculty,,2026-09-11,Communication,How useful was the support coordination process?,3.0,0.0
+FAC-FB-00068,Faculty,,2026-09-05,Communication,How useful was the support coordination process?,2.0,1.0
+FAC-FB-00069,Faculty,,2026-09-18,Intervention coordination,How useful was the support coordination process?,2.0,1.0
+FAC-FB-00070,Faculty,,2026-09-13,Referral process,How useful was the support coordination process?,3.0,1.0
+FAC-FB-00071,Faculty,,2026-09-24,Communication,How useful was the support coordination process?,5.0,1.0
+FAC-FB-00072,Faculty,,2026-09-08,Data visibility,How useful was the support coordination process?,2.0,1.0
+FAC-FB-00073,Faculty,,2026-09-10,Communication,How useful was the support coordination process?,,
+FAC-FB-00074,Faculty,,2026-09-01,Dashboard usefulness,How useful was the support coordination process?,2.0,0.0
+FAC-FB-00075,Faculty,,2026-09-08,Communication,How useful was the support coordination process?,3.0,1.0
+FAC-FB-00076,Faculty,,2026-09-10,Intervention coordination,How useful was the support coordination process?,,
+FAC-FB-00077,Faculty,,2026-09-25,Intervention coordination,How useful was the support coordination process?,4.0,1.0
+FAC-FB-00078,Faculty,,2026-09-12,Intervention coordination,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00079,Faculty,,2026-09-22,Dashboard usefulness,How useful was the support coordination process?,4.0,1.0
+FAC-FB-00080,Faculty,,2026-09-12,Communication,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00081,Faculty,,2026-09-15,Dashboard usefulness,How useful was the support coordination process?,1.0,0.0
+FAC-FB-00082,Faculty,,2026-09-10,Data visibility,How useful was the support coordination process?,1.0,0.0
+FAC-FB-00083,Faculty,,2026-09-24,Intervention coordination,How useful was the support coordination process?,5.0,1.0
+FAC-FB-00084,Faculty,,2026-09-22,Referral process,How useful was the support coordination process?,4.0,1.0
+FAC-FB-00085,Faculty,,2026-09-24,Referral process,How useful was the support coordination process?,1.0,0.0
+FAC-FB-00086,Faculty,,2026-09-18,Intervention coordination,How useful was the support coordination process?,1.0,0.0
+FAC-FB-00087,Faculty,,2026-09-16,Communication,How useful was the support coordination process?,2.0,0.0
+FAC-FB-00088,Faculty,,2026-09-19,Intervention coordination,How useful was the support coordination process?,4.0,1.0
+FAC-FB-00089,Faculty,,2026-09-25,Data visibility,How useful was the support coordination process?,1.0,0.0
+FAC-FB-00090,Faculty,,2026-09-17,Communication,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00091,Faculty,,2026-09-07,Referral process,How useful was the support coordination process?,3.0,1.0
+FAC-FB-00092,Faculty,,2026-09-17,Referral process,How useful was the support coordination process?,3.0,1.0
+FAC-FB-00093,Faculty,,2026-09-21,Referral process,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00094,Faculty,,2026-09-02,Dashboard usefulness,How useful was the support coordination process?,4.0,1.0
+FAC-FB-00095,Faculty,,2026-09-01,Intervention coordination,How useful was the support coordination process?,5.0,1.0
+FAC-FB-00096,Faculty,,2026-09-19,Referral process,How useful was the support coordination process?,3.0,1.0
+FAC-FB-00097,Faculty,,2026-09-17,Communication,How useful was the support coordination process?,3.0,1.0
+FAC-FB-00098,Faculty,,2026-09-01,Communication,How useful was the support coordination process?,4.0,1.0
+FAC-FB-00099,Faculty,,2026-09-19,Intervention coordination,How useful was the support coordination process?,3.0,1.0
+FAC-FB-00100,Faculty,,2026-09-09,Dashboard usefulness,How useful was the support coordination process?,4.0,0.0
+FAC-FB-00101,Faculty,,2026-09-11,Intervention coordination,How useful was the support coordination process?,5.0,1.0
+FAC-FB-00102,Faculty,,2026-09-21,Communication,How useful was the support coordination process?,2.0,1.0
+FAC-FB-00103,Faculty,,2026-09-24,Data visibility,How useful was the support coordination process?,5.0,1.0
+FAC-FB-00104,Faculty,,2026-09-02,Data visibility,How useful was the support coordination process?,2.0,0.0
+FAC-FB-00105,Faculty,,2026-09-02,Communication,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00106,Faculty,,2026-09-24,Dashboard usefulness,How useful was the support coordination process?,3.0,1.0
+FAC-FB-00107,Faculty,,2026-09-28,Referral process,How useful was the support coordination process?,3.0,1.0
+FAC-FB-00108,Faculty,,2026-09-26,Communication,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00109,Faculty,,2026-09-21,Intervention coordination,How useful was the support coordination process?,,
+FAC-FB-00110,Faculty,,2026-09-07,Data visibility,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00111,Faculty,,2026-09-19,Dashboard usefulness,How useful was the support coordination process?,4.0,1.0
+FAC-FB-00112,Faculty,,2026-09-07,Communication,How useful was the support coordination process?,2.0,1.0
+FAC-FB-00113,Faculty,,2026-09-22,Intervention coordination,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00114,Faculty,,2026-09-13,Communication,How useful was the support coordination process?,4.0,0.0
+FAC-FB-00115,Faculty,,2026-09-13,Data visibility,How useful was the support coordination process?,5.0,1.0
+FAC-FB-00116,Faculty,,2026-09-25,Dashboard usefulness,How useful was the support coordination process?,5.0,1.0
+FAC-FB-00117,Faculty,,2026-09-18,Data visibility,How useful was the support coordination process?,,
+FAC-FB-00118,Faculty,,2026-09-03,Communication,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00119,Faculty,,2026-09-07,Intervention coordination,How useful was the support coordination process?,,
+FAC-FB-00120,Faculty,,2026-09-27,Dashboard usefulness,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00121,Faculty,,2026-09-13,Dashboard usefulness,How useful was the support coordination process?,1.0,0.0
+FAC-FB-00122,Faculty,,2026-09-10,Communication,How useful was the support coordination process?,3.0,1.0
+FAC-FB-00123,Faculty,,2026-09-09,Dashboard usefulness,How useful was the support coordination process?,5.0,1.0
+FAC-FB-00124,Faculty,,2026-09-23,Data visibility,How useful was the support coordination process?,4.0,1.0
+FAC-FB-00125,Faculty,,2026-09-07,Referral process,How useful was the support coordination process?,5.0,1.0
+FAC-FB-00126,Faculty,,2026-09-07,Intervention coordination,How useful was the support coordination process?,5.0,1.0
+FAC-FB-00127,Faculty,,2026-09-08,Intervention coordination,How useful was the support coordination process?,4.0,1.0
+FAC-FB-00128,Faculty,,2026-09-03,Dashboard usefulness,How useful was the support coordination process?,3.0,1.0
+FAC-FB-00129,Faculty,,2026-09-07,Intervention coordination,How useful was the support coordination process?,4.0,1.0
+FAC-FB-00130,Faculty,,2026-09-28,Intervention coordination,How useful was the support coordination process?,3.0,1.0
+FAC-FB-00131,Faculty,,2026-09-12,Intervention coordination,How useful was the support coordination process?,3.0,1.0
+FAC-FB-00132,Faculty,,2026-09-11,Intervention coordination,How useful was the support coordination process?,5.0,1.0
+FAC-FB-00133,Faculty,,2026-09-15,Intervention coordination,How useful was the support coordination process?,3.0,0.0
+FAC-FB-00134,Faculty,,2026-09-10,Data visibility,How useful was the support coordination process?,5.0,1.0
+FAC-FB-00135,Faculty,,2026-09-06,Dashboard usefulness,How useful was the support coordination process?,2.0,0.0
+FAC-FB-00136,Faculty,,2026-09-19,Referral process,How useful was the support coordination process?,2.0,1.0
+FAC-FB-00137,Faculty,,2026-09-25,Referral process,How useful was the support coordination process?,,
+FAC-FB-00138,Faculty,,2026-09-10,Data visibility,How useful was the support coordination process?,,
+FAC-FB-00139,Faculty,,2026-09-06,Data visibility,How useful was the support coordination process?,,
+FAC-FB-00140,Faculty,,2026-09-05,Intervention coordination,How useful was the support coordination process?,4.0,0.0
+FAC-FB-00141,Faculty,,2026-09-08,Referral process,How useful was the support coordination process?,3.0,1.0
+FAC-FB-00142,Faculty,,2026-09-22,Intervention coordination,How useful was the support coordination process?,3.0,1.0
+FAC-FB-00143,Faculty,,2026-09-05,Referral process,How useful was the support coordination process?,1.0,0.0
+FAC-FB-00144,Faculty,,2026-09-22,Dashboard usefulness,How useful was the support coordination process?,3.0,1.0
+FAC-FB-00145,Faculty,,2026-09-16,Data visibility,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00146,Faculty,,2026-09-10,Dashboard usefulness,How useful was the support coordination process?,2.0,0.0
+FAC-FB-00147,Faculty,,2026-09-15,Dashboard usefulness,How useful was the support coordination process?,5.0,0.0
+FAC-FB-00148,Faculty,,2026-09-26,Dashboard usefulness,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00149,Faculty,,2026-09-28,Intervention coordination,How useful was the support coordination process?,5.0,0.0
+FAC-FB-00150,Faculty,,2026-09-12,Data visibility,How useful was the support coordination process?,3.0,1.0
+FAC-FB-00151,Faculty,,2026-09-12,Intervention coordination,How useful was the support coordination process?,3.0,1.0
+FAC-FB-00152,Faculty,,2026-09-18,Data visibility,How useful was the support coordination process?,3.0,1.0
+FAC-FB-00153,Faculty,,2026-09-03,Intervention coordination,How useful was the support coordination process?,5.0,1.0
+FAC-FB-00154,Faculty,,2026-09-13,Referral process,How useful was the support coordination process?,2.0,0.0
+FAC-FB-00155,Faculty,,2026-09-16,Intervention coordination,How useful was the support coordination process?,2.0,0.0
+FAC-FB-00156,Faculty,,2026-09-12,Dashboard usefulness,How useful was the support coordination process?,5.0,1.0
+FAC-FB-00157,Faculty,,2026-09-13,Data visibility,How useful was the support coordination process?,3.0,1.0
+FAC-FB-00158,Faculty,,2026-09-24,Dashboard usefulness,How useful was the support coordination process?,5.0,1.0
+FAC-FB-00159,Faculty,,2026-09-22,Referral process,How useful was the support coordination process?,3.0,1.0
+FAC-FB-00160,Faculty,,2026-09-20,Dashboard usefulness,How useful was the support coordination process?,4.0,1.0
+FAC-FB-00161,Faculty,,2026-09-03,Dashboard usefulness,How useful was the support coordination process?,3.0,1.0
+FAC-FB-00162,Faculty,,2026-09-09,Data visibility,How useful was the support coordination process?,4.0,1.0
+FAC-FB-00163,Faculty,,2026-09-16,Intervention coordination,How useful was the support coordination process?,3.0,1.0
+FAC-FB-00164,Faculty,,2026-09-21,Communication,How useful was the support coordination process?,5.0,1.0
+FAC-FB-00165,Faculty,,2026-09-12,Referral process,How useful was the support coordination process?,4.0,1.0
+FAC-FB-00166,Faculty,,2026-09-10,Data visibility,How useful was the support coordination process?,3.0,1.0
+FAC-FB-00167,Faculty,,2026-09-10,Dashboard usefulness,How useful was the support coordination process?,2.0,1.0
+FAC-FB-00168,Faculty,,2026-09-13,Communication,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00169,Faculty,,2026-09-03,Referral process,How useful was the support coordination process?,3.0,1.0
+FAC-FB-00170,Faculty,,2026-09-12,Communication,How useful was the support coordination process?,3.0,0.0
+FAC-FB-00171,Faculty,,2026-09-21,Dashboard usefulness,How useful was the support coordination process?,2.0,1.0
+FAC-FB-00172,Faculty,,2026-09-23,Dashboard usefulness,How useful was the support coordination process?,4.0,0.0
+FAC-FB-00173,Faculty,,2026-09-14,Referral process,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00174,Faculty,,2026-09-15,Dashboard usefulness,How useful was the support coordination process?,4.0,1.0
+FAC-FB-00175,Faculty,,2026-09-25,Intervention coordination,How useful was the support coordination process?,4.0,1.0
+FAC-FB-00176,Faculty,,2026-09-22,Data visibility,How useful was the support coordination process?,3.0,1.0
+FAC-FB-00177,Faculty,,2026-09-15,Communication,How useful was the support coordination process?,4.0,1.0
+FAC-FB-00178,Faculty,,2026-09-14,Referral process,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00179,Faculty,,2026-09-10,Data visibility,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00180,Faculty,,2026-09-13,Intervention coordination,How useful was the support coordination process?,3.0,1.0
+FAC-FB-00181,Faculty,,2026-09-25,Referral process,How useful was the support coordination process?,5.0,0.0
+FAC-FB-00182,Faculty,,2026-09-12,Data visibility,How useful was the support coordination process?,2.0,1.0
+FAC-FB-00183,Faculty,,2026-09-12,Dashboard usefulness,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00184,Faculty,,2026-09-08,Referral process,How useful was the support coordination process?,,
+FAC-FB-00185,Faculty,,2026-09-26,Referral process,How useful was the support coordination process?,5.0,1.0
+FAC-FB-00186,Faculty,,2026-09-18,Dashboard usefulness,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00187,Faculty,,2026-09-02,Communication,How useful was the support coordination process?,2.0,1.0
+FAC-FB-00188,Faculty,,2026-09-03,Referral process,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00189,Faculty,,2026-09-13,Intervention coordination,How useful was the support coordination process?,2.0,1.0
+FAC-FB-00190,Faculty,,2026-09-12,Communication,How useful was the support coordination process?,,
+FAC-FB-00191,Faculty,,2026-09-26,Dashboard usefulness,How useful was the support coordination process?,5.0,0.0
+FAC-FB-00192,Faculty,,2026-09-27,Data visibility,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00193,Faculty,,2026-09-08,Communication,How useful was the support coordination process?,1.0,0.0
+FAC-FB-00194,Faculty,,2026-09-12,Data visibility,How useful was the support coordination process?,3.0,1.0
+FAC-FB-00195,Faculty,,2026-09-13,Referral process,How useful was the support coordination process?,5.0,1.0
+FAC-FB-00196,Faculty,,2026-09-07,Dashboard usefulness,How useful was the support coordination process?,5.0,1.0
+FAC-FB-00197,Faculty,,2026-09-08,Dashboard usefulness,How useful was the support coordination process?,2.0,1.0
+FAC-FB-00198,Faculty,,2026-09-27,Referral process,How useful was the support coordination process?,4.0,1.0
+FAC-FB-00199,Faculty,,2026-09-17,Dashboard usefulness,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00200,Faculty,,2026-09-27,Data visibility,How useful was the support coordination process?,5.0,0.0
+FAC-FB-00201,Faculty,,2026-09-02,Intervention coordination,How useful was the support coordination process?,2.0,0.0
+FAC-FB-00202,Faculty,,2026-09-09,Communication,How useful was the support coordination process?,2.0,1.0
+FAC-FB-00203,Faculty,,2026-09-24,Communication,How useful was the support coordination process?,4.0,0.0
+FAC-FB-00204,Faculty,,2026-09-28,Referral process,How useful was the support coordination process?,4.0,0.0
+FAC-FB-00205,Faculty,,2026-09-02,Data visibility,How useful was the support coordination process?,4.0,1.0
+FAC-FB-00206,Faculty,,2026-09-09,Referral process,How useful was the support coordination process?,5.0,1.0
+FAC-FB-00207,Faculty,,2026-09-27,Dashboard usefulness,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00208,Faculty,,2026-09-15,Referral process,How useful was the support coordination process?,5.0,0.0
+FAC-FB-00209,Faculty,,2026-09-07,Referral process,How useful was the support coordination process?,5.0,1.0
+FAC-FB-00210,Faculty,,2026-09-07,Referral process,How useful was the support coordination process?,5.0,0.0
+FAC-FB-00211,Faculty,,2026-09-19,Intervention coordination,How useful was the support coordination process?,5.0,1.0
+FAC-FB-00212,Faculty,,2026-09-05,Dashboard usefulness,How useful was the support coordination process?,2.0,1.0
+FAC-FB-00213,Faculty,,2026-09-03,Data visibility,How useful was the support coordination process?,5.0,1.0
+FAC-FB-00214,Faculty,,2026-09-21,Referral process,How useful was the support coordination process?,4.0,0.0
+FAC-FB-00215,Faculty,,2026-09-28,Communication,How useful was the support coordination process?,4.0,0.0
+FAC-FB-00216,Faculty,,2026-09-18,Dashboard usefulness,How useful was the support coordination process?,2.0,0.0
+FAC-FB-00217,Faculty,,2026-09-10,Dashboard usefulness,How useful was the support coordination process?,3.0,1.0
+FAC-FB-00218,Faculty,,2026-09-17,Intervention coordination,How useful was the support coordination process?,5.0,1.0
+FAC-FB-00219,Faculty,,2026-09-27,Referral process,How useful was the support coordination process?,4.0,1.0
+FAC-FB-00220,Faculty,,2026-09-10,Dashboard usefulness,How useful was the support coordination process?,,
+FAC-FB-00221,Faculty,,2026-09-27,Communication,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00222,Faculty,,2026-09-14,Intervention coordination,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00223,Faculty,,2026-09-18,Referral process,How useful was the support coordination process?,2.0,1.0
+FAC-FB-00224,Faculty,,2026-09-20,Referral process,How useful was the support coordination process?,4.0,1.0
+FAC-FB-00225,Faculty,,2026-09-11,Referral process,How useful was the support coordination process?,4.0,0.0
+FAC-FB-00226,Faculty,,2026-09-22,Dashboard usefulness,How useful was the support coordination process?,3.0,1.0
+FAC-FB-00227,Faculty,,2026-09-28,Dashboard usefulness,How useful was the support coordination process?,5.0,1.0
+FAC-FB-00228,Faculty,,2026-09-06,Intervention coordination,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00229,Faculty,,2026-09-18,Referral process,How useful was the support coordination process?,5.0,1.0
+FAC-FB-00230,Faculty,,2026-09-21,Intervention coordination,How useful was the support coordination process?,4.0,1.0
+FAC-FB-00231,Faculty,,2026-09-17,Referral process,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00232,Faculty,,2026-09-14,Dashboard usefulness,How useful was the support coordination process?,4.0,1.0
+FAC-FB-00233,Faculty,,2026-09-16,Communication,How useful was the support coordination process?,4.0,1.0
+FAC-FB-00234,Faculty,,2026-09-17,Referral process,How useful was the support coordination process?,5.0,1.0
+FAC-FB-00235,Faculty,,2026-09-20,Data visibility,How useful was the support coordination process?,3.0,1.0
+FAC-FB-00236,Faculty,,2026-09-06,Referral process,How useful was the support coordination process?,2.0,1.0
+FAC-FB-00237,Faculty,,2026-09-05,Communication,How useful was the support coordination process?,2.0,0.0
+FAC-FB-00238,Faculty,,2026-09-10,Referral process,How useful was the support coordination process?,3.0,1.0
+FAC-FB-00239,Faculty,,2026-09-19,Communication,How useful was the support coordination process?,3.0,1.0
+FAC-FB-00240,Faculty,,2026-09-20,Referral process,How useful was the support coordination process?,4.0,1.0
+FAC-FB-00241,Faculty,,2026-09-05,Data visibility,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00242,Faculty,,2026-09-09,Intervention coordination,How useful was the support coordination process?,5.0,1.0
+FAC-FB-00243,Faculty,,2026-09-03,Referral process,How useful was the support coordination process?,1.0,0.0
+FAC-FB-00244,Faculty,,2026-09-23,Data visibility,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00245,Faculty,,2026-09-02,Data visibility,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00246,Faculty,,2026-09-01,Referral process,How useful was the support coordination process?,5.0,0.0
+FAC-FB-00247,Faculty,,2026-09-27,Data visibility,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00248,Faculty,,2026-09-13,Intervention coordination,How useful was the support coordination process?,4.0,0.0
+FAC-FB-00249,Faculty,,2026-09-24,Data visibility,How useful was the support coordination process?,1.0,1.0
+FAC-FB-00250,Faculty,,2026-09-06,Referral process,How useful was the support coordination process?,,

@@ -204,3 +204,49 @@ def load_interventions(
         """,
         (student_id,),
     )
+
+def load_weekly_profile(
+    student_id: str,
+) -> pd.DataFrame:
+    """Load weekly engagement indicators for one student."""
+
+    return query(
+        """
+        SELECT
+            student_id,
+            week_number,
+            attendance_rate,
+            attendance_events,
+            login_count,
+            minutes_active,
+            assignment_views,
+            submission_rate,
+            assignments
+        FROM weekly_student_profile
+        WHERE student_id = ?
+        ORDER BY week_number
+        """,
+        (student_id,),
+    )
+
+
+def load_assessment_trajectory(
+    student_id: str,
+) -> pd.DataFrame:
+    """Load chronological assessment records."""
+
+    return query(
+        """
+        SELECT
+            student_id,
+            course_id,
+            assessment_type,
+            assessment_date,
+            score,
+            assessment_number
+        FROM student_assessment_trajectory
+        WHERE student_id = ?
+        ORDER BY assessment_date
+        """,
+        (student_id,),
+    )

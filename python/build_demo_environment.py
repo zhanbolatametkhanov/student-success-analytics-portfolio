@@ -164,6 +164,18 @@ run_script(
 )
 
 run_script(
+    "student_profile_analysis.py"
+)
+
+run_script(
+    "survey_generation.py"
+)
+
+run_script(
+    "survey_analysis.py"
+)
+
+run_script(
     "outcome_analysis.py"
 )
 
@@ -196,6 +208,14 @@ run_script(
 
 run_script(
     "load_outcome_data.py"
+)
+
+run_script(
+    "load_profile_data.py"
+)
+
+run_script(
+    "load_survey_data.py"
 )
 
 
