@@ -3,522 +3,485 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="description" content="Zhanbolat Ametkhanov - Systems & Data interview portfolio focused on student success analytics, systems integration, reporting and data governance.">
+    <meta name="theme-color" content="#1d1c19">
     <title>Zhanbolat Ametkhanov | Systems & Data Portfolio</title>
 
-    <meta
-        name="description"
-        content="Zhanbolat Ametkhanov — IT, systems, data analytics and higher education technology portfolio."
-    >
+    <!-- Typography aligned with the supplied NU brand guideline: Prata + Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Prata&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Navigation -->
-    <nav class="navbar">
+<a class="skip-link" href="#main-content">Skip to content</a>
 
-        <div class="nav-container">
+<header class="site-header">
+    <div class="utility-bar">
+        <div class="container utility-inner">
+            <span>INTERVIEW PORTFOLIO</span>
+            <span>Systems · Data · Academic Success</span>
+        </div>
+    </div>
 
-            <a href="#" class="logo">
-                ZA
+    <nav class="navbar" aria-label="Main navigation">
+        <div class="container nav-inner">
+            <a class="brand" href="#top" aria-label="Zhanbolat Ametkhanov home">
+                <span class="brand-mark" aria-hidden="true">ZA</span>
+                <span class="brand-copy">
+                    <strong>Zhanbolat Ametkhanov</strong>
+                    <small>Systems &amp; Data Portfolio</small>
+                </span>
             </a>
 
-            <div class="nav-links">
+            <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Open navigation menu">
+            <label class="nav-toggle-label" for="nav-toggle">
+                <span></span><span></span><span></span>
+            </label>
+
+            <div class="nav-menu">
                 <a href="#about">About</a>
-                <a href="#experience">Experience</a>
+                <a href="#capabilities">Capabilities</a>
                 <a href="#case-study">Case Study</a>
-                <a href="#technical">Technical</a>
+                <a href="#experience">Experience</a>
                 <a href="#contact">Contact</a>
+                <a class="nav-github" href="https://github.com/zhanbolatametkhanov" target="_blank" rel="noopener">GitHub ↗</a>
             </div>
-
         </div>
-
     </nav>
+</header>
 
+<main id="main-content">
 
-    <!-- Hero -->
-    <header class="hero">
+    <section id="top" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-copy">
+                <p class="eyebrow">BRIDGING SPECIALIST · SYSTEMS &amp; DATA</p>
+                <h1>Bridging systems, data and <em>student success.</em></h1>
+                <p class="hero-lead">
+                    A practical portfolio showing how I approach institutional data,
+                    systems integration, early-warning analytics, intervention workflows,
+                    reporting and data governance.
+                </p>
 
-        <div class="hero-content">
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#case-study">Explore the case study</a>
+                    <a class="button button-secondary" href="https://github.com/zhanbolatametkhanov" target="_blank" rel="noopener">View source on GitHub</a>
+                </div>
 
-            <p class="eyebrow">
-                SYSTEMS • DATA • HIGHER EDUCATION
-            </p>
-
-            <h1>
-                Zhanbolat Ametkhanov
-            </h1>
-
-            <p class="hero-subtitle">
-                IT & Engineering Management Professional
-                bridging systems, data and operational decision-making.
-            </p>
-
-            <div class="hero-buttons">
-
-                <a href="#case-study" class="button primary">
-                    Explore the Case Study
-                </a>
-
-                <a
-                    href="https://github.com/zhanbolatametkhanov"
-                    class="button secondary"
-                    target="_blank"
-                    rel="noopener"
-                >
-                    View GitHub
-                </a>
-
+                <div class="hero-meta" aria-label="Profile highlights">
+                    <span>Astana · Kazakhstan</span>
+                    <span>English · Russian · Kazakh · German · Hungarian</span>
+                </div>
             </div>
 
+            <div class="hero-panel" aria-label="Student Success Analytics prototype preview">
+                <div class="hero-panel-top">
+                    <div>
+                        <p class="panel-overline">STUDENT SUCCESS ANALYTICS LAB</p>
+                        <h2>From signal to action</h2>
+                    </div>
+                    <span class="status-badge">PROTOTYPE</span>
+                </div>
+
+                <div class="system-flow" aria-label="System flow">
+                    <div class="flow-node">
+                        <span>01</span>
+                        <strong>LMS</strong>
+                        <small>Engagement</small>
+                    </div>
+                    <div class="flow-line"></div>
+                    <div class="flow-node">
+                        <span>02</span>
+                        <strong>SIS</strong>
+                        <small>Student record</small>
+                    </div>
+                    <div class="flow-line"></div>
+                    <div class="flow-node active">
+                        <span>03</span>
+                        <strong>Analytics</strong>
+                        <small>Risk signals</small>
+                    </div>
+                    <div class="flow-line"></div>
+                    <div class="flow-node">
+                        <span>04</span>
+                        <strong>ASC</strong>
+                        <small>Intervention</small>
+                    </div>
+                </div>
+
+                <div class="risk-card">
+                    <div class="risk-header">
+                        <div>
+                            <span class="micro-label">EXAMPLE ALERT</span>
+                            <strong>Student risk signal detected</strong>
+                        </div>
+                        <span class="risk-pill">HIGH</span>
+                    </div>
+                    <div class="risk-grid">
+                        <div><span>Attendance</span><strong>72%</strong><small>↓ trend</small></div>
+                        <div><span>LMS activity</span><strong>−32%</strong><small>4-week change</small></div>
+                        <div><span>Assessment avg.</span><strong>61%</strong><small>current period</small></div>
+                    </div>
+                    <div class="risk-footer">
+                        <span>Next step</span>
+                        <strong>Validate signal → advisor workflow</strong>
+                    </div>
+                </div>
+
+                <p class="prototype-note">Synthetic demonstration data only · no real student information</p>
+            </div>
         </div>
+    </section>
 
-    </header>
-
-
-    <main>
-
-
-        <!-- About -->
-        <section id="about">
-
-            <div class="section-label">
-                ABOUT
-            </div>
-
-            <h2>
-                Building reliable systems and turning data into useful decisions.
-            </h2>
-
-            <p>
-                I am an IT and engineering-management professional with
-                experience across enterprise software delivery, IT
-                infrastructure, automation, reporting and higher-education
-                environments.
-            </p>
-
-            <p>
-                My work combines systems thinking with structured analysis:
-                understanding how data is produced, how it moves through
-                systems, how its quality is maintained, and how it can support
-                practical operational decisions.
-            </p>
-
-            <div class="profile-grid">
-
-                <div class="profile-card">
-                    <strong>Systems</strong>
-                    <span>
-                        Infrastructure, integration, monitoring,
-                        cloud and operational continuity.
-                    </span>
-                </div>
-
-                <div class="profile-card">
-                    <strong>Data</strong>
-                    <span>
-                        Python, SQL, Excel, Power BI,
-                        reporting and analytical workflows.
-                    </span>
-                </div>
-
-                <div class="profile-card">
-                    <strong>Operations</strong>
-                    <span>
-                        Documentation, risk management,
-                        process improvement and automation.
-                    </span>
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- Case Study -->
-        <section id="case-study" class="featured">
-
-            <div class="section-label">
-                FEATURED PROJECT
-            </div>
-
-            <h2>
-                Student Success Analytics & Systems Lab
-            </h2>
-
-            <p>
-                A prototype Academic Success Center data environment designed
-                to demonstrate how institutional data can support early
-                identification of academic risk, intervention workflows and
-                outcome measurement.
-            </p>
-
-            <div class="flow">
-
-                <div class="flow-step">
-                    <span>01</span>
-                    <strong>Data Sources</strong>
-                    <small>
-                        LMS · SIS · Attendance
-                    </small>
-                </div>
-
-                <div class="flow-arrow">
-                    →
-                </div>
-
-                <div class="flow-step">
-                    <span>02</span>
-                    <strong>Data Quality</strong>
-                    <small>
-                        Validation · Reconciliation
-                    </small>
-                </div>
-
-                <div class="flow-arrow">
-                    →
-                </div>
-
-                <div class="flow-step">
-                    <span>03</span>
-                    <strong>Risk Analysis</strong>
-                    <small>
-                        Indicators · Analytics
-                    </small>
-                </div>
-
-                <div class="flow-arrow">
-                    →
-                </div>
-
-                <div class="flow-step">
-                    <span>04</span>
-                    <strong>Intervention</strong>
-                    <small>
-                        Alerts · Advising
-                    </small>
-                </div>
-
-                <div class="flow-arrow">
-                    →
-                </div>
-
-                <div class="flow-step">
-                    <span>05</span>
-                    <strong>Outcomes</strong>
-                    <small>
-                        Measurement · Improvement
-                    </small>
-                </div>
-
-            </div>
-
-            <div class="prototype-placeholder">
-
+    <section id="about" class="section section-paper">
+        <div class="container">
+            <div class="section-intro">
                 <div>
-                    <strong>Interactive prototype</strong>
+                    <p class="section-kicker">01 · ABOUT</p>
+                    <h2>A systems professional with an analytical and operational mindset.</h2>
+                </div>
+                <p class="section-summary">
+                    My experience combines enterprise software delivery, IT leadership,
+                    automation, monitoring, reporting, documentation and international higher-education environments.
+                </p>
+            </div>
 
+            <div class="editorial-grid">
+                <article class="editorial-card editorial-card-large">
+                    <span class="card-number">01</span>
+                    <h3>Systems thinking</h3>
                     <p>
-                        The next stage of this project will provide a simulated
-                        dashboard using synthetic student data.
+                        I look at the complete chain: source systems, interfaces, validation,
+                        processing, monitoring, reporting and the operational decision that follows.
                     </p>
+                </article>
+
+                <article class="editorial-card">
+                    <span class="card-number">02</span>
+                    <h3>Automation</h3>
+                    <p>
+                        Python and structured reporting workflows to reduce repetitive work and improve visibility.
+                    </p>
+                </article>
+
+                <article class="editorial-card">
+                    <span class="card-number">03</span>
+                    <h3>Governance</h3>
+                    <p>
+                        Traceability, documentation, data-quality checks, risk registers and audit-ready processes.
+                    </p>
+                </article>
+
+                <article class="editorial-card">
+                    <span class="card-number">04</span>
+                    <h3>Stakeholders</h3>
+                    <p>
+                        Translating technical information into clear decisions for teams with different priorities and levels of technical fluency.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="capabilities" class="section section-white">
+        <div class="container">
+            <div class="title-row">
+                <div>
+                    <p class="section-kicker">02 · CAPABILITIES</p>
+                    <h2>Evidence mapped to the role.</h2>
+                </div>
+                <p class="title-side-note">A portfolio designed around the work, not just the tools.</p>
+            </div>
+
+            <div class="capability-table">
+                <div class="capability-row capability-heading">
+                    <span>Area</span>
+                    <span>Demonstration</span>
+                    <span>Relevant experience</span>
                 </div>
 
-                <span class="status">
-                    IN DEVELOPMENT
-                </span>
+                <div class="capability-row">
+                    <strong>Data analysis</strong>
+                    <span>Python / SQL examples · risk indicators · trend analysis</span>
+                    <span>Automated reporting and analytical utilities</span>
+                </div>
 
+                <div class="capability-row">
+                    <strong>Systems integration</strong>
+                    <span>LMS / SIS API architecture · synchronization · monitoring</span>
+                    <span>Enterprise systems, infrastructure and operational continuity</span>
+                </div>
+
+                <div class="capability-row">
+                    <strong>Early intervention</strong>
+                    <span>Risk signals → validation → advisor workflow → outcome</span>
+                    <span>Risk / issue management and structured operational processes</span>
+                </div>
+
+                <div class="capability-row">
+                    <strong>Reporting</strong>
+                    <span>Dashboard design · KPI tracking · executive reporting</span>
+                    <span>Python / Excel dashboards and stakeholder reporting</span>
+                </div>
+
+                <div class="capability-row">
+                    <strong>Data governance</strong>
+                    <span>Quality rules · ownership · audit trail · access principles</span>
+                    <span>Documentation, traceability and disciplined procedures</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="case-study" class="section section-dark">
+        <div class="container">
+            <div class="section-intro section-intro-dark">
+                <div>
+                    <p class="section-kicker">03 · FEATURED CASE STUDY</p>
+                    <h2>Student Success Analytics &amp; Systems Lab</h2>
+                </div>
+                <p class="section-summary">
+                    A simulated academic data environment designed to demonstrate a transparent path
+                    from institutional data to an operational student-support action.
+                </p>
             </div>
 
-        </section>
-
-
-        <!-- Experience -->
-        <section id="experience">
-
-            <div class="section-label">
-                EXPERIENCE
+            <div class="case-pipeline">
+                <div class="case-stage">
+                    <span>01</span>
+                    <strong>Collect</strong>
+                    <small>LMS · SIS · Attendance</small>
+                </div>
+                <div class="case-stage">
+                    <span>02</span>
+                    <strong>Validate</strong>
+                    <small>Completeness · validity · consistency</small>
+                </div>
+                <div class="case-stage active-stage">
+                    <span>03</span>
+                    <strong>Analyze</strong>
+                    <small>Risk signals · trends · models</small>
+                </div>
+                <div class="case-stage">
+                    <span>04</span>
+                    <strong>Intervene</strong>
+                    <small>Alerts · advising · tutoring</small>
+                </div>
+                <div class="case-stage">
+                    <span>05</span>
+                    <strong>Measure</strong>
+                    <small>Response · outcomes · improvement</small>
+                </div>
             </div>
 
-            <h2>
-                Professional Experience
-            </h2>
+            <div class="case-grid">
+                <article class="case-card">
+                    <div class="case-card-heading"><span class="case-icon">SQL</span><h3>Risk analysis</h3></div>
+                    <p>Queries can identify repeated absence, missed assessments, declining performance and changes in engagement.</p>
+                    <pre><code>SELECT student_id,
+       COUNT(*) AS absences
+FROM attendance
+WHERE status = 'ABSENT'
+GROUP BY student_id
+HAVING COUNT(*) &gt;= 3;</code></pre>
+                </article>
+
+                <article class="case-card">
+                    <div class="case-card-heading"><span class="case-icon">PY</span><h3>Data quality</h3></div>
+                    <p>Before analytics, the pipeline checks duplicates, missing identifiers, inconsistent mappings and unexpected volume changes.</p>
+                    <div class="quality-list">
+                        <div><span>Completeness</span><strong>99.7%</strong></div>
+                        <div><span>Uniqueness</span><strong>99.9%</strong></div>
+                        <div><span>Validity</span><strong>98.8%</strong></div>
+                        <div><span>Timeliness</span><strong>99.4%</strong></div>
+                    </div>
+                </article>
+
+                <article class="case-card">
+                    <div class="case-card-heading"><span class="case-icon">API</span><h3>Integration</h3></div>
+                    <p>The design separates source systems from the analytical layer and treats synchronization as an observable process.</p>
+                    <div class="architecture-mini">
+                        <span>LMS</span><i>→</i><span>SIS</span><i>→</i><span>Validation</span><i>→</i><span>Analytics</span>
+                    </div>
+                </article>
+            </div>
+
+            <div class="case-note">
+                <strong>Design principle</strong>
+                <span>A risk signal is not a diagnosis. The system should support professional judgement, not replace it.</span>
+            </div>
+
+            <div class="case-cta-row">
+                <a class="button button-gold" href="#prototype-next">Interactive prototype: next stage →</a>
+                <span>All student records in this portfolio will be synthetic.</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="prototype-next" class="section section-paper">
+        <div class="container">
+            <div class="title-row">
+                <div>
+                    <p class="section-kicker">04 · PROTOTYPE ROADMAP</p>
+                    <h2>What the interactive lab will contain.</h2>
+                </div>
+                <span class="roadmap-status">BUILDING</span>
+            </div>
+
+            <div class="roadmap-grid">
+                <article class="roadmap-card">
+                    <span>01</span><h3>Executive dashboard</h3>
+                    <p>Institutional trends, risk volumes, intervention status and data-quality indicators.</p>
+                </article>
+                <article class="roadmap-card">
+                    <span>02</span><h3>Risk monitor</h3>
+                    <p>Transparent indicators with thresholds, trend changes and validation status.</p>
+                </article>
+                <article class="roadmap-card">
+                    <span>03</span><h3>Student profile</h3>
+                    <p>A synthetic case showing academic activity, signals and intervention history.</p>
+                </article>
+                <article class="roadmap-card">
+                    <span>04</span><h3>Intervention workflow</h3>
+                    <p>Signal → review → assignment → outreach → response → outcome measurement.</p>
+                </article>
+                <article class="roadmap-card">
+                    <span>05</span><h3>Data quality monitor</h3>
+                    <p>Synchronisation status, exceptions, identity mismatches and audit evidence.</p>
+                </article>
+                <article class="roadmap-card">
+                    <span>06</span><h3>SQL / Python lab</h3>
+                    <p>Small, explainable examples showing how the analytical results were produced.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section section-white">
+        <div class="container">
+            <div class="section-intro">
+                <div>
+                    <p class="section-kicker">05 · EXPERIENCE</p>
+                    <h2>Professional experience.</h2>
+                </div>
+                <p class="section-summary">Selected experience relevant to systems, data, automation and institutional operations.</p>
+            </div>
 
             <div class="timeline">
-
-                <div class="timeline-item">
-
-                    <div class="timeline-date">
-                        2026 — Present
+                <article class="timeline-item">
+                    <div class="timeline-year">2026 — PRESENT</div>
+                    <div class="timeline-main">
+                        <p class="timeline-role">Head of IT Department</p>
+                        <p class="timeline-company">Grain Warehouses LLP · Astana, Kazakhstan</p>
+                        <p class="timeline-text">IT leadership covering infrastructure modernisation, systems availability, security, virtualisation, cloud, monitoring and automation.</p>
                     </div>
+                </article>
 
-                    <div>
-
-                        <h3>
-                            Head of IT Department
-                        </h3>
-
-                        <p class="company">
-                            Grain Warehouses LLP · Astana
-                        </p>
-
-                        <p>
-                            IT leadership covering infrastructure
-                            modernization, systems availability,
-                            security, monitoring, virtualization,
-                            cloud and automation.
-                        </p>
-
+                <article class="timeline-item">
+                    <div class="timeline-year">2022 — 2025</div>
+                    <div class="timeline-main">
+                        <p class="timeline-role">Software Developer</p>
+                        <p class="timeline-company">Ericsson Hungary · Budapest, Hungary</p>
+                        <p class="timeline-text">Enterprise software delivery, Python/Excel utilities, CI-log aggregation, dashboards, issue triage, root-cause summaries and auditable technical documentation.</p>
                     </div>
+                </article>
 
-                </div>
-
-
-                <div class="timeline-item">
-
-                    <div class="timeline-date">
-                        2022 — 2025
+                <article class="timeline-item">
+                    <div class="timeline-year">2017 — 2026</div>
+                    <div class="timeline-main">
+                        <p class="timeline-role">Co-founder</p>
+                        <p class="timeline-company">Industrial Safety Academy LLP · Astana, Kazakhstan</p>
+                        <p class="timeline-text">Operations, documentation, website development, partner coordination and work with licensing bodies for an accredited training institution.</p>
                     </div>
-
-                    <div>
-
-                        <h3>
-                            Software Developer
-                        </h3>
-
-                        <p class="company">
-                            Ericsson Hungary · Budapest
-                        </p>
-
-                        <p>
-                            Enterprise software development, Python/Excel
-                            reporting utilities, CI/CD workflows,
-                            system monitoring, issue triage and
-                            technical documentation.
-                        </p>
-
-                    </div>
-
-                </div>
-
-
-                <div class="timeline-item">
-
-                    <div class="timeline-date">
-                        2017 — 2026
-                    </div>
-
-                    <div>
-
-                        <h3>
-                            Co-founder
-                        </h3>
-
-                        <p class="company">
-                            Industrial Safety Academy LLP · Astana
-                        </p>
-
-                        <p>
-                            Operational management, documentation,
-                            website development and coordination with
-                            external specialists and licensing bodies.
-                        </p>
-
-                    </div>
-
-                </div>
-
+                </article>
             </div>
+        </div>
+    </section>
 
-        </section>
-
-
-        <!-- Technical -->
-        <section id="technical">
-
-            <div class="section-label">
-                TECHNICAL PROFILE
-            </div>
-
-            <h2>
-                Tools & Capabilities
-            </h2>
-
-            <div class="skills-grid">
-
-                <div class="skill">
-                    <strong>Python</strong>
-                    <span>Automation & analysis</span>
-                </div>
-
-                <div class="skill">
-                    <strong>SQL</strong>
-                    <span>Relational data analysis</span>
-                </div>
-
-                <div class="skill">
-                    <strong>Power BI</strong>
-                    <span>Dashboards & reporting</span>
-                </div>
-
-                <div class="skill">
-                    <strong>Excel</strong>
-                    <span>Analysis & automation</span>
-                </div>
-
-                <div class="skill">
-                    <strong>APIs</strong>
-                    <span>Integration concepts</span>
-                </div>
-
-                <div class="skill">
-                    <strong>Git</strong>
-                    <span>Version control</span>
-                </div>
-
-                <div class="skill">
-                    <strong>CI/CD</strong>
-                    <span>Automation & monitoring</span>
-                </div>
-
-                <div class="skill">
-                    <strong>Cloud</strong>
-                    <span>Infrastructure & virtualization</span>
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- Education -->
-        <section>
-
-            <div class="section-label">
-                EDUCATION
-            </div>
-
-            <h2>
-                Academic Background
-            </h2>
-
-            <div class="education-grid">
-
+    <section id="technical" class="section section-paper">
+        <div class="container">
+            <div class="title-row">
                 <div>
-                    <h3>M.Sc. Engineering Management</h3>
-                    <p>
-                        Hungarian University of Agriculture and Life Sciences
-                    </p>
+                    <p class="section-kicker">06 · TECHNICAL PROFILE</p>
+                    <h2>Tools are means; the workflow is the capability.</h2>
                 </div>
-
-                <div>
-                    <h3>M.A. Management and Leadership</h3>
-                    <p>
-                        Andrássy Gyula German-Language University
-                    </p>
-                </div>
-
-                <div>
-                    <h3>M.Sc. Economics and Management Science</h3>
-                    <p>
-                        Humboldt-Universität zu Berlin · Erasmus+
-                    </p>
-                </div>
-
             </div>
 
-        </section>
-
-
-        <!-- Languages -->
-        <section>
-
-            <div class="section-label">
-                INTERNATIONAL PROFILE
+            <div class="tech-grid">
+                <div class="tech-card"><strong>Python</strong><span>Automation · analysis · data preparation</span></div>
+                <div class="tech-card"><strong>SQL</strong><span>Relational querying · aggregation · analytical logic</span></div>
+                <div class="tech-card"><strong>Power BI</strong><span>KPI tracking · dashboards · stakeholder reporting</span></div>
+                <div class="tech-card"><strong>APIs</strong><span>Integration · data exchange · monitoring</span></div>
+                <div class="tech-card"><strong>Git</strong><span>Version control · traceability · collaboration</span></div>
+                <div class="tech-card"><strong>CI/CD</strong><span>Automation · verification · repeatable delivery</span></div>
+                <div class="tech-card"><strong>Cloud</strong><span>Infrastructure · virtualisation · continuity</span></div>
+                <div class="tech-card"><strong>Excel</strong><span>Structured analysis · automation · reporting</span></div>
             </div>
+        </div>
+    </section>
 
-            <h2>
-                Multilingual & International
-            </h2>
-
-            <div class="language-grid">
-
-                <span>English — C1</span>
-                <span>German — C1</span>
-                <span>Russian — Native</span>
-                <span>Kazakh — Native</span>
-                <span>Hungarian — Near-native</span>
-
+    <section class="section section-dark compact-section">
+        <div class="container two-column">
+            <div>
+                <p class="section-kicker">07 · 90-DAY APPROACH</p>
+                <h2>Understand first. Stabilise second. Improve continuously.</h2>
             </div>
-
-            <p>
-                Experience studying and working across Kazakhstan,
-                Hungary and Germany in international academic and
-                enterprise environments.
-            </p>
-
-        </section>
-
-
-        <!-- Contact -->
-        <section id="contact">
-
-            <div class="section-label">
-                CONTACT
+            <div class="ninety-list">
+                <div><span>01</span><p><strong>Days 1–30:</strong> map workflows, data owners, systems, reports, access and current risk indicators.</p></div>
+                <div><span>02</span><p><strong>Days 31–60:</strong> baseline data quality, document critical flows and address high-value reliability gaps.</p></div>
+                <div><span>03</span><p><strong>Days 61–90:</strong> deliver a validated reporting improvement and propose measurable next steps for early-warning analytics.</p></div>
             </div>
+        </div>
+    </section>
 
-            <h2>
-                Let's connect
-            </h2>
-
-            <p>
-                This portfolio is being developed as a practical demonstration
-                of systems, data and analytics capabilities for higher
-                education environments.
-            </p>
-
-            <div class="contact-links">
-
-                <a
-                    href="https://linkedin.com/in/ametkhanov"
-                    target="_blank"
-                    rel="noopener"
-                >
-                    LinkedIn
-                </a>
-
-                <a
-                    href="https://github.com/zhanbolatametkhanov"
-                    target="_blank"
-                    rel="noopener"
-                >
-                    GitHub
-                </a>
-
-                <a href="mailto:zhanbolat.ametkhanov@gmail.com">
-                    Email
-                </a>
-
+    <section id="contact" class="section section-white contact-section">
+        <div class="container contact-grid">
+            <div>
+                <p class="section-kicker">08 · CONTACT</p>
+                <h2>Thank you for reviewing the portfolio.</h2>
+                <p class="contact-copy">
+                    This site is an independent interview portfolio prepared for a systems-and-data role in higher education.
+                </p>
             </div>
+            <div class="contact-actions">
+                <a class="button button-primary" href="mailto:zhanbolat.ametkhanov@gmail.com">Email me</a>
+                <a class="button button-secondary-dark" href="https://linkedin.com/in/ametkhanov" target="_blank" rel="noopener">LinkedIn ↗</a>
+                <a class="button button-secondary-dark" href="https://github.com/zhanbolatametkhanov" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+        </div>
+    </section>
 
-        </section>
+</main>
 
-    </main>
-
-
-    <footer>
-
-        <p>
-            © 2026 Zhanbolat Ametkhanov
-        </p>
-
-        <p class="footer-note">
-            Student Success Analytics & Systems Lab · Prototype
-        </p>
-
-    </footer>
+<footer class="site-footer">
+    <div class="container footer-grid">
+        <div>
+            <div class="footer-mark">ZA</div>
+            <p class="footer-title">Zhanbolat Ametkhanov</p>
+            <p class="footer-muted">Systems &amp; Data · IT Management · Higher Education</p>
+        </div>
+        <div>
+            <p class="footer-label">PORTFOLIO</p>
+            <a href="#case-study">Student Success Analytics</a>
+            <a href="#technical">Technical Profile</a>
+            <a href="#experience">Experience</a>
+        </div>
+        <div>
+            <p class="footer-label">LINKS</p>
+            <a href="https://github.com/zhanbolatametkhanov" target="_blank" rel="noopener">GitHub ↗</a>
+            <a href="https://linkedin.com/in/ametkhanov" target="_blank" rel="noopener">LinkedIn ↗</a>
+            <a href="mailto:zhanbolat.ametkhanov@gmail.com">Email ↗</a>
+        </div>
+    </div>
+    <div class="container footer-bottom">
+        <span>© 2026 Zhanbolat Ametkhanov</span>
+        <span>Independent interview portfolio · synthetic data only</span>
+    </div>
+</footer>
 
 </body>
 </html>
