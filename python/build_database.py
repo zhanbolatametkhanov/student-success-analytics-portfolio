@@ -67,6 +67,62 @@ SOURCE_TABLES = {
 # Derived analytical tables
 # ============================================================
 
+
+
+# ============================================================
+# Quality and model evaluation outputs
+# ============================================================
+
+QUALITY_TABLES = {
+    "data_quality_report": (
+        DATA_DIR
+        / "quality_reports"
+        / "data_quality_report.csv"
+    ),
+
+    "data_quality_summary": (
+        DATA_DIR
+        / "quality_reports"
+        / "data_quality_summary.csv"
+    ),
+
+    "model_metrics": (
+        DATA_DIR
+        / "risk_reports"
+        / "model_metrics.csv"
+    ),
+
+    "model_confusion_matrix": (
+        DATA_DIR
+        / "risk_reports"
+        / "model_confusion_matrix.csv"
+    ),
+
+    "model_band_comparison": (
+        DATA_DIR
+        / "risk_reports"
+        / "model_band_comparison.csv"
+    ),
+
+    "model_errors": (
+        DATA_DIR
+        / "risk_reports"
+        / "model_errors.csv"
+    ),
+
+    "evaluated_student_risk": (
+        DATA_DIR
+        / "risk_reports"
+        / "evaluated_student_risk.csv"
+    ),
+
+    "threshold_analysis": (
+        DATA_DIR
+        / "risk_reports"
+        / "threshold_analysis.csv"
+    ),
+}
+
 RISK_TABLE = (
     DATA_DIR
     / "risk_reports"
@@ -139,36 +195,65 @@ try:
     # --------------------------------------------------------
     # Load analytical tables
     # --------------------------------------------------------
-
+    
     print("\nLoading analytical outputs...\n")
-
+    
     analytical_tables = {
         "student_risk_scores": RISK_TABLE,
         "risk_summary": RISK_SUMMARY_TABLE,
-        "programme_risk_summary": (
-            PROGRAMME_SUMMARY_TABLE
-        ),
+        "programme_risk_summary": PROGRAMME_SUMMARY_TABLE,
     }
-
+    
+    
     for table_name, path in analytical_tables.items():
-
+    
         if not path.exists():
-
+    
             raise FileNotFoundError(
                 f"Analytical output not found: {path}"
             )
-
+    
         dataframe = pd.read_csv(path)
-
+    
         dataframe.to_sql(
             table_name,
             connection,
             if_exists="replace",
             index=False,
         )
-
+    
         print(
-            f"✓ {table_name:<28} "
+            f"✓ {table_name:<30} "
+            f"{len(dataframe):>10,} rows"
+        )
+    
+    
+    # --------------------------------------------------------
+    # Load quality and evaluation outputs
+    # --------------------------------------------------------
+    
+    print("\nLoading quality and evaluation outputs...\n")
+    
+    
+    for table_name, path in QUALITY_TABLES.items():
+    
+        if not path.exists():
+    
+            raise FileNotFoundError(
+                f"Required report not found: {path}"
+            )
+    
+        dataframe = pd.read_csv(path)
+    
+        dataframe.to_sql(
+            table_name,
+            connection,
+            if_exists="replace",
+            index=False,
+        )
+    
+        print(
+            f"✓ {table_name:<30} "
             f"{len(dataframe):>10,} rows"
         )
 
@@ -252,7 +337,29 @@ try:
             "student_risk_scores",
             "risk_band",
         ),
+(
+    "idx_quality_status",
+    "data_quality_report",
+    "status",
+),
 
+(
+    "idx_quality_category",
+    "data_quality_report",
+    "category",
+),
+
+(
+    "idx_model_errors_student_id",
+    "model_errors",
+    "student_id",
+),
+
+(
+    "idx_threshold_analysis_threshold",
+    "threshold_analysis",
+    "threshold",
+),
     ]
 
 
