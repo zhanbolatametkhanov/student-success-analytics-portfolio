@@ -420,3 +420,91 @@ def test_database_integration_tables():
     assert expected.issubset(
         tables
     )
+# ============================================================
+# Survey analytics
+# ============================================================
+
+def test_survey_response_count():
+
+    df = read_csv(
+        DATA_DIR
+        / "surveys"
+        / "survey_responses.csv"
+    )
+
+    assert len(df) == 1750
+
+
+def test_survey_respondent_types():
+
+    df = read_csv(
+        DATA_DIR
+        / "surveys"
+        / "survey_responses.csv"
+    )
+
+    assert set(
+        df["respondent_type"].unique()
+    ) == {
+        "Student",
+        "Faculty",
+    }
+
+
+def test_survey_analysis_outputs():
+
+    df = read_csv(
+        DATA_DIR
+        / "survey_reports"
+        / "survey_respondent_summary.csv"
+    )
+
+    assert len(df) == 2
+
+    assert set(
+        df["respondent_type"]
+    ) == {
+        "Student",
+        "Faculty",
+    }
+
+
+def test_profile_assessment_count():
+
+    df = read_csv(
+        PROFILE_DIR
+        / "student_assessment_trajectory.csv"
+    )
+
+    assert len(df) == 37533
+
+
+@pytest.mark.skipif(
+    not DATABASE_PATH.exists(),
+    reason="SQLite database not available",
+)
+def test_database_survey_tables():
+
+    connection = sqlite3.connect(
+        DATABASE_PATH
+    )
+
+    tables = {
+        row[0]
+        for row in connection.execute(
+            "SELECT name FROM sqlite_master WHERE type = 'table'"
+        ).fetchall()
+    }
+
+    connection.close()
+
+    expected = {
+        "survey_summary",
+        "survey_respondent_summary",
+        "survey_theme_summary",
+        "survey_trend",
+    }
+
+    assert expected.issubset(
+        tables
+    )
