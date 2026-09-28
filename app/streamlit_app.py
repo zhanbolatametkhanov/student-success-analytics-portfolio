@@ -322,13 +322,17 @@ def get_connection() -> sqlite3.Connection:
 
 
 @st.cache_data
-def run_query(query: str) -> pd.DataFrame:
+def run_query(
+    query: str,
+    params: tuple = (),
+) -> pd.DataFrame:
 
     connection = get_connection()
 
     return pd.read_sql_query(
         query,
         connection,
+        params=params,
     )
 
 
