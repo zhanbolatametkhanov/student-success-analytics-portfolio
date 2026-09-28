@@ -1,0 +1,5 @@
+integration_id,source_system,target_system,interface_type,sync_frequency,last_success_at,records_last_sync,latency_ms,error_count_24h,data_freshness_minutes,success_rate_24h,status,owner
+INT-SIS-ANL,Student Information System,Analytics Data Layer,REST API,Every 15 minutes,2026-09-28 17:45:10.248342,242,744,0,14.8,100.0,Healthy,Data Platform
+INT-LMS-ANL,Learning Management System,Analytics Data Layer,REST API,Every 10 minutes,2026-09-28 17:33:49.932730,1278,1048,0,26.2,100.0,Healthy,Learning Technology
+INT-ATT-ANL,Attendance Platform,Analytics Data Layer,Scheduled API,Every 30 minutes,2026-09-28 17:42:17.638279,1001,680,4,17.7,99.24,Warning,Academic Operations
+INT-ANL-ASC,Analytics Data Layer,Student Support Workflow,Secure API,Event-driven,2026-09-28 17:53:12.014996,88,465,0,6.8,100.0,Healthy,Academic Success Center
