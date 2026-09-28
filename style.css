@@ -1363,3 +1363,117 @@ select {
         color: #000 !important;
     }
 }
+
+
+/* LIVE-DASHBOARD-STYLES */
+
+.live-dashboard-section {
+  position: relative;
+}
+
+.dashboard-intro {
+  max-width: 850px;
+  margin: 0 0 2rem;
+  line-height: 1.8;
+}
+
+.dashboard-card {
+  border: 1px solid rgba(23, 54, 93, 0.14);
+  border-top: 4px solid #d3a449;
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0 14px 36px rgba(20, 35, 55, 0.09);
+  overflow: hidden;
+}
+
+.dashboard-card-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  padding: 2rem;
+}
+
+.dashboard-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+.dashboard-card p {
+  max-width: 760px;
+  line-height: 1.75;
+}
+
+.dashboard-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 1.25rem;
+}
+
+.dashboard-tags span {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.42rem 0.72rem;
+  border-radius: 999px;
+  background: #eef3f8;
+  color: #17365d;
+  font-size: 0.84rem;
+  font-weight: 600;
+}
+
+.dashboard-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  min-width: 245px;
+}
+
+.dashboard-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.9rem 1.1rem;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.dashboard-button:hover {
+  transform: translateY(-2px);
+}
+
+.dashboard-button-primary {
+  background: #17365d;
+  color: #ffffff;
+  box-shadow: 0 8px 18px rgba(23, 54, 93, 0.18);
+}
+
+.dashboard-button-secondary {
+  background: #f3f1ea;
+  color: #17365d;
+  border: 1px solid rgba(23, 54, 93, 0.12);
+}
+
+.dashboard-notice {
+  padding: 1rem 2rem 1.2rem;
+  background: #f7f6f1;
+  border-top: 1px solid rgba(23, 54, 93, 0.09);
+  color: #5a5c60;
+  line-height: 1.7;
+  font-size: 0.92rem;
+}
+
+@media (max-width: 800px) {
+  .dashboard-card-content {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .dashboard-actions {
+    min-width: 0;
+    width: 100%;
+  }
+}
