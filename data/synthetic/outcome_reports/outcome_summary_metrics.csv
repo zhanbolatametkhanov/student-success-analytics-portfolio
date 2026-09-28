@@ -1,0 +1,11 @@
+metric,value,unit
+Total interventions,180.0,cases
+Completed interventions,89.0,cases
+Completion rate,49.44444444444444,percent
+Outcome-assessed interventions,148.0,cases
+Positive synthetic outcomes,109.0,cases
+Positive outcome rate — all interventions,60.55555555555555,percent
+Positive outcome rate — assessed cases,73.64864864864865,percent
+Estimated intervention cost,8785.0,synthetic cost units
+Estimated cost per completed intervention,98.70786516853933,synthetic cost units
+Estimated cost per positive outcome,80.59633027522936,synthetic cost units

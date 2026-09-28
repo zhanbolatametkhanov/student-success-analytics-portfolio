@@ -24,7 +24,7 @@ from __future__ import annotations
 import sqlite3
 from pathlib import Path
 from typing import Optional
-
+from bootstrap import ensure_demo_environment
 import pandas as pd
 import plotly.express as px
 import streamlit as st
@@ -296,6 +296,11 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
+# ============================================================
+# DEMO ENVIRONMENT
+# ============================================================
+
+ensure_demo_environment()
 
 # ============================================================
 # DATABASE
@@ -354,6 +359,46 @@ try:
         """
     )
 
+    outcome_metrics_df = run_query(
+        """
+        SELECT *
+        FROM outcome_summary_metrics
+        """
+    )
+
+    intervention_type_outcomes_df = run_query(
+        """
+        SELECT *
+        FROM intervention_type_summary
+        """
+    )
+
+    outcome_distribution_df = run_query(
+        """
+        SELECT *
+        FROM outcome_distribution
+        """
+    )
+
+    intervention_funnel_df = run_query(
+        """
+        SELECT *
+        FROM intervention_status_funnel
+        """
+    )
+    integration_health_df = run_query(
+        """
+        SELECT *
+        FROM integration_health
+        """
+    )
+    
+    integration_events_df = run_query(
+        """
+        SELECT *
+        FROM integration_events
+        """
+    )
     programme_df = run_query(
         """
         SELECT *
@@ -417,6 +462,8 @@ page = st.sidebar.radio(
         "Risk Monitor",
         "Student Profile",
         "Interventions",
+        "Integration Monitor",
+        "Outcome Analytics",
         "Data Quality",
         "Model Evaluation",
         "SQL Lab",
@@ -1176,6 +1223,276 @@ elif page == "Student Profile":
 # INTERVENTIONS
 # ============================================================
 
+elif page == "Integration Monitor":
+
+    st.markdown(
+        '<div class="section-heading">'
+        'Integration monitor'
+        '</div>',
+        unsafe_allow_html=True,
+    )
+
+    st.markdown(
+        """
+        This page demonstrates operational monitoring of the synthetic
+        interfaces connecting source systems to the analytical layer
+        and student-support workflow.
+
+        The telemetry is synthetic and does not represent real
+        institutional infrastructure.
+        """,
+    )
+
+    # --------------------------------------------------------
+    # KPI calculations
+    # --------------------------------------------------------
+
+    total_integrations = len(
+        integration_health_df
+    )
+
+    healthy_integrations = int(
+        (
+            integration_health_df["status"]
+            == "Healthy"
+        ).sum()
+    )
+
+    warning_integrations = int(
+        (
+            integration_health_df["status"]
+            == "Warning"
+        ).sum()
+    )
+
+    attention_integrations = int(
+        (
+            integration_health_df["status"]
+            == "Attention"
+        ).sum()
+    )
+
+    average_freshness = (
+        integration_health_df[
+            "data_freshness_minutes"
+        ]
+        .mean()
+    )
+
+    average_success_rate = (
+        integration_health_df[
+            "success_rate_24h"
+        ]
+        .mean()
+    )
+
+    total_errors = int(
+        integration_health_df[
+            "error_count_24h"
+        ].sum()
+    )
+
+    # --------------------------------------------------------
+    # KPI cards
+    # --------------------------------------------------------
+
+    kpi_cols = st.columns(5)
+
+    integration_kpis = [
+        (
+            "Interfaces",
+            f"{total_integrations}",
+        ),
+        (
+            "Healthy",
+            f"{healthy_integrations}",
+        ),
+        (
+            "Warning",
+            f"{warning_integrations}",
+        ),
+        (
+            "Attention",
+            f"{attention_integrations}",
+        ),
+        (
+            "24h errors",
+            f"{total_errors}",
+        ),
+    ]
+
+    for column, (label, value) in zip(
+        kpi_cols,
+        integration_kpis,
+    ):
+
+        with column:
+
+            st.metric(
+                label,
+                value,
+            )
+
+    # --------------------------------------------------------
+    # Operational summary
+    # --------------------------------------------------------
+
+    st.markdown(
+        '<div class="section-heading">'
+        'Operational health'
+        '</div>',
+        unsafe_allow_html=True,
+    )
+
+    op_cols = st.columns(2)
+
+    with op_cols[0]:
+
+        st.metric(
+            "Average data freshness",
+            f"{average_freshness:.1f} min",
+        )
+
+    with op_cols[1]:
+
+        st.metric(
+            "Average 24h success rate",
+            f"{average_success_rate:.2f}%",
+        )
+
+    # --------------------------------------------------------
+    # Health table
+    # --------------------------------------------------------
+
+    st.markdown(
+        '<div class="section-heading">'
+        'Interface health'
+        '</div>',
+        unsafe_allow_html=True,
+    )
+
+    health_display = integration_health_df[
+        [
+            "integration_id",
+            "source_system",
+            "target_system",
+            "interface_type",
+            "sync_frequency",
+            "last_success_at",
+            "records_last_sync",
+            "latency_ms",
+            "error_count_24h",
+            "data_freshness_minutes",
+            "success_rate_24h",
+            "status",
+            "owner",
+        ]
+    ].copy()
+
+    st.dataframe(
+        health_display,
+        use_container_width=True,
+        hide_index=True,
+    )
+
+    # --------------------------------------------------------
+    # Latency chart
+    # --------------------------------------------------------
+
+    st.markdown(
+        '<div class="section-heading">'
+        'Interface latency'
+        '</div>',
+        unsafe_allow_html=True,
+    )
+
+    latency_chart = (
+        integration_health_df[
+            [
+                "integration_id",
+                "latency_ms",
+            ]
+        ]
+        .sort_values(
+            "latency_ms",
+            ascending=True,
+        )
+    )
+
+    latency_figure = px.bar(
+        latency_chart,
+        x="latency_ms",
+        y="integration_id",
+        orientation="h",
+        text="latency_ms",
+    )
+
+    latency_figure.update_traces(
+        textposition="outside"
+    )
+
+    latency_figure.update_layout(
+        template="simple_white",
+        height=320,
+        margin=dict(
+            l=20,
+            r=80,
+            t=20,
+            b=20,
+        ),
+        xaxis_title="Latency (ms)",
+        yaxis_title=None,
+    )
+
+    st.plotly_chart(
+        latency_figure,
+        use_container_width=True,
+    )
+
+    # --------------------------------------------------------
+    # Event history
+    # --------------------------------------------------------
+
+    st.markdown(
+        '<div class="section-heading">'
+        'Recent integration events'
+        '</div>',
+        unsafe_allow_html=True,
+    )
+
+    event_filter = st.selectbox(
+        "Event status",
+        [
+            "All",
+            "SUCCESS",
+            "WARNING",
+            "FAILED",
+        ],
+    )
+
+    event_display = integration_events_df.copy()
+
+    if event_filter != "All":
+
+        event_display = event_display[
+            event_display["status"]
+            == event_filter
+        ]
+
+    event_display = (
+        event_display
+        .sort_values(
+            "event_time",
+            ascending=False,
+        )
+        .head(100)
+    )
+
+    st.dataframe(
+        event_display,
+        use_container_width=True,
+        hide_index=True,
+    )
 elif page == "Interventions":
 
     st.markdown(
@@ -1317,6 +1634,285 @@ elif page == "Interventions":
 # ============================================================
 # DATA QUALITY
 # ============================================================
+
+# ============================================================
+# OUTCOME ANALYTICS
+# ============================================================
+
+elif page == "Outcome Analytics":
+
+    st.markdown(
+        '<div class="section-heading">'
+        'Intervention outcome analytics'
+        '</div>',
+        unsafe_allow_html=True,
+    )
+
+    st.markdown(
+        """
+        This page demonstrates how intervention activity can be measured
+        after the initial risk signal.
+
+        Results are descriptive summaries of synthetic records.
+        They do not establish causal intervention effectiveness.
+        """,
+    )
+
+    # --------------------------------------------------------
+    # KPI extraction
+    # --------------------------------------------------------
+
+    def metric_value(
+        metric_name: str,
+    ):
+
+        row = outcome_metrics_df[
+            outcome_metrics_df["metric"]
+            == metric_name
+        ]
+
+        if row.empty:
+
+            return 0
+
+        return float(
+            row.iloc[0]["value"]
+        )
+
+
+    total_interventions = metric_value(
+        "Total interventions"
+    )
+
+    completed_interventions = metric_value(
+        "Completed interventions"
+    )
+
+    completion_rate = metric_value(
+        "Completion rate"
+    )
+
+    positive_outcomes = metric_value(
+        "Positive synthetic outcomes"
+    )
+
+
+    # --------------------------------------------------------
+    # KPI cards
+    # --------------------------------------------------------
+
+    kpi_cols = st.columns(4)
+
+    with kpi_cols[0]:
+
+        st.metric(
+            "Interventions",
+            f"{total_interventions:,.0f}",
+        )
+
+    with kpi_cols[1]:
+
+        st.metric(
+            "Completed",
+            f"{completed_interventions:,.0f}",
+        )
+
+    with kpi_cols[2]:
+
+        st.metric(
+            "Completion rate",
+            f"{completion_rate:.1f}%",
+        )
+
+    with kpi_cols[3]:
+
+        st.metric(
+            "Positive outcomes",
+            f"{positive_outcomes:,.0f}",
+        )
+
+
+    # --------------------------------------------------------
+    # Intervention status
+    # --------------------------------------------------------
+
+    left, right = st.columns(
+        2
+    )
+
+
+    with left:
+
+        st.markdown(
+            '<div class="section-heading">'
+            'Workflow status'
+            '</div>',
+            unsafe_allow_html=True,
+        )
+
+        figure = px.bar(
+            intervention_funnel_df,
+            x="status",
+            y="interventions",
+            text="interventions",
+        )
+
+        figure.update_traces(
+            textposition="outside"
+        )
+
+        figure.update_layout(
+            template="simple_white",
+            height=350,
+            margin=dict(
+                l=10,
+                r=10,
+                t=30,
+                b=10,
+            ),
+            xaxis_title=None,
+            yaxis_title="Cases",
+        )
+
+        st.plotly_chart(
+            figure,
+            use_container_width=True,
+        )
+
+
+    with right:
+
+        st.markdown(
+            '<div class="section-heading">'
+            'Outcome distribution'
+            '</div>',
+            unsafe_allow_html=True,
+        )
+
+        outcome_chart = (
+            outcome_distribution_df
+            .groupby(
+                "outcome"
+            )["interventions"]
+            .sum()
+            .reset_index()
+            .sort_values(
+                "interventions",
+                ascending=False,
+            )
+        )
+
+        figure = px.bar(
+            outcome_chart,
+            x="interventions",
+            y="outcome",
+            orientation="h",
+            text="interventions",
+        )
+
+        figure.update_traces(
+            textposition="outside"
+        )
+
+        figure.update_layout(
+            template="simple_white",
+            height=350,
+            margin=dict(
+                l=10,
+                r=60,
+                t=30,
+                b=10,
+            ),
+            xaxis_title="Cases",
+            yaxis_title=None,
+        )
+
+        st.plotly_chart(
+            figure,
+            use_container_width=True,
+        )
+
+
+    # --------------------------------------------------------
+    # Intervention type
+    # --------------------------------------------------------
+
+    st.markdown(
+        '<div class="section-heading">'
+        'Intervention-type effectiveness view'
+        '</div>',
+        unsafe_allow_html=True,
+    )
+
+    type_display = (
+        intervention_type_outcomes_df[
+            [
+                "intervention_type",
+                "interventions",
+                "completed",
+                "completion_rate",
+                "assessed",
+                "positive_outcomes",
+                "positive_outcome_rate_all",
+                "positive_outcome_rate_assessed",
+                "estimated_cost",
+                "cost_per_completed",
+                "cost_per_positive_outcome",
+            ]
+        ]
+        .copy()
+    )
+
+
+    for column in [
+        "completion_rate",
+        "positive_outcome_rate_all",
+        "positive_outcome_rate_assessed",
+    ]:
+
+        type_display[column] = (
+            type_display[column]
+            .round(1)
+        )
+
+
+    for column in [
+        "estimated_cost",
+        "cost_per_completed",
+        "cost_per_positive_outcome",
+    ]:
+
+        type_display[column] = (
+            type_display[column]
+            .round(2)
+        )
+
+
+    st.dataframe(
+        type_display,
+        use_container_width=True,
+        hide_index=True,
+    )
+
+
+    # --------------------------------------------------------
+    # Cost-efficiency caveat
+    # --------------------------------------------------------
+
+    st.markdown(
+        """
+        <div class="prototype-notice">
+            <strong>Financial interpretation</strong><br>
+            The cost figures are synthetic assumptions introduced only to
+            demonstrate a cost-efficiency framework. A production ROI
+            calculation would require validated institutional costs and an
+            agreed method for valuing student-success outcomes.
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
 
 elif page == "Data Quality":
 
