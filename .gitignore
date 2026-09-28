@@ -5,3 +5,5 @@ __pycache__/
 *.db
 *.sqlite
 *.sqlite3
+data/synthetic/sql_results/
+data/synthetic/sql_results/
