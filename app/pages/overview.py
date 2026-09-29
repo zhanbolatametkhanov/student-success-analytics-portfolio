@@ -1,8 +1,7 @@
 """
-Student Success Analytics — Overview page.
+Student Success Analytics — Executive Overview.
 
-Presentation layer for the executive overview.
-
+Presentation layer for the main decision-support landing page.
 All records are synthetic.
 """
 
@@ -12,6 +11,44 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
+from components.ui import insight_card, page_header, section_header, status_badge
+from components.dashboard import metric_card
+
+
+RISK_ORDER = [
+    "Low",
+    "Moderate",
+    "High",
+    "Critical",
+]
+
+
+def _risk_distribution(risk_df: pd.DataFrame) -> pd.DataFrame:
+    """Return risk-band counts in presentation order."""
+
+    return (
+        risk_df["risk_band"]
+        .value_counts()
+        .reindex(RISK_ORDER, fill_value=0)
+        .rename_axis("risk_band")
+        .reset_index(name="students")
+    )
+
+
+def _programme_summary(risk_df: pd.DataFrame) -> pd.DataFrame:
+    """Return the highest-average-risk programmes."""
+
+    return (
+        risk_df.groupby("programme")
+        .agg(
+            students=("student_id", "count"),
+            average_risk=("risk_score", "mean"),
+        )
+        .reset_index()
+        .sort_values("average_risk", ascending=False)
+        .head(8)
+    )
+
 
 def render_overview(
     risk_df: pd.DataFrame,
@@ -19,163 +56,113 @@ def render_overview(
 ) -> None:
     """Render the executive overview."""
 
-
-
     total_students = len(risk_df)
 
-    low_count = int(
-        (
-            risk_df["risk_band"]
-            == "Low"
-        ).sum()
+    risk_counts = (
+        risk_df["risk_band"]
+        .value_counts()
+        .to_dict()
     )
 
-    moderate_count = int(
-        (
-            risk_df["risk_band"]
-            == "Moderate"
-        ).sum()
-    )
-
-    high_count = int(
-        (
-            risk_df["risk_band"]
-            == "High"
-        ).sum()
-    )
-
-    critical_count = int(
-        (
-            risk_df["risk_band"]
-            == "Critical"
-        ).sum()
-    )
-
-    high_critical = (
-        high_count
-        + critical_count
-    )
+    low_count = int(risk_counts.get("Low", 0))
+    moderate_count = int(risk_counts.get("Moderate", 0))
+    high_count = int(risk_counts.get("High", 0))
+    critical_count = int(risk_counts.get("Critical", 0))
+    high_critical = high_count + critical_count
 
     completed_interventions = int(
-        (
-            intervention_df["status"]
-            == "Completed"
-        ).sum()
+        (intervention_df["status"] == "Completed").sum()
     )
 
-    st.markdown(
-        '<div class="section-heading">Executive overview</div>',
-        unsafe_allow_html=True,
+    completion_rate = (
+        completed_interventions / len(intervention_df) * 100
+        if len(intervention_df)
+        else 0.0
     )
 
-    cols = st.columns(5)
+    high_critical_rate = (
+        high_critical / total_students * 100
+        if total_students
+        else 0.0
+    )
 
-    kpis = [
+    page_header(
+        title="Executive overview",
+        description=(
+            "A decision-support view of the synthetic student population, "
+            "early-warning signals, intervention activity and data trust."
+        ),
+        kicker="Student Success Analytics",
+    )
+
+    status_badge(
+        "Synthetic analytical environment",
+        "neutral",
+    )
+
+    st.markdown("")
+
+    metric_cols = st.columns(4)
+
+    metrics = [
         (
             "Students",
             f"{total_students:,}",
             "Synthetic active population",
         ),
         (
-            "Low risk",
-            f"{low_count:,}",
-            "Current demonstration band",
+            "High / Critical",
+            f"{high_critical:,}",
+            f"{high_critical_rate:.1f}% of population",
         ),
         (
-            "Moderate",
-            f"{moderate_count:,}",
-            "Current demonstration band",
+            "Interventions",
+            f"{len(intervention_df):,}",
+            "Synthetic workflow records",
         ),
         (
-            "High",
-            f"{high_count:,}",
-            "Current demonstration band",
-        ),
-        (
-            "Critical",
-            f"{critical_count:,}",
-            "Current demonstration band",
+            "Completed",
+            f"{completed_interventions:,}",
+            f"{completion_rate:.1f}% completion rate",
         ),
     ]
 
-    for column, (label, value, description) in zip(
-        cols,
-        kpis,
-    ):
-
+    for column, (label, value, description) in zip(metric_cols, metrics):
         with column:
+            metric_card(label, value, description)
 
-            st.markdown(
-                f"""
-                <div class="kpi-card">
-                    <div class="kpi-label">{label}</div>
-                    <div class="kpi-value">{value}</div>
-                    <div class="kpi-description">
-                        {description}
-                    </div>
-                </div>
-                """,
-                unsafe_allow_html=True,
-            )
-
-
-    st.markdown("")
-
-    left, right = st.columns(
-        [1.05, 0.95]
+    section_header(
+        "Current risk picture",
+        "The risk bands summarize the current demonstration population; they are not decisions about individual students.",
+        "Population",
     )
 
+    chart_left, chart_right = st.columns([1.08, 0.92])
 
-    with left:
+    distribution = _risk_distribution(risk_df)
 
-        st.markdown(
-            '<div class="section-heading">Risk distribution</div>',
-            unsafe_allow_html=True,
-        )
-
-        distribution = (
-            risk_df
-            .groupby("risk_band")
-            .size()
-            .reindex(
-                [
-                    "Low",
-                    "Moderate",
-                    "High",
-                    "Critical",
-                ],
-                fill_value=0,
-            )
-            .reset_index(
-                name="students"
-            )
-        )
-
+    with chart_left:
         figure = px.bar(
             distribution,
             x="risk_band",
             y="students",
             text="students",
+            category_orders={"risk_band": RISK_ORDER},
         )
 
         figure.update_traces(
-            textposition="outside"
+            textposition="outside",
+            marker_line_width=0,
         )
 
         figure.update_layout(
-            height=370,
+            height=390,
             template="simple_white",
-            margin=dict(
-                l=10,
-                r=10,
-                t=30,
-                b=10,
-            ),
+            margin=dict(l=10, r=10, t=30, b=10),
             xaxis_title=None,
             yaxis_title="Students",
-            font=dict(
-                color="#58574b"
-            ),
+            font=dict(color="#58574b"),
+            showlegend=False,
         )
 
         st.plotly_chart(
@@ -183,62 +170,36 @@ def render_overview(
             use_container_width=True,
         )
 
-
-    with right:
-
-        st.markdown(
-            '<div class="section-heading">Programme overview</div>',
-            unsafe_allow_html=True,
+        insight_card(
+            f"{high_critical:,} students ({high_critical_rate:.1f}%) are currently in the High or Critical demonstration bands. The score is intended to surface evidence for review, not to determine an outcome.",
+            "What the chart says",
         )
 
-        programme_chart = (
-            risk_df
-            .groupby("programme")
-            .agg(
-                students=(
-                    "student_id",
-                    "count",
-                ),
-                average_risk=(
-                    "risk_score",
-                    "mean",
-                ),
-            )
-            .reset_index()
-            .sort_values(
-                "average_risk",
-                ascending=False,
-            )
-            .head(10)
-        )
+    with chart_right:
+        programme_summary = _programme_summary(risk_df)
 
         figure = px.bar(
-            programme_chart,
+            programme_summary,
             x="average_risk",
             y="programme",
             orientation="h",
             text="average_risk",
         )
 
-        figure.update_layout(
-            height=370,
-            template="simple_white",
-            margin=dict(
-                l=10,
-                r=10,
-                t=30,
-                b=10,
-            ),
-            xaxis_title="Average risk score",
-            yaxis_title=None,
-            font=dict(
-                color="#58574b"
-            ),
-        )
-
         figure.update_traces(
             texttemplate="%{text:.1f}",
             textposition="outside",
+            marker_line_width=0,
+        )
+
+        figure.update_layout(
+            height=390,
+            template="simple_white",
+            margin=dict(l=10, r=10, t=30, b=10),
+            xaxis_title="Average demonstration risk score",
+            yaxis_title=None,
+            font=dict(color="#58574b"),
+            showlegend=False,
         )
 
         st.plotly_chart(
@@ -246,69 +207,91 @@ def render_overview(
             use_container_width=True,
         )
 
+        insight_card(
+            "Programme averages describe population patterns. They should be investigated with underlying evidence and local context rather than treated as causal explanations.",
+            "Interpretation guardrail",
+        )
 
-    st.markdown(
-        '<div class="section-heading">Operational snapshot</div>',
-        unsafe_allow_html=True,
+    section_header(
+        "What needs attention?",
+        "This section translates the population view into an operational review question.",
+        "Attention",
     )
 
-    op_cols = st.columns(3)
+    attention_cols = st.columns(3)
 
-    with op_cols[0]:
-
-        st.markdown(
-            f"""
-            <div class="risk-card">
-                <div class="risk-card-title">
-                    High / Critical students
-                </div>
-                <div class="risk-card-value">
-                    {high_critical:,}
-                </div>
-                <div class="muted">
-                    Current demonstration risk population
-                </div>
-            </div>
-            """,
-            unsafe_allow_html=True,
+    with attention_cols[0]:
+        metric_card(
+            "High risk",
+            f"{high_count:,}",
+            "Demonstration band requiring review",
         )
 
-    with op_cols[1]:
-
-        st.markdown(
-            f"""
-            <div class="risk-card">
-                <div class="risk-card-title">
-                    Intervention records
-                </div>
-                <div class="risk-card-value">
-                    {len(intervention_df):,}
-                </div>
-                <div class="muted">
-                    Synthetic workflow records
-                </div>
-            </div>
-            """,
-            unsafe_allow_html=True,
+    with attention_cols[1]:
+        metric_card(
+            "Critical risk",
+            f"{critical_count:,}",
+            "Highest demonstration band",
         )
 
-    with op_cols[2]:
-
-        st.markdown(
-            f"""
-            <div class="risk-card">
-                <div class="risk-card-title">
-                    Completed interventions
-                </div>
-                <div class="risk-card-value">
-                    {completed_interventions:,}
-                </div>
-                <div class="muted">
-                    Status = Completed
-                </div>
-            </div>
-            """,
-            unsafe_allow_html=True,
+    with attention_cols[2]:
+        metric_card(
+            "Moderate",
+            f"{moderate_count:,}",
+            "Largest non-low-risk population",
         )
 
+    section_header(
+        "Operational response",
+        "The prototype connects an analytical signal to a review-and-intervention workflow.",
+        "Workflow",
+    )
 
+    workflow_cols = st.columns(4)
+
+    workflow = [
+        ("01", "Signal", "Evidence produces a transparent demonstration score."),
+        ("02", "Review", "Staff examine the underlying student evidence."),
+        ("03", "Intervene", "A support action can be recorded in the workflow layer."),
+        ("04", "Evaluate", "Outcomes can be summarized and reviewed over time."),
+    ]
+
+    for column, (step, title, description) in zip(workflow_cols, workflow):
+        with column:
+            st.markdown(
+                f"""
+                <div class=\"ssa-insight\">
+                    <div class=\"ssa-insight-label\">Step {step}</div>
+                    <div style=\"font-family: Georgia, serif; font-size: 1.15rem; color: #24231F; margin-bottom: 0.3rem;\">{title}</div>
+                    <p class=\"ssa-insight-text\">{description}</p>
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
+
+    section_header(
+        "Data trust",
+        "The dashboard should make data limitations visible alongside analytical results.",
+        "Trust",
+    )
+
+    trust_cols = st.columns(3)
+
+    with trust_cols[0]:
+        status_badge("Quality checks available", "healthy")
+        st.caption("The project includes explicit data-quality checks and exception reporting.")
+
+    with trust_cols[1]:
+        status_badge("Synthetic records only", "neutral")
+        st.caption("No real student information is used in this portfolio demonstration.")
+
+    with trust_cols[2]:
+        status_badge("Human review required", "warning")
+        st.caption("Signals support professional review and should not automate student decisions.")
+
+    st.markdown("")
+
+    insight_card(
+        "The intended operating model is data → trust → signal → evidence → action → outcome → evaluation. The application is designed to demonstrate that complete workflow rather than only the risk calculation.",
+        "System perspective",
+    )
