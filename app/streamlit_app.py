@@ -25,6 +25,7 @@ import sqlite3
 from pathlib import Path
 from typing import Optional
 from bootstrap import ensure_demo_environment
+from components.ui import inject_ui_styles, render_app_header, render_trust_banner
 import pandas as pd
 import plotly.express as px
 import streamlit as st
@@ -51,6 +52,8 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
 )
+
+inject_ui_styles()
 
 
 # ============================================================
@@ -508,40 +511,15 @@ if not connection_ok:
 # HEADER
 # ============================================================
 
-st.markdown(
-    '<div class="eyebrow">Academic Success Center · Systems & Data</div>',
-    unsafe_allow_html=True,
+render_app_header(
+    title="Student Success Analytics",
+    description=(
+        "Interactive decision-support prototype for early-warning signals, "
+        "student evidence, interventions, outcomes, data quality and system trust."
+    ),
 )
 
-st.markdown(
-    '<div class="portfolio-title">Student Success Analytics</div>',
-    unsafe_allow_html=True,
-)
-
-st.markdown(
-    '<div class="portfolio-subtitle">'
-    "Interactive prototype for academic-risk monitoring, "
-    "data quality and intervention support."
-    "</div>",
-    unsafe_allow_html=True,
-)
-
-st.markdown(
-    '<div class="gold-rule"></div>',
-    unsafe_allow_html=True,
-)
-
-st.markdown(
-    """
-    <div class="prototype-notice">
-        <strong>Prototype environment.</strong>
-        All records are synthetic and created exclusively for demonstration.
-        This application does not represent an operational university system
-        and does not reproduce any institution's internal methodology.
-    </div>
-    """,
-    unsafe_allow_html=True,
-)
+render_trust_banner()
 
 
 # ============================================================
