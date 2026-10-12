@@ -23,14 +23,21 @@ python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
-python -m streamlit run app.py --server.address 127.0.0.1
+python -m streamlit run app.py --server.address 0.0.0.0
 ```
 
-When Codespaces offers to open port 8501, open it in the browser. Keep the terminal running; stop the app with `Ctrl+C`.
+When Codespaces offers to open port 8501, open it in the browser. Keep the terminal running; stop the app with `Ctrl+C`. Leave the forwarded port private.
 
-## Run on Linux/macOS
+## Run on your own computer (Linux/macOS)
 
-Use the same commands above in a terminal on your computer.
+```bash
+cd job-search-workspace
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+python -m streamlit run app.py --server.address 127.0.0.1
+```
 
 ### Windows PowerShell
 
