@@ -162,7 +162,7 @@ def check_public_feed(url):
         link = str(entry.get("link") or "").strip()
         if not link or not safe_url(link):
             continue
-        result.append({"title": str(entry.get("title") or "Untitled listing"), "company": str(entry.get("author") or entry.get("source", {}).get("title") or "Unspecified employer"), "location": "", "job_url": link, "description": str(entry.get("summary") or ""), "requirements": "", "employment_type": "Unknown", "work_arrangement": "Unclear", "source": host, "posted_date": str(entry.get("published") or "")})
+        result.append({"title": str(entry.get("title") or "Untitled listing"), "company": str(entry.get("author") or (entry.get("source", {}).get("title") if isinstance(entry.get("source"), dict) else entry.get("source")) or "Unspecified employer"), "location": "", "job_url": link, "description": str(entry.get("summary") or ""), "requirements": "", "employment_type": "Unknown", "work_arrangement": "Unclear", "source": host, "posted_date": str(entry.get("published") or "")})
     return result
 
 
