@@ -1,21 +1,21 @@
 # Personal Job-Search Workspace
 
-A local-first starter app for organising job leads, scoring role fit transparently, drafting materials from user-confirmed résumé facts, and tracking applications manually.
+A local-first Streamlit app for organising job leads, explaining role-fit scores, creating editable application drafts, and tracking applications manually.
 
-This project is inspired by the workflow goals of [GodsScion/Auto_job_applier_linkedIn](https://github.com/GodsScion/Auto_job_applier_linkedIn), but it is a separate, simpler workspace. It does not run the upstream bot or automate LinkedIn.
+Inspired by the workflow goals of [GodsScion/Auto_job_applier_linkedIn](https://github.com/GodsScion/Auto_job_applier_linkedIn), this is a separate application. It does not run the upstream bot or automate LinkedIn.
 
 ## Safety and privacy defaults
 
-- No LinkedIn scraping or browser automation.
-- No automatic applications, form filling, account login, or application submission.
-- No external AI API calls. Letter drafts are built from local templates and facts in `profile.json`.
-- Jobs and drafts are stored in `data/jobs.sqlite3` on the machine running the app.
-- `profile.json` is excluded from Git because it contains personal details. If it is missing, the app creates it from `profile.example.json`. Review all facts before using drafts.
-- If you require data to remain physically on your own computer, run locally instead of in a cloud-hosted Codespace.
+- No LinkedIn scraping, browser automation, login automation, form filling, or automatic submission.
+- No external AI calls. Drafts use simple local templates and facts stored in your local candidate profile.
+- Job records and drafts are saved in `data/jobs.sqlite3`.
+- `profile.json` is excluded from Git because it contains personal information. The app creates a generic profile from `profile.example.json` the first time it runs; review and personalize it before using drafts.
+- This repository is public. Never commit your résumé, `profile.json`, the SQLite database, drafts, exports, credentials, or application notes.
+- Codespaces are cloud-hosted. Run locally if your candidate data must remain physically on your own computer.
 
 ## Run in GitHub Codespaces (Bash)
 
-Open a Codespace on the `add-personal-job-search-workspace` branch, then run:
+Open a Codespace on the `add-personal-job-search-workspace` branch, then run these commands one at a time:
 
 ```bash
 cd job-search-workspace
@@ -26,18 +26,11 @@ python -m pip install -r requirements.txt
 python -m streamlit run app.py --server.address 127.0.0.1
 ```
 
-Open the forwarded port 8501 when Codespaces offers it. Keep the terminal running. Stop with `Ctrl+C`.
+When Codespaces offers to open port 8501, open it in the browser. Keep the terminal running; stop the app with `Ctrl+C`.
 
-## Run on your own computer (Linux/macOS)
+## Run on Linux/macOS
 
-```bash
-cd job-search-workspace
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
-python -m streamlit run app.py --server.address 127.0.0.1
-```
+Use the same commands above in a terminal on your computer.
 
 ### Windows PowerShell
 
@@ -52,41 +45,28 @@ python -m streamlit run app.py --server.address 127.0.0.1
 
 ## First-use workflow
 
-1. Review your candidate profile in **Profile & data**. Add only facts you can substantiate.
-2. Add a job manually, import a CSV, or import a permitted public RSS/Atom feed.
-3. Use **Match jobs** to inspect the score, evidence, and gaps. Score weights: skills 45%, role fit 25%, location 20%, full-time status 10%.
-4. Generate and edit a local cover-letter draft. Add employer-specific motivation and verify every sentence.
-5. Open the employer's official listing, apply yourself, and manually update the tracker.
-6. Export your tracker to CSV when useful.
-
-## Privacy note
-
-This repository is public. Do not commit `profile.json`, a résumé, the SQLite database, application notes, exports, or any credentials. The `.gitignore` in this folder excludes these local files. Codespaces are cloud-hosted; run on your own computer if the data must stay physically local.
+1. Open **Profile & data** and review the candidate profile. Only include facts you can substantiate.
+2. Add a job manually, import a CSV, or import a permitted public RSS/Atom job feed.
+3. Review **Match jobs** and inspect the evidence and gaps. The weighted score uses skills (45%), role fit (25%), location (20%), and full-time status (10%). It is a prioritisation aid, not a prediction of hiring success.
+4. Generate and edit application drafts. Add employer-specific motivation and verify every statement.
+5. Open the employer's official listing and submit the application yourself. Then update the tracker manually.
+6. Export the tracker to CSV when useful.
 
 ## CSV format
 
-The app provides a CSV template in **Add / import jobs**. Required columns: `title`, `company`. Optional columns include `location`, `job_url`, `description`, `requirements`, `employment_type`, `work_arrangement`, `source`, and `posted_date`.
+The built-in CSV template is available in **Add / import jobs**. Required columns are `title` and `company`. Optional columns include `location`, `job_url`, `description`, `requirements`, `employment_type`, `work_arrangement`, `source`, and `posted_date`.
 
 ## Public RSS/Atom feeds
 
-Use only public feed URLs where automated access is permitted. Do not enter LinkedIn pages, login-protected pages, or websites that disallow automated retrieval. The feed importer validates HTTP(S) URLs and does not follow redirects automatically.
+Only use public feed URLs for which automated access is permitted. LinkedIn pages, login-protected URLs, local/private network hosts, and feeds that redirect are rejected. Supply the final feed URL directly.
 
 ## Fit score transparency
 
-Scores compare job text to candidate profile terms. A strong score is not a prediction of hiring success and does not confirm eligibility, seniority, salary, visa sponsorship, language requirements, or employer interest. Verify those details manually.
-
-## Tests
-
-```bash
-python -m unittest discover -s tests -v
-```
+Scores compare terms in the job title/description/requirements with terms in the candidate profile. A high score does not verify work authorisation, salary, seniority, sponsorship, language requirements, or employer interest. Confirm those details manually.
 
 ## Files
 
-- `app.py` — Streamlit dashboard
-- `database.py` — local SQLite operations and duplicate prevention
-- `matching.py` — transparent scoring
-- `drafting.py` — local-only draft templates
-- `sources.py` — permitted public RSS/Atom feed helpers
-- `profile.json` — local candidate profile; intentionally not committed
+- `app.py` — Streamlit dashboard, SQLite storage, scoring, local drafts and imports
+- `profile.example.json` — generic starting profile
+- `profile.json` — local candidate profile, intentionally not committed
 - `data/jobs.sqlite3` — created automatically and ignored by Git
