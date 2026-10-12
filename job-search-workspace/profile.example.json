@@ -1,0 +1,27 @@
+{
+  "name": "Your Name",
+  "current_location": "Your current city and country",
+  "preferred_locations": [
+    "Your priority city/country",
+    "Remote (where eligible)"
+  ],
+  "target_roles": [
+    "Your first target role"
+  ],
+  "employment_type": "Full-time",
+  "languages": [],
+  "skills": {
+    "Core skills": [
+      "Add skills you can substantiate"
+    ]
+  },
+  "verified_highlights": [
+    "Add factual achievements from your CV; do not include claims you cannot verify."
+  ],
+  "unknowns_to_confirm": [
+    "Work authorisation",
+    "Salary expectations",
+    "Notice period",
+    "Education programme status"
+  ]
+}
