@@ -4,6 +4,7 @@ import argparse
 import hashlib
 import html
 import json
+import os
 import re
 import sqlite3
 import time
@@ -64,6 +65,25 @@ def strip_html(value: str) -> str:
         return html.unescape(re.sub(r"<[^>]+>", " ", value or ""))
 
 
+def load_local_env() -> None:
+    """Load ignored .env key/value pairs without printing secrets."""
+    env_path = ROOT / ".env"
+    if not env_path.exists():
+        return
+    try:
+        for raw_line in env_path.read_text(encoding="utf-8").splitlines():
+            line = raw_line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            key, value = line.split("=", 1)
+            key = key.strip()
+            value = value.strip().strip('"').strip("'")
+            if key and value and key not in os.environ:
+                os.environ[key] = value
+    except OSError:
+        return
+
+
 def load_profile() -> dict:
     if not PROFILE_PATH.exists():
         return {}
@@ -115,7 +135,7 @@ def profile_keywords(profile: dict) -> set[str]:
     return terms
 
 
-def convert_posting(post: dict, keywords: set[str]) -> dict | None:
+def convert_posting(post: dict, keywords: set[str], source_name: str = "Arbeitnow public job-board API") -> dict | None:
     title = str(post.get("title") or "").strip()
     company = str(post.get("company_name") or "").strip()
     url = str(post.get("url") or "").strip()
@@ -161,6 +181,11 @@ def convert_posting(post: dict, keywords: set[str]) -> dict | None:
     posted_date = ""
     if isinstance(timestamp, (int, float)):
         posted_date = datetime.fromtimestamp(timestamp, timezone.utc).date().isoformat()
+    elif isinstance(timestamp, str) and timestamp.strip():
+        try:
+            posted_date = datetime.fromisoformat(timestamp.replace("Z", "+00:00")).date().isoformat()
+        except ValueError:
+            posted_date = timestamp[:10] if len(timestamp) >= 10 else ""
 
     return {
         "title": title,
@@ -171,7 +196,7 @@ def convert_posting(post: dict, keywords: set[str]) -> dict | None:
         "requirements": "",
         "employment_type": employment_type,
         "work_arrangement": "Remote" if remote else "Unclear",
-        "source": "Arbeitnow public job-board API",
+        "source": source_name,
         "posted_date": posted_date,
     }
 
@@ -196,22 +221,91 @@ def upsert(job: dict) -> bool:
         return db.total_changes > before
 
 
+def scan_adzuna(session: requests.Session, keywords: set[str]) -> tuple[int, int, list[str]]:
+    app_id = os.environ.get("ADZUNA_APP_ID", "").strip()
+    app_key = os.environ.get("ADZUNA_APP_KEY", "").strip()
+    if not app_id or not app_key:
+        return 0, 0, []
+    searches = [
+        ("data analyst", "Vienna"),
+        ("data engineer", "Austria"),
+        ("business systems analyst", "Austria"),
+        ("systems engineer", "Austria"),
+        ("IT manager", "Vienna"),
+    ]
+    seen = added = 0
+    errors: list[str] = []
+    for what, where in searches:
+        try:
+            response = session.get(
+                f"https://api.adzuna.com/v1/api/jobs/at/search/1",
+                params={
+                    "app_id": app_id,
+                    "app_key": app_key,
+                    "results_per_page": 50,
+                    "what": what,
+                    "where": where,
+                    "full_time": 1,
+                    "max_days_old": 14,
+                    "sort_by": "date",
+                    "content-type": "application/json",
+                },
+                timeout=(8, 25),
+            )
+            response.raise_for_status()
+            payload = response.json()
+            entries = payload.get("results", [])
+            if not isinstance(entries, list):
+                errors.append(f"Adzuna search '{what}' did not contain a results list.")
+                continue
+            seen += len(entries)
+            for item in entries:
+                if not isinstance(item, dict):
+                    continue
+                loc = item.get("location") or {}
+                comp = item.get("company") or {}
+                redirect_url = str(item.get("redirect_url") or item.get("adref") or "").strip()
+                desc = str(item.get("description") or "")
+                locname = str(loc.get("display_name") or where)
+                remote = any(term in f"{item.get('title', '')} {desc}".casefold() for term in ("remote", "home office", "homeoffice", "fully remote"))
+                posting = {
+                    "title": item.get("title", ""),
+                    "company_name": comp.get("display_name", "Unspecified employer"),
+                    "location": locname,
+                    "url": redirect_url,
+                    "description": desc,
+                    "job_types": ["Full-time"],
+                    "remote": remote,
+                    "created_at": item.get("created"),
+                }
+                job = convert_posting(posting, keywords, source_name="Adzuna Austria API")
+                if job and upsert(job):
+                    added += 1
+        except (requests.RequestException, ValueError) as exc:
+            errors.append(f"Adzuna '{what}' in {where}: {type(exc).__name__}: {exc}")
+        time.sleep(1)
+    return seen, added, errors
+
+
 def scan_once() -> dict:
+    load_local_env()
     profile = load_profile()
     keywords = profile_keywords(profile)
     session = requests.Session()
     session.headers.update({"User-Agent": USER_AGENT, "Accept": "application/json"})
     seen_api = 0
     added = 0
+    pages_scanned = 0
     errors: list[str] = []
     for page in range(1, MAX_PAGES_PER_SCAN + 1):
+        pages_scanned = page
         try:
             response = session.get(API_URL, params={"page": page}, timeout=(8, 25))
             response.raise_for_status()
             payload = response.json()
             entries = payload.get("data", [])
             if not isinstance(entries, list):
-                errors.append(f"API page {page} did not contain a data list.")
+                errors.append(f"Arbeitnow API page {page} did not contain a data list.")
                 break
             if not entries:
                 break
@@ -226,16 +320,21 @@ def scan_once() -> dict:
             if not (payload.get("links") or {}).get("next"):
                 break
         except (requests.RequestException, ValueError) as exc:
-            errors.append(f"Page {page}: {type(exc).__name__}: {exc}")
+            errors.append(f"Arbeitnow page {page}: {type(exc).__name__}: {exc}")
             break
         finally:
             time.sleep(1)
+    adzuna_seen, adzuna_added, adzuna_errors = scan_adzuna(session, keywords)
+    seen_api += adzuna_seen
+    added += adzuna_added
+    errors.extend(adzuna_errors)
     state = {
         "last_scan_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "source": "Arbeitnow public job-board API",
-        "pages_scanned": page,
+        "sources": ["Arbeitnow public job-board API"] + (["Adzuna Austria API"] if os.environ.get("ADZUNA_APP_ID") and os.environ.get("ADZUNA_APP_KEY") else []),
+        "arbeitnow_pages_scanned": pages_scanned,
         "api_listings_seen": seen_api,
         "new_matches_added": added,
+        "adzuna_configured": bool(os.environ.get("ADZUNA_APP_ID") and os.environ.get("ADZUNA_APP_KEY")),
         "errors": errors,
         "interval_hours": None,
     }
