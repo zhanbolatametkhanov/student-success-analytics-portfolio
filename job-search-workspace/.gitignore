@@ -10,3 +10,9 @@ exports/
 
 # Contains personal information from the supplied résumé; keep private.
 profile.json
+
+# Continuous monitor runtime state and private uploaded CV PDF
+data/*.log
+data/*.pid
+data/*.json
+data/*.pdf
