@@ -252,7 +252,7 @@ def upsert(job: dict, profile: dict | None = None) -> bool:
         return db.total_changes > before
 
 
-def scan_adzuna(session: requests.Session, keywords: set[str]) -> tuple[int, int, list[str]]:
+def scan_adzuna(session: requests.Session, keywords: set[str], profile: dict) -> tuple[int, int, list[str]]:
     app_id = os.environ.get("ADZUNA_APP_ID", "").strip()
     app_key = os.environ.get("ADZUNA_APP_KEY", "").strip()
     if not app_id or not app_key:
@@ -310,7 +310,7 @@ def scan_adzuna(session: requests.Session, keywords: set[str]) -> tuple[int, int
                     "created_at": item.get("created"),
                 }
                 job = convert_posting(posting, keywords, source_name="Adzuna Austria API")
-                if job and upsert(job, load_profile()):
+                if job and upsert(job, profile):
                     added += 1
         except (requests.RequestException, ValueError) as exc:
             errors.append(f"Adzuna '{what}' in {where}: {type(exc).__name__}: {exc}")
@@ -355,7 +355,7 @@ def scan_once() -> dict:
             break
         finally:
             time.sleep(1)
-    adzuna_seen, adzuna_added, adzuna_errors = scan_adzuna(session, keywords)
+    adzuna_seen, adzuna_added, adzuna_errors = scan_adzuna(session, keywords, profile)
     seen_api += adzuna_seen
     added += adzuna_added
     errors.extend(adzuna_errors)
