@@ -133,13 +133,15 @@ def convert_posting(post: dict, keywords: set[str]) -> dict | None:
     if not relevant:
         return None
 
-    in_austria = any(term in f"{location} {fulltext}" for term in AUSTRIA_TERMS)
-    # The API's remote flag does not establish which countries the employer permits.
-    remote_only = remote and (not location or "remote" in location.casefold())
+    in_austria = any(term in location.casefold() for term in AUSTRIA_TERMS)
+    # Remote ads are included as "verify eligible country"; a remote flag does not
+    # prove the employer permits work from Austria.
+    remote_only = remote
     if not in_austria and not remote_only:
         return None
 
-    if any(term in fulltext for term in NON_FULL_TIME):
+    title_and_type = f"{title} {job_types_text}".casefold()
+    if any(term in title_and_type for term in NON_FULL_TIME):
         return None
 
     commitment = job_types_text.casefold()
