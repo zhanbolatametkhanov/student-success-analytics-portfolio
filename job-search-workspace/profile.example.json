@@ -1,27 +1,45 @@
 {
-  "name": "Your Name",
-  "current_location": "Your current city and country",
+  "name": "",
+  "current_location": "",
   "preferred_locations": [
-    "Your priority city/country",
-    "Remote (where eligible)"
+    "Vienna, Austria",
+    "Austria",
+    "Remote (where legally eligible)"
   ],
   "target_roles": [
-    "Your first target role"
+    "Systems & Data",
+    "Data Analyst",
+    "Data Engineer",
+    "Business Systems Analyst",
+    "Academic Technology"
   ],
   "employment_type": "Full-time",
   "languages": [],
   "skills": {
-    "Core skills": [
-      "Add skills you can substantiate"
+    "IT systems and data": [
+      "Python",
+      "Excel",
+      "Power BI",
+      "SQL",
+      "Git",
+      "Jira",
+      "Confluence",
+      "CI/CD",
+      "Cloud infrastructure",
+      "Monitoring",
+      "Reporting",
+      "Data analysis",
+      "ERP/SAP fundamentals"
     ]
   },
-  "verified_highlights": [
-    "Add factual achievements from your CV; do not include claims you cannot verify."
-  ],
+  "verified_highlights": [],
   "unknowns_to_confirm": [
-    "Work authorisation",
+    "Work authorisation in Austria",
+    "Visa or sponsorship requirements",
     "Salary expectations",
     "Notice period",
-    "Education programme status"
-  ]
+    "Education programme status",
+    "German language requirements for each role"
+  ],
+  "resume_text": ""
 }
