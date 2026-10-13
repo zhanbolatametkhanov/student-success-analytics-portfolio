@@ -6,13 +6,15 @@ import io
 import json
 import socket
 import sqlite3
+import zipfile
 from datetime import date
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import quote_plus, urlparse
 
 import feedparser
 import requests
 import streamlit as st
+from pypdf import PdfReader
 
 ROOT = Path(__file__).resolve().parent
 PROFILE_PATH = ROOT / "profile.json"
@@ -101,11 +103,27 @@ def update_job(job_id, **fields):
         db.execute(f"UPDATE jobs SET {sql} WHERE id=?", (*clean.values(), int(job_id)))
 
 
+RESUME_KEYWORDS = [
+    "Python", "SQL", "Excel", "Power BI", "Tableau", "Jira", "Confluence",
+    "Git", "Gerrit", "CI/CD", "monitoring", "cloud", "virtualization",
+    "virtualisation", "network infrastructure", "cybersecurity", "security audits",
+    "backup", "disaster recovery", "Erlang", "HTML", "CSS", "ERP", "SAP",
+    "data analysis", "data analytics", "data quality", "reporting", "KPI",
+    "dashboard", "stakeholder", "project management", "IT management",
+    "engineering management", "research support", "higher education",
+    "academic technology", "software development", "risk management",
+    "budget planning", "forecasting", "process improvement", "documentation",
+    "runbooks", "systems integration", "Linux", "cloud infrastructure"
+]
+
+
 def profile_terms(profile):
     terms = []
     for group in (profile.get("skills") or {}).values():
         terms.extend(group if isinstance(group, list) else [])
     terms.extend(profile.get("target_roles", []))
+    resume_text = str(profile.get("resume_text") or "").casefold()
+    terms.extend(term for term in RESUME_KEYWORDS if term.casefold() in resume_text)
     return sorted({str(x).strip() for x in terms if str(x).strip()}, key=str.casefold)
 
 
@@ -187,6 +205,45 @@ def draft_interest(job, profile):
     return f"I am interested in the {job['title']} role at {job['company']} because it appears aligned with my background in systems, data, reporting and technical operations. I would tailor this statement further after reviewing the responsibilities and confirming the specific requirements."
 
 
+def make_application_pack(job, profile, letter, interest, resume_upload=None):
+    """Build a review pack in memory; no forms are filled or submissions sent."""
+    buffer = io.BytesIO()
+    job_summary = (
+        f"Job: {job.get('title', '')}\n"
+        f"Company: {job.get('company', '')}\n"
+        f"Location: {job.get('location', '')}\n"
+        f"Employment type: {job.get('employment_type', '')}\n"
+        f"Work arrangement: {job.get('work_arrangement', '')}\n"
+        f"Official URL: {job.get('job_url', '')}\n"
+        f"Source: {job.get('source', '')}\n"
+    )
+    review_checklist = (
+        "Before applying, review each item:\n"
+        "- Confirm all claims in the CV and cover letter are accurate.\n"
+        "- Confirm full-time status, location, language, salary, work authorisation, and sponsorship.\n"
+        "- Complete any employer-specific application questions yourself.\n"
+        "- Read any declarations and privacy notices before agreeing.\n"
+        "- Submit only on the employer's official application page.\n"
+    )
+    with zipfile.ZipFile(buffer, "w", zipfile.ZIP_DEFLATED) as archive:
+        archive.writestr("job-details.txt", job_summary)
+        archive.writestr("cover-letter-draft.txt", letter or "[Draft not prepared yet]")
+        archive.writestr("screening-interest-draft.txt", interest or "[Draft not prepared yet]")
+        archive.writestr("review-checklist.txt", review_checklist)
+        evidence = "\n".join(profile.get("verified_highlights") or [])
+        archive.writestr("candidate-evidence-to-review.txt", evidence or "Review the candidate profile and add verified role-specific evidence.")
+        if resume_upload is not None:
+            try:
+                filename = Path(resume_upload.name).name
+                if filename.lower().endswith(".pdf"):
+                    archive.writestr(f"resume/{filename}", resume_upload.getvalue())
+            except Exception:
+                pass
+        else:
+            archive.writestr("resume/README.txt", "No PDF was attached to the current app session. Add your CV manually before applying.")
+    return buffer.getvalue()
+
+
 st.set_page_config(page_title="Personal Job-Search Workspace", page_icon="🧭", layout="wide")
 init_db()
 profile = load_profile()
@@ -203,7 +260,7 @@ with st.sidebar:
     st.caption("Verify eligibility, language, salary, and sponsorship directly with each employer.")
     st.caption(f"Local database: {DB_PATH}")
 
-tabs = st.tabs(["Overview", "Add / import jobs", "Match jobs", "Drafts", "Application tracker", "Profile & data"])
+tabs = st.tabs(["Overview", "Add / import jobs", "Match jobs", "Drafts", "Application tracker", "Profile & data", "Austria search"])
 with tabs[0]:
     records = jobs_all()
     c1, c2, c3, c4 = st.columns(4)
@@ -319,6 +376,10 @@ with tabs[3]:
                 update_job(job["id"], interest_answer=answer)
                 st.success("Answer saved locally.")
         if job.get("cover_letter"): st.download_button("Download cover letter TXT", job["cover_letter"], f"cover_letter_{job['id']}.txt", "text/plain")
+        if job.get("cover_letter"):
+            resume_upload = st.session_state.get("resume_pdf_upload")
+            pack = make_application_pack(job, profile, job.get("cover_letter", ""), job.get("interest_answer", ""), resume_upload)
+            st.download_button("Download application review pack (ZIP)", pack, f"application_pack_{job['id']}.zip", "application/zip")
 
 with tabs[4]:
     st.subheader("Application tracker")
@@ -372,3 +433,55 @@ with tabs[5]:
     st.write(f"Profile file: {PROFILE_PATH}")
     st.write(f"Database file: {DB_PATH}")
     st.write("Do not commit profile.json, your résumé, the database, saved drafts, or application notes to this public repository. Codespaces are cloud-hosted; run locally if files must remain physically on your computer.")
+
+    st.divider()
+    st.subheader("Use your résumé PDF")
+    st.warning("When this app runs in Codespaces, an uploaded PDF enters that cloud-hosted environment. The app extracts text locally in this workspace and does not send it to an AI API. For on-device-only processing, run the app on your own computer.")
+    resume_upload = st.file_uploader("Upload your current CV (PDF)", type=["pdf"], key="resume_pdf_upload")
+    if resume_upload is not None and st.button("Extract résumé text and save to private profile"):
+        try:
+            reader = PdfReader(io.BytesIO(resume_upload.getvalue()))
+            extracted = "\n".join((page.extract_text() or "") for page in reader.pages).strip()
+            if not extracted:
+                st.error("No selectable text was found. This may be a scanned PDF; this starter app does not run OCR.")
+            else:
+                profile["resume_text"] = extracted
+                profile["resume_filename"] = Path(resume_upload.name).name
+                save_profile(profile)
+                st.success("Extracted text saved to the local profile. It is ignored by Git.")
+                st.rerun()
+        except Exception as exc:
+            st.error(f"Could not read this PDF: {exc}")
+    if profile.get("resume_text"):
+        st.success(f"Résumé text saved locally ({len(profile['resume_text']):,} characters). Matching now considers recognisable résumé skill terms.")
+        with st.expander("Preview extracted résumé text"):
+            st.text_area("Extracted text (preview/edit not saved here)", str(profile["resume_text"])[:12000], height=260, disabled=True)
+        if st.button("Remove extracted résumé text from profile"):
+            profile.pop("resume_text", None)
+            profile.pop("resume_filename", None)
+            save_profile(profile)
+            st.success("Saved résumé text removed from profile.")
+            st.rerun()
+
+with tabs[6]:
+    st.subheader("Austria-first job search")
+    st.write("Use the official search pages below, then add relevant vacancies to this workspace for matching, drafting, and tracking.")
+    st.warning("The AMS alle jobs service is for manual searches and prohibits automated extraction of its listed vacancies. This app does not scrape AMS, EURES, LinkedIn, or other sites that prohibit automated collection.")
+    st.link_button("Open AMS alle jobs — all of Austria", "https://jobs.ams.at/public/emps/")
+    st.link_button("Open AMS eJob-Room", "https://jobroom.ams.or.at/")
+    st.link_button("Open Jobbörse der Republik Österreich", "https://bund.jobboerse.gv.at/sap/bc/jobs/")
+    st.subheader("Suggested search terms")
+    st.caption("On AMS, search manually by occupation and set the location field to Wien or Österreich. Use the full-time (Vollzeit) filter.")
+    searches = [
+        ("Systems & IT", '("IT-System" ODER "Systemadministrator" ODER "IT-Manager" ODER "System Engineer")'),
+        ("Data & reporting", '("Data Analyst" ODER "Datenanalyst" ODER "Business Intelligence" ODER "Reporting")'),
+        ("Data engineering", '("Data Engineer" ODER "Datenmanagement" ODER "SQL" ODER "Datenintegration")'),
+        ("Business systems", '("Business Analyst" ODER "Prozessmanagement" ODER "Digitalisierung" ODER "ERP")'),
+        ("Academic technology", '("Hochschul-IT" ODER "Forschungsdaten" ODER "Campus Management" ODER "Studienverwaltung")'),
+    ]
+    for label, query_text in searches:
+        with st.expander(label):
+            st.code(query_text, language=None)
+            st.caption("Copy this phrase into the search website manually and refine the filters there.")
+    st.subheader("What to do with promising results")
+    st.markdown("1. Open the vacancy and verify that it is current, full-time, and in an acceptable location.\n2. Copy the official job URL and description.\n3. Add the job under **Add / import jobs**.\n4. Review the score and gaps under **Match jobs**.\n5. Prepare a draft and download an application review pack under **Drafts**.\n6. Review and submit the application on the employer's official page yourself.")
