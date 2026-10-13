@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.streamlit/secrets.toml
+data/*.sqlite3
+data/*.db
+exports/
+.DS_Store
+
+# Contains personal information from the supplied résumé; keep private.
+profile.json
+
+# Continuous monitor runtime state and private uploaded CV PDF
+data/*.log
+data/*.pid
+data/*.json
+data/*.pdf

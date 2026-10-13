@@ -1,0 +1,45 @@
+{
+  "name": "",
+  "current_location": "",
+  "preferred_locations": [
+    "Vienna, Austria",
+    "Austria",
+    "Remote (where legally eligible)"
+  ],
+  "target_roles": [
+    "Systems & Data",
+    "Data Analyst",
+    "Data Engineer",
+    "Business Systems Analyst",
+    "Academic Technology"
+  ],
+  "employment_type": "Full-time",
+  "languages": [],
+  "skills": {
+    "IT systems and data": [
+      "Python",
+      "Excel",
+      "Power BI",
+      "SQL",
+      "Git",
+      "Jira",
+      "Confluence",
+      "CI/CD",
+      "Cloud infrastructure",
+      "Monitoring",
+      "Reporting",
+      "Data analysis",
+      "ERP/SAP fundamentals"
+    ]
+  },
+  "verified_highlights": [],
+  "unknowns_to_confirm": [
+    "Work authorisation in Austria",
+    "Visa or sponsorship requirements",
+    "Salary expectations",
+    "Notice period",
+    "Education programme status",
+    "German language requirements for each role"
+  ],
+  "resume_text": ""
+}
