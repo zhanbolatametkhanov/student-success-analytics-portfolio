@@ -201,23 +201,54 @@ def convert_posting(post: dict, keywords: set[str], source_name: str = "Arbeitno
     }
 
 
-def upsert(job: dict) -> bool:
+def build_local_draft(job: dict, profile: dict) -> tuple[str, str]:
+    name = str(profile.get("name") or "").strip()
+    if not name or name.casefold() in {"your name", "applicant"}:
+        name = "[Your name]"
+    text = f"{job.get('title', '')} {job.get('description', '')}".casefold()
+    matched = [term for term in profile_keywords(profile) if term in text and len(term) > 2]
+    highlights = [str(x).strip() for x in (profile.get("verified_highlights") or []) if str(x).strip()]
+    evidence = "\n".join(f"- {x}" for x in highlights[:3])
+    if not evidence:
+        evidence = "Relevant profile terms to check and tailor: " + (", ".join(matched[:5]) if matched else "[Add verified skills and an achievement relevant to this position]")
+    letter = (
+        f"Dear Hiring Team,\n\n"
+        f"I am writing to express my interest in the {job.get('title', '[job title]')} position at "
+        f"{job.get('company', '[company]')}. The opportunity appears relevant to the areas in my profile.\n\n"
+        f"Relevant experience to review and tailor for this position:\n{evidence}\n\n"
+        f"[Add one specific, verified achievement and a sentence explaining why this employer interests you. "
+        f"Delete any point that you cannot substantiate.]\n\n"
+        f"I would welcome the opportunity to discuss how my experience could contribute to your team.\n\n"
+        f"Kind regards,\n{name}\n\n"
+        f"[Automatically generated draft — verify every sentence before sending.]"
+    )
+    interest = (
+        f"I am interested in the {job.get('title', '[job title]')} role at {job.get('company', '[company]')} "
+        f"because it appears aligned with my systems, data, and technical-operations interests. "
+        f"[Add a specific reason based on the advertisement and confirm that all statements are accurate.]"
+    )
+    return letter, interest
+
+
+def upsert(job: dict, profile: dict | None = None) -> bool:
     url = str(job.get("job_url") or "").strip()
     if not url or urlparse(url).scheme != "https":
         return False
     dedupe_key = hashlib.sha256(("url:" + url.rstrip("/").casefold()).encode("utf-8")).hexdigest()
+    letter, interest = build_local_draft(job, profile or {})
     values = (
         dedupe_key, job["title"], job["company"], job["location"], url,
         job.get("description", ""), job.get("requirements", ""),
         job.get("employment_type", "Unknown"), job.get("work_arrangement", "Unclear"),
         job.get("source", "Arbeitnow public job-board API"), job.get("posted_date", ""),
+        "Draft Ready", letter, interest,
     )
     with connect() as db:
         before = db.total_changes
         db.execute("""INSERT OR IGNORE INTO jobs
             (dedupe_key,title,company,location,job_url,description,requirements,
-             employment_type,work_arrangement,source,posted_date)
-            VALUES (?,?,?,?,?,?,?,?,?,?,?)""", values)
+             employment_type,work_arrangement,source,posted_date,status,cover_letter,interest_answer)
+            VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)""", values)
         return db.total_changes > before
 
 
@@ -279,7 +310,7 @@ def scan_adzuna(session: requests.Session, keywords: set[str]) -> tuple[int, int
                     "created_at": item.get("created"),
                 }
                 job = convert_posting(posting, keywords, source_name="Adzuna Austria API")
-                if job and upsert(job):
+                if job and upsert(job, load_profile()):
                     added += 1
         except (requests.RequestException, ValueError) as exc:
             errors.append(f"Adzuna '{what}' in {where}: {type(exc).__name__}: {exc}")
@@ -314,7 +345,7 @@ def scan_once() -> dict:
                 if not isinstance(post, dict):
                     continue
                 job = convert_posting(post, keywords)
-                if job and upsert(job):
+                if job and upsert(job, profile):
                     added += 1
             # Respect the provider's pagination metadata and keep scans bounded.
             if not (payload.get("links") or {}).get("next"):
