@@ -4,8 +4,12 @@ import hashlib
 import ipaddress
 import io
 import json
+import os
+import signal
 import socket
 import sqlite3
+import subprocess
+import sys
 import zipfile
 from datetime import date
 from pathlib import Path
@@ -19,6 +23,9 @@ from pypdf import PdfReader
 ROOT = Path(__file__).resolve().parent
 PROFILE_PATH = ROOT / "profile.json"
 DB_PATH = ROOT / "data" / "jobs.sqlite3"
+PRIVATE_RESUME_PATH = ROOT / "data" / "private_resume.pdf"
+MONITOR_PID_PATH = ROOT / "data" / "monitor.pid"
+MONITOR_LOG_PATH = ROOT / "data" / "monitor.log"
 STATUSES = ["Inbox", "Shortlisted", "Draft Ready", "Ready for Review", "Applied", "Interview", "Offer", "Rejected", "Withdrawn", "Closed"]
 
 
@@ -26,6 +33,73 @@ def load_profile():
     if not PROFILE_PATH.exists():
         PROFILE_PATH.write_text((ROOT / "profile.example.json").read_text(encoding="utf-8"), encoding="utf-8")
     return json.loads(PROFILE_PATH.read_text(encoding="utf-8"))
+
+
+def monitor_status():
+    """Return (running, pid), validating that PID belongs to monitor.py."""
+    try:
+        pid = int(MONITOR_PID_PATH.read_text(encoding="utf-8").strip())
+    except (OSError, ValueError):
+        return False, None
+    try:
+        cmdline = Path(f"/proc/{pid}/cmdline").read_bytes().replace(b"\x00", b" ").decode("utf-8", "ignore")
+        running = "monitor.py" in cmdline and "job-search-workspace" in cmdline
+    except OSError:
+        try:
+            os.kill(pid, 0)
+            running = True
+        except OSError:
+            running = False
+    if not running:
+        try:
+            MONITOR_PID_PATH.unlink()
+        except OSError:
+            pass
+        return False, None
+    return True, pid
+
+
+def start_monitor():
+    running, pid = monitor_status()
+    if running:
+        return pid
+    DB_PATH.parent.mkdir(parents=True, exist_ok=True)
+    log_handle = MONITOR_LOG_PATH.open("a", encoding="utf-8")
+    process = subprocess.Popen(
+        [sys.executable, str(ROOT / "monitor.py"), "--interval-hours", "6"],
+        cwd=str(ROOT),
+        stdin=subprocess.DEVNULL,
+        stdout=log_handle,
+        stderr=subprocess.STDOUT,
+        start_new_session=True,
+        close_fds=True,
+    )
+    log_handle.close()
+    MONITOR_PID_PATH.write_text(str(process.pid), encoding="utf-8")
+    return process.pid
+
+
+def stop_monitor():
+    running, pid = monitor_status()
+    if not running or pid is None:
+        return False
+    try:
+        os.kill(pid, signal.SIGTERM)
+    except ProcessLookupError:
+        pass
+    try:
+        MONITOR_PID_PATH.unlink()
+    except OSError:
+        pass
+    return True
+
+
+def tail_monitor_log(max_lines=30):
+    try:
+        lines = MONITOR_LOG_PATH.read_text(encoding="utf-8", errors="replace").splitlines()
+        return "\n".join(lines[-max_lines:])
+    except OSError:
+        return "No monitor log yet."
 
 
 def save_profile(profile):
@@ -232,15 +306,24 @@ def make_application_pack(job, profile, letter, interest, resume_upload=None):
         archive.writestr("review-checklist.txt", review_checklist)
         evidence = "\n".join(profile.get("verified_highlights") or [])
         archive.writestr("candidate-evidence-to-review.txt", evidence or "Review the candidate profile and add verified role-specific evidence.")
+        pdf_bytes = None
+        pdf_name = "resume.pdf"
         if resume_upload is not None:
             try:
-                filename = Path(resume_upload.name).name
-                if filename.lower().endswith(".pdf"):
-                    archive.writestr(f"resume/{filename}", resume_upload.getvalue())
+                pdf_name = Path(resume_upload.name).name
+                if pdf_name.lower().endswith(".pdf"):
+                    pdf_bytes = resume_upload.getvalue()
             except Exception:
-                pass
+                pdf_bytes = None
+        elif PRIVATE_RESUME_PATH.exists():
+            try:
+                pdf_bytes = PRIVATE_RESUME_PATH.read_bytes()
+            except OSError:
+                pdf_bytes = None
+        if pdf_bytes:
+            archive.writestr(f"resume/{pdf_name}", pdf_bytes)
         else:
-            archive.writestr("resume/README.txt", "No PDF was attached to the current app session. Add your CV manually before applying.")
+            archive.writestr("resume/README.txt", "No PDF is saved in this local workspace. Upload your CV in Profile & data before preparing an application pack.")
     return buffer.getvalue()
 
 
@@ -260,7 +343,7 @@ with st.sidebar:
     st.caption("Verify eligibility, language, salary, and sponsorship directly with each employer.")
     st.caption(f"Local database: {DB_PATH}")
 
-tabs = st.tabs(["Overview", "Add / import jobs", "Match jobs", "Drafts", "Application tracker", "Profile & data", "Austria search"])
+tabs = st.tabs(["Overview", "Add / import jobs", "Match jobs", "Drafts", "Application tracker", "Profile & data", "Austria search", "Continuous monitor"])
 with tabs[0]:
     records = jobs_all()
     c1, c2, c3, c4 = st.columns(4)
@@ -445,10 +528,12 @@ with tabs[5]:
             if not extracted:
                 st.error("No selectable text was found. This may be a scanned PDF; this starter app does not run OCR.")
             else:
+                PRIVATE_RESUME_PATH.parent.mkdir(parents=True, exist_ok=True)
+                PRIVATE_RESUME_PATH.write_bytes(resume_upload.getvalue())
                 profile["resume_text"] = extracted
                 profile["resume_filename"] = Path(resume_upload.name).name
                 save_profile(profile)
-                st.success("Extracted text saved to the local profile. It is ignored by Git.")
+                st.success("Résumé text and PDF saved inside this private workspace. Both are ignored by Git.")
                 st.rerun()
         except Exception as exc:
             st.error(f"Could not read this PDF: {exc}")
@@ -462,6 +547,15 @@ with tabs[5]:
             save_profile(profile)
             st.success("Saved résumé text removed from profile.")
             st.rerun()
+    if PRIVATE_RESUME_PATH.exists():
+        st.caption(f"Saved PDF: {PRIVATE_RESUME_PATH.name} ({PRIVATE_RESUME_PATH.stat().st_size:,} bytes)")
+        if st.button("Delete saved résumé PDF"):
+            try:
+                PRIVATE_RESUME_PATH.unlink()
+                st.success("Saved résumé PDF deleted.")
+                st.rerun()
+            except OSError as exc:
+                st.error(f"Could not delete PDF: {exc}")
 
 with tabs[6]:
     st.subheader("Austria-first job search")
@@ -485,3 +579,49 @@ with tabs[6]:
             st.caption("Copy this phrase into the search website manually and refine the filters there.")
     st.subheader("What to do with promising results")
     st.markdown("1. Open the vacancy and verify that it is current, full-time, and in an acceptable location.\n2. Copy the official job URL and description.\n3. Add the job under **Add / import jobs**.\n4. Review the score and gaps under **Match jobs**.\n5. Prepare a draft and download an application review pack under **Drafts**.\n6. Review and submit the application on the employer's official page yourself.")
+
+
+with tabs[7]:
+    st.subheader("Continuous job monitoring")
+    st.write("The monitor checks a public European job-board API immediately, then repeats every six hours while this Codespace stays running. New relevant Austria/Vienna and remote postings are saved to the local SQLite tracker and deduplicated by URL.")
+    st.caption("Source: Arbeitnow's public job-board API. The provider updates listings hourly and asks API users not to abuse it; scans are deliberately limited to three pages every six hours.")
+    st.warning("This is continuous job discovery, not universal automatic application submission. Do not use this monitor to scrape LinkedIn or AMS alle jobs. The AMS service requires manual search. Job boards and ATS platforms have separate rules.")
+    running, pid = monitor_status()
+    status_col, action_col = st.columns([2, 1])
+    with status_col:
+        if running:
+            st.success(f"Monitor running (PID {pid}). It scans every six hours.")
+        else:
+            st.info("Monitor is stopped.")
+    with action_col:
+        if running:
+            if st.button("Stop monitor", type="secondary", use_container_width=True):
+                stopped = stop_monitor()
+                st.success("Stop signal sent." if stopped else "Monitor was already stopped.")
+                st.rerun()
+        else:
+            if st.button("Start continuous monitor", type="primary", use_container_width=True):
+                new_pid = start_monitor()
+                st.success(f"Monitor started (PID {new_pid}). The first scan should begin immediately.")
+                st.rerun()
+    if st.button("Run one scan now", disabled=running):
+        try:
+            with st.spinner("Checking permitted public job API pages..."):
+                result = subprocess.run(
+                    [sys.executable, str(ROOT / "monitor.py"), "--once"],
+                    cwd=str(ROOT), capture_output=True, text=True, timeout=180,
+                )
+            st.code((result.stdout or "") + (result.stderr or ""), language="json")
+            if result.returncode == 0:
+                st.success("Scan finished. Newly discovered jobs have been added to the local tracker.")
+            else:
+                st.error("The scan reported an error; see output above.")
+        except Exception as exc:
+            st.error(f"Could not run the scan: {exc}")
+    st.subheader("Latest monitor log")
+    st.code(tail_monitor_log(), language="text")
+    st.subheader("What happens automatically")
+    st.markdown("- Checks a limited number of pages from the permitted public Arbeitnow API.\n- Filters out many unrelated roles and clearly part-time/internship postings.\n- Saves Austria-location matches and relevant remote listings; remote country eligibility remains unverified.\n- Deduplicates known job URLs and saves the scan summary to the local workspace.\n- Uses the saved résumé text and profile terms as keyword evidence when available.")
+    st.subheader("Why it cannot automatically submit everywhere")
+    st.markdown("Employer application endpoints are not a universal applicant API. Greenhouse's submission API requires an employer API key, and Lever's documented submission API key is generated by a Lever Super Admin. The app cannot legitimately invent those credentials. Job sites also ask individual questions about work authorisation, sponsorship, salary and declarations; these must not be guessed. This version will automatically discover and rank jobs and prepare drafts, but you submit through the employer's official page.")
+    st.link_button("Read Arbeitnow public API documentation", "https://www.arbeitnow.com/blog/job-board-api")
